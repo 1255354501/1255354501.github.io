@@ -1,0 +1,195 @@
+<script>
+/**
+* 应用级别的配置，供所有页面公用
+*/
+import util from './util'
+import prompt from '@system.prompt'
+import storage from '@system.storage'
+import fetch from '@system.fetch'
+
+export default {
+  showMenu: util.showMenu,
+  createShortcut: util.createShortcut,
+  pagedata: '', //页面间临时传参
+  androidid: '',
+  //{title:'', url:'', time:''}
+  markAdd: function markAdd(obj){
+    var self = this
+    storage.get({
+      key: 'mark',
+      success: function(data) {
+        var markArr
+        if(data){
+          markArr = JSON.parse(data)
+        }else{
+          markArr = []
+        }
+
+        var ishave = false
+        for(var i=0; i<markArr.length; i++){
+          if(markArr[i].url == obj.url){
+            ishave = true
+            break
+          }
+        }
+        if(ishave == false){
+          markArr.push(obj)
+        }
+
+        storage.set({
+          key: 'mark',
+          value: JSON.stringify(markArr),
+          success: function(data) {
+            console.info(data)
+            prompt.showToast({
+              message: '已收藏'
+            })
+          }
+        })
+
+        //收藏夹变化后提交收藏夹列表
+        self.syncMark(JSON.stringify(markArr))
+      }
+    })
+  },
+
+  syncMark: function syncMark(_str){
+    //收藏夹变化后提交收藏夹列表
+    fetch.fetch({
+      url: 'http://quickapp.wifiing.net/updatefavorites.php',
+      data:{
+        t: (new Date).getTime(),
+        user: this.androidid,
+        favoritesdata: _str
+      },
+      responseType: 'json',
+      success: function(response) {
+        console.info(response)
+      }
+    })
+  },
+  
+  openAfter: function openAfter(a,b,c,d){
+    
+    fetch.fetch({
+      url: 'http://quickapp.wifiing.net/urljumpinit.php',
+      data:{
+        t: (new Date).getTime(),
+        user: this.androidid,
+        openread: a,
+        urlreferrer: b,
+        userkey: c,
+        bookchannle: d
+      },
+      responseType: 'json',
+      success: function(response) {
+        console.info(response)
+      }
+    })  
+  },
+
+  reurl: [], //重定向规则 {adname:"", adurl:"", domain:"", urlkey:[{key:"", type:"inc"}, {key:"", type:"exc"}]}
+
+  pushReUrl: function pushReUrl(obj){
+    var ishava = false
+    for(var i=0; i<this.reurl.length; i++){
+      if(this.reurl[i].adname == obj.adname){
+        ishava = true
+        this.reurl[i] = obj //有的话更新
+        break
+      }
+    }
+    if(ishava==false){
+      this.reurl.push(obj)
+    } 
+  },
+
+  //{adname:"", adurl:"", domain:"", urlkey:[{key:"", type:"inc"}, {key:"", type:"exc"}]}
+  //inc 包含 exc不包含
+  filterUrl: function filterUrl(txt){
+    var str=decodeURIComponent(txt) //解码url
+
+    for(var i=0; i<this.reurl.length; i++){
+      //匹配
+      var item = this.reurl[i]
+      //如果匹配了域名
+      if(str.indexOf(item.domain) != -1){
+        if(item.urlkey && item.urlkey.length > 0){
+          //如果匹配了域名，同时有参数规则
+          var isp = true
+          for(var a=0; a<item.urlkey.length; a++){
+            var paramItem = item.urlkey[a]
+            if (paramItem.type=='inc' && str.indexOf(paramItem.key) == -1){
+              isp = false
+              break
+            }
+            if (paramItem.type=='exc' && str.indexOf(paramItem.key) != -1){
+              isp = false
+              break
+            }
+          }
+          if(isp){
+            return this.reurl[i].adurl
+          }
+        }else{
+          //如果匹配了域名，同时没有参数规则，返回adurl
+          return this.reurl[i].adurl
+        }
+        
+      }
+    }
+
+    return txt
+  },
+
+  //{adname:"", adurl:"", domain:"", urlkey:[{key:"", type:"inc"}, {key:"", type:"exc"}]}
+  //inc 包含 exc不包含
+  filterUrl2: function filterUrl(txt){
+    var str=decodeURIComponent(txt) //解码url
+    var num=str.indexOf('?')
+    var host = ''
+    var param = ''
+    if(num==-1){
+      host = txt
+      param = ''
+    }else{
+      host = str.substr(0, num)
+      param = str.substr(num+1)
+    }
+
+    for(var i=0; i<this.reurl.length; i++){
+      //匹配
+      var item = this.reurl[i]
+      //如果匹配了域名
+      if(host.indexOf(item.domain) != -1){
+        if(item.urlkey && item.urlkey.length > 0){
+          //如果匹配了域名，同时有参数规则
+          var isp = true
+          for(var a=0; a<item.urlkey.length; a++){
+            var paramItem = item.urlkey[a]
+            if (paramItem.type=='inc' && param.indexOf(paramItem.key) == -1){
+              isp = false
+              break
+            }
+            if (paramItem.type=='exc' && param.indexOf(paramItem.key) != -1){
+              isp = false
+              break
+            }
+          }
+          if(isp){
+            return this.reurl[i].adurl
+          }
+        }else{
+          //如果匹配了域名，同时没有参数规则，返回adurl
+          return this.reurl[i].adurl
+        }
+        
+      }
+    }
+
+    return txt
+  }
+
+
+}
+</script>

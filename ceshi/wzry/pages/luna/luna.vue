@@ -1,0 +1,143 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/luna.png"  mode="aspectFit"></image>
+			<text class="name">露娜</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/luna0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>月光之舞</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：露娜对新目标的第一次普通攻击会向敌人发起冲锋；露娜的第三次普通攻击将会额外造成150（+35%法术加成）点法术伤害并标记敌人，但无法标记机关，该伤害随英雄等级每级成长10点。露娜每1点法术攻击将提升0.03%攻击速度</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/luna1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>弦月斩</text>
+						<text>冷却值：5</text>
+						<text>消耗：50</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>露娜向指定方向挥出一道月光冲击波，对命中的敌人造成350/430/510/590/670/750（+51%法术加成）点法术伤害并标记敌人</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/luna2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>炙热剑芒</text>
+						<text>冷却值：8</text>
+						<text>消耗：50</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>露娜将剑插入大地，以炙热剑芒牵引附近的敌人靠近自己造成120/135/150/165/180/195（+31%法术加成）点法术伤害并眩晕0.5秒，同时获得可抵免400/470/540/610/680/750（+80%法术加成）点伤害的护盾并减少其50%移动速度，持续2秒；同时会标记被牵引的敌人</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/luna3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>新月突击</text>
+						<text>冷却值：25/20/15</text>
+						<text>消耗：70</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>露娜向指定方向发起突击，对路径上敌人造成500/625/750（+60%法术加成）点法术伤害；如果露娜命中了被标记的敌人，将会刷新新月突击的冷却时间</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升弦月斩副升炙热剑芒</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/治疗术</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zl.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>凶兆+心眼+狩猎</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/lunamw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：露娜的技能需要配合普攻才能多次刷新大招，攻速加成可以提升露娜的攻击频率，移速加成可以提升支援gank的能力，法穿可以增加露娜的伤害能力，冷却可以减少技能CD。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/lunacz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：露娜频繁的释放技能可以轻易触发符文大剑的被动，极寒风暴也不仅仅提供了冷却与蓝量，还能强化露娜的生存能力</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/lunacz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：进化水晶能为露娜前期抗压提供帮助，随后的噬神之书能给露娜持续作战能力提供续航上的帮助</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

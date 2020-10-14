@@ -1,0 +1,76 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "木筏生存攻略"
+			}
+		},{
+		    "path" : "pages/main/main",
+		    "style" : {
+				"navigationBarTitleText": "main"
+			}
+		}
+        ,{
+            "path" : "pages/chuanzhi/chuanzhi",
+            "style" : {
+				"navigationBarTitleText": "船只建造"
+			}
+        }
+        ,{
+            "path" : "pages/jibenwanfa/jibenwanfa",
+            "style" : {
+				"navigationBarTitleText": "基本玩法"
+			}
+        }
+        ,{
+            "path" : "pages/shiwu/shiwu",
+            "style" : {
+				"navigationBarTitleText": "食物获取"
+			}
+        }
+        ,{
+            "path" : "pages/shui/shui",
+            "style" : {
+				"navigationBarTitleText": "水资源获得"
+			}
+        }
+        ,{
+            "path" : "pages/zhongzhi/zhongzhi",
+            "style" : {
+				"navigationBarTitleText": "种植及鲨鱼应对方法"
+			}
+        }
+        ,{
+            "path" : "pages/ziyuan/ziyuan",
+            "style" : {
+				"navigationBarTitleText": "10.5版本大型岛屿地图与资源点整理"
+			}
+        }
+        ,{
+            "path" : "pages/caipu/caipu",
+            "style" : {
+				"navigationBarTitleText": "菜谱配方一览"
+				
+			}
+        }
+        ,{
+            "path" : "pages/nandian/nandian",
+            "style" : {
+				"navigationBarTitleText": "难点成就心得及实用技巧分享"
+			}
+        }
+        ,{
+            "path" : "pages/wuzhi/wuzhi",
+            "style" : {
+				"navigationBarTitleText": "物资获取渠道与实用技巧"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "练习",
+		"navigationBarBackgroundColor": "#ff0000",
+		"backgroundColor": "#FFFFFF"
+	}
+}

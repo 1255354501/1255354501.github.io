@@ -1,0 +1,144 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/liyuanfang.png"  mode="aspectFit"></image>
+			<text class="name">李元芳</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfang0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>密探谛听</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：元芳可爱的大耳朵可以帮助元芳周期性谛听周围的动向，获得并捕捉敌方英雄的踪迹，获得敌方视野1秒，对同一单位6秒生效一次。同时李元芳可以识破野怪的弱点，所有的攻击会对野怪额外造成40%的真实伤害</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfang1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>谍影重重</text>
+						<text>冷却值：10/9.6/9.2/8.8/8.4/8</text>
+						<text>消耗：60</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>元芳使用暗印标记敌方目标，最多持续4秒，4秒后爆炸对范围内敌方造成100/120/140/160/180/200(+65%物理加成）点物理伤害，元芳对该目标的普通攻击会叠加暗印标记，最多叠加4层，每层印记会额外造成100/120/140/160/180/200(+65%物理加成）点物理伤害，叠加满4层会立即引爆暗印；释放技能时元芳会增加40%攻击速度和75点攻击距离，持续4秒</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfang2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>刃遁</text>
+						<text>冷却值：12/11.2/10.4/9.6/8.8/8</text>
+						<text>消耗：80</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>元芳向指定方向放出飞轮，同时施展鬼魅身法在终点现身接住飞轮，移动时元芳将无法被选中，飞轮会对敌人造成200/220/240/260/280/300（+50%物理加成）点物理伤害并减少50%移动速度，持续2秒；经过的地面留下燃痕，持续2.9秒，对路径上的敌人每0.25秒造成80/88/96/104/112/120（+20%物理加成）点物理伤害并减少50%移动速度</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfang3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>无间刃风</text>
+						<text>冷却值：36/30/24</text>
+						<text>消耗：130</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>元芳平扔出飞轮到指定位置旋转卷起利刃风暴，利刃撞击目标中造成215/275/335（+75%物理加成）点物理伤害，持续5.4秒，对范围内的敌人每0.5秒造成75/93/111（+30%物理加成）点物理伤害并减少50%移动速度，内圈会受到双倍的刃伤；刃伤也可叠加暗印层数。</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升谍影重重副升刃遁</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：疾跑/狂暴</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jp.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/kb.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>红月+鹰眼+隐逸</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/liyuanfangmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：隐匿和红月提升物理攻击，鹰眼的物理穿透能够让李元芳技能伤害更高。隐匿的10%的移速可以帮李元芳在初期更好的gank，是追杀与逃生的利器。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfangcz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：虽然李元芳的射程不够远，但逃生能力不错，所以出装上可以大胆的选用全输出装备进行伤害压制</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/liyuanfangcz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：当敌方多位英雄物理防御较高时，破晓能够提供的破甲效果是李元芳必备的属性</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

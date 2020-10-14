@@ -1,0 +1,134 @@
+<template>
+	<view class="content">
+		<view class="title"><text>封闭圣塔黎铎拉纳大灯塔</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>在拉巴纳斯塔遥远的南边，瓦尔纳德海上，有一个据说通往地狱的，名为黎铎拉纳的巨大的海眼。其边缘耸立着的是古时为了防止航海的船只落入海眼而建造的大灯塔……剧场艇初见号出发前往了这座封闭圣塔黎铎拉纳大灯塔。</text></view>
+			<view class="text-title"><text>冒险者们紧追着夺走圣石后消失不见的邦加莫南，朝着大灯塔的顶端开始进发，可是……</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana150.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view> 
+		    	<view class="text-text-text"><text>任务地点：封闭圣塔黎铎拉纳大灯塔</text></view>
+		    	<view class="text-text-text"><text>任务时限：120分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				<view class="text-text-text"><text>首领数量：4</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view> 
+				<view class="text-text-text"><text>神典石：100</text></view>
+				<view class="text-text-text"><text>新手奖励：50</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view> 
+				<view class="text-text-text"><text>等级要求：70级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于335</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view> 
+				<view class="text-text-text"><text>封闭圣塔</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师70级</text></view>
+				<view class="text-text-text"><text>杰诺米·申·雷克森提尔</text></view>
+				<view class="text-text-text"><text>剧场艇初见号舰桥X:6.1,Y:5.9</text></view>
+				<view class="text-text-text"><text>前置任务：梦幻之岛</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2. 暗黑之云法姆弗里特</text></view>
+				<view class="text-text-text"><text>水流弹：读条技能，对Mt造成单体大伤害，注意减伤和回复。</text></view><view class="text-text-text"><text>骇水：读条技能，全屏Aoe，注意回复。</text></view><view class="text-text-text"><text>苍炮击：随机点击复数角色释放不可回避的圆形Aoe，注意分散站位避免伤害重叠。</text></view><view class="text-text-text"><text>大海啸：读条技能，Boss回回到场地中央，将水瓶放到头顶旋转，Boss旋转水瓶时请靠近Boss观察Boss倾倒水瓶方向，水瓶停下来后会对瓶口朝向的方位释放没有范围提示的多段扇形大伤害Aoe，看到水瓶停下后远离其瓶口方向回避，Boss共计连续旋转水瓶三次。</text></view><view class="text-text-text"><text>暗云雨水：读条技能，可见范围的圆形Aoe，走位回避。</text></view>
+				<view class="text-text-text"><text>暗云水瓶：读条技能，场地出现3个倒立的水瓶，水瓶会慢慢移动并对附近的角色造成伤害，请远离水瓶，一段时间后水瓶会消失。</text></view><view class="text-text-text"><text>暗云之雨：读条技能，场地外缘出现陷阱区域，踩进去会被附加魔法耐性下降的Debuff，请不要踩进去，同时场地出现3只粘液小怪，小怪会读条全屏自爆攻击爆散，魔法耐性下降的Debuff，Debuff叠加后容易被Boss的全屏Aoe骇水秒杀，请快速消灭小怪不要让其成功自爆。</text></view><view class="text-text-text"><text>暗炮击：读条技能，点名随机复数角色释放红色倒三角点名造成需要分摊的伤害，被点名后与别的被点名的玩家重合站位即可，否则会被击飞上天受到伤害并浪费时间。</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana154.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana155.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>3.魔人贝利亚斯</text></view>
+				<view class="text-text-text"><text>开战前在场地12点，8点，4点处分别标记ABC3点。</text></view><view class="text-text-text"><text>火炎：读条技能，对Mt造成单体大伤害，注意减伤和回复。</text></view><view class="text-text-text"><text>炽炎：读条技能，全屏Aoe，注意回复。</text></view><view class="text-text-text"><text>地火喷发：读条技能，可见范围的圆形Aoe，走位回避。</text></view><view class="text-text-text"><text>时空地火喷发：读条技能，场地出现9个时钟，时钟一共分为存在高速回转和低速回转2种，请观察地面指针旋转速度区分，高速回转的时钟的区域会先被Boss攻击，低速回转的时钟的区域会后被Boss攻击；所以我们先走到低速时钟的区域里面，等高速回转的区域被攻击后再离开低速时钟的区域即可安全回避。</text></view>
+				<view class="text-text-text"><text>深红旋风：Boss变为2体并移动到场地一角，开始释放会转向1次的直线范围的冲锋，转向的区域会有箭头作为提示；我方现在最中间的区域躲避第一层冲锋，然后根据Boss和转向箭头的位置走位回避第二次冲锋。</text></view><view class="text-text-text"><text>异界时针：场地出现若干柱子，柱子会连线随机角色释放烧伤Dot和减速Debuff，被连线者距离连线自己的柱子越近，受到的不良影响越大，请被连线者远离连线自己的柱子；注意其他人碰到连线会被石化6秒，所以请其他人远离连线，被连线的人也不要故意绕场害别人。</text></view>
+				<view class="text-text-text"><text>魔人兵：Boss无敌化并开始积累魔力，同时召唤3只魔人兵，魔人兵之间距离太近会连线强化其攻击力，请3个T分别拉着3只魔人兵前往ABC3点分开击破。</text></view><view class="text-text-text"><text>地狱之火炎：全屏大招，伤害受Boss积累的魔力多少影响，治疗注意回复。</text></view><view class="text-text-text"><text>时空爆弹：场地中央方格的四角出现时钟，一段时间后对时针的前方90度范围释放大伤害扇形Aoe，我方角色踩进时钟就可以改变时针的方向，请通过踩时钟使其指针朝外，保证中间为安全区域即可。</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana16.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana157.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>4.劳动七号</text></view>
+				<view class="text-text-text"><text>执行破坏：读条技能，对Mt造成单体大伤害，注意减伤和回复。</text></view><view class="text-text-text"><text>执行粉碎：读条技能，Boss释放以自身为圆心的没有范围提示的圆形Aoe，远离Boss回避。</text></view>
+				<view class="text-text-text"><text>执行贯穿：读条技能，点名随机1人释放需要分摊的伤害，点名随机复数角色不可回避的圆形Aoe，被点名分摊的找人群分摊，被点名Aoe的远离人群分散站位。</text></view><view class="text-text-text"><text>执行放热：读条技能，Boss会飞上天对场地随机1侧释放没有范围提示的直线范围的冲锋Aoe，请远离Boss出现时的正面回避；同时场地会出现若干青色圆形齿轮不断造成圆形Aoe，请绕开这些齿轮回避。</text></view><view class="text-text-text"><text>执行落地：无读条，执行放热后Boss会在场地中心落地造成伤害随距离衰减的全屏Aoe，请远离其落点降低受到的伤害。</text></view>
+				<view class="text-text-text"><text>执行压缩：读条技能，可见范围的直线Aoe，走位回避。</text></view><view class="text-text-text"><text>执行清理：读条技能，Boss前往场中释放的多段扇形范围Aoe，同时Boss会随机朝左或右进行连续扫射，请靠近Boss不断移动跟在其后面回避。</text></view><view class="text-text-text"><text>执行焚烧：读条技能，全屏Aoe，注意回复。</text></view><view class="text-text-text"><text>算术芯片：读条技能，无意义，当作后续技能提醒。</text></view><view class="text-text-text"><text>执行减算：读条技能，我方角色的HP会随机变成1-9的个位数字，此时BOSS不会移动，并开始给我方出题，一共会有两道题；这里场地中央会出现代表1234的圆形区域，角色踩进相应的区域内会给角色的HP数字暂时加上对应的数字，比如角色有1HP，踩进代表2的圆形区域内HP就变成了3。</text></view>
+				<view class="text-text-text"><text>算术：读条技能，Boss给会我方出题，一共有4类题，分别为3的倍数，4的倍数，5的倍数和质数这4类，我方需要在Boss读条完成前通过场地的圆形区域令自己的HP数字变为符合要求的数字，答题成功后会被附加伤害提高的Buff，答题失败后会受到伤害上升的Debuff。</text></view><view class="text-text-text"><text>算术-质数：读条技能，Boss出的题目，请调整自己的HP符合其要求（质数：2、3、5、7）。</text></view><view class="text-text-text"><text>算术-3的倍数：读条技能，Boss出的题目，请调整自己的HP符合其要求。</text></view><view class="text-text-text"><text>算术-4的倍数：读条技能，Boss出的题目，请调整自己的HP符合其要求。</text></view><view class="text-text-text"><text>算术-5的倍数：读条技能，Boss出的题目，请调整自己的HP符合其要求。</text></view>
+				<view class="text-text-text"><text>冥狱芯片：读条后Bpss制造黑洞将我方吸入异空间，每个队伍前会出现1只小怪，击杀小怪后就可以从异次元中逃离，长时间未能击杀小怪就会团灭。</text></view><view class="text-text-text"><text>磁铁：小怪的读条技能，给小队全体附加正极和负极并两两连线，这里必定是异极连线，角色会被互相依附造成撞击伤害，远离连线自己的队友即可。</text></view><view class="text-text-text"><text>导弹：小怪的读条技能，场地内出现若干缓慢移动的导弹，走位回避。</text></view>
+				<view class="text-text-text"><text>加速度炸弹：小怪的读条技能，给小队全体附加倒计时Debuff，倒计时结束时不要做出任何行动否则就会受到大量伤害。</text></view><view class="text-text-text"><text>灭绝芯片：读条技能，Boss全身变红，同时大幅提高其攻击力，直到被击倒为止。</text></view><view class="text-text-text"><text>执行冷却：读条技能，Boss对自身周围释放1次超小伤害的附加短距离击退效果的圆形Aoe，大破绽，请进攻Boss。</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana158.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana159.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>5.鬼龙雅兹玛特</text></view>
+				<view class="text-text-text"><text>开战前在场地6点，2点，10点处分别标记ABC3点。</text></view>
+				<view class="text-text-text"><text>利爪(没有范围提示)：读条技能，对Mt所在位置造成小范围大伤害AOE，注意减伤和回复，同时其他玩家需要远离Mt。</text></view><view class="text-text-text"><text>飑风：读条技能，若干可见范围的圆形Aoe，走位回避。</text></view>
+				<view class="text-text-text"><text>石化吐息：无读条，Boss抬起身子对正面释放的没有范围提示的扇形Aoe，附加石化和易伤效果，远离正面回避。</text></view><view class="text-text-text"><text>苍白吐息：读条技能，可见范围的环形Aoe，靠近Boss回避。</text></view><view class="text-text-text"><text>必杀：读条技能，点名随机1人释放需要分摊的伤害，集合分摊即可。</text></view><view class="text-text-text"><text>磁场崩坏：读条技能，对全员附加正极或负极的Debuff，同时场地会被一分为二为正负两极；请正极的玩家去负极的地板，负极的玩家去正极的地板，成功后会被吸附在地面上，否则会漂浮起来，漂浮起来后角色受到后续的技能的额外伤害。</text></view><view class="text-text-text"><text>尘暴：读条技能，全屏Aoe，注意回复；该技能会额外给漂浮起来的玩家叠加易伤的Debuff。</text></view>
+				<view class="text-text-text"><text>气旋：读条技能，全屏小伤害Aoe；该技能会额外秒杀漂浮起来的玩家。</text></view><view class="text-text-text"><text>利爪(有范围提示)：读条技能，Boss会沿着身上的箭头的方向释放多段步进式圆形Aoe，跟在Boss身后就可以回避掉。</text></view><view class="text-text-text"><text>召唤：读条技能，召唤若干风魔小怪，小怪会释放直线Aoe，请迅速消灭。</text></view>
+				<view class="text-text-text"><text>古恶魔：Boss无敌化开始积累魔力，并召唤3只古恶魔，3个T分别各拉1只来到ABC3点击杀即可。此时3个队伍会被分别释放一个需要分摊的伤害必杀，附加短暂的魔法受伤加重Debuff，所以不能重复分摊，请3个队伍在ABC3点乖乖站好。</text></view><view class="text-text-text"><text>鬼龙的核心：击杀3只古恶魔后，Boss会露出弱点核心，请迅速击破。</text></view><view class="text-text-text"><text>太阳风暴：全屏大招，伤害受Boss刚才积累的魔力多少影响，注意回复。</text></view><view class="text-text-text"><text>乱气流：场地内出现若干缓慢移动的旋风，龙卷风会对附近的玩家造成伤害，请远离。</text></view><view class="text-text-text"><text>惊异：读条技能，Boss全身变红，同时大幅提高其攻击力，直到被击倒为止。</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana1510.png" mode="aspectFit"></image></view> 
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana1511.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/duolana1512.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

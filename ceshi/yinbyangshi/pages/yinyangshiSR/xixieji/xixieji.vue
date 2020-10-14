@@ -1,0 +1,127 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/xixieji0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">吸血姬</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>我并不是从出生起，就是现在这个样子的。</text><text>父亲还活着的时候，我喜欢吃的是紫苏。</text><text>父亲会把紫苏和牛肉放到罐子里炖，直到飘出香味。</text><text>我现在还记得那种味道，只是我已经再也吃不到了。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>紫苏的气味会让母亲不适。</text><text>每次我吃得津津有味时，母亲都会一脸苦恼地跑到院子里。</text><text>然后父亲就会追过去。</text><text>当我把紫苏和牛肉都吃完，父亲就会带着破涕为笑的母亲回来。</text><text>但是那一天不一样~~父亲追出去之后再也没有回来。</text><text>回来的只有母亲一人。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>她用力地把我按在怀里，我能感觉到扶住我后脑勺的手心，滑腻腻的，带有难闻的腥臭。</text><text>我忍受着那腥臭味，却突然感觉脖子上传来一阵痛~~好痛，好像是被谁咬了。</text><text>失去知觉之前，我发现那腥臭味，开始变得香甜~~从那以后，我再也没有见过我的双亲。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/xixieji1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/xixieji2.png" mode="aspectFit"></image>
+		 				<text>基本技能：血袭</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>牺牲10%当前生命，攻击敌方目标造成攻击120%伤害。</text>
+		 				<text>Lv.2伤害增加至126%</text>
+		 				<text>Lv.3伤害增加至132%</text>
+		 				<text>Lv.4伤害增加至138%</text>
+		 				<text>Lv.5伤害增加至150%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/xixieji3.png" mode="aspectFit"></image>
+		 			    <text>血怒</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>损失的生命将转化为力量，生命比例每降低1%，提升4%伤害。</text>
+		 				<text>鲜血之拥</text>
+		 				<text>化为血蝠拥抱敌方目标，造成攻击131%伤害，并获得等同该次伤害20%的护盾，持续1回合。</text>
+		 				<text>Lv.2伤害增加至138%</text>
+		 				<text>Lv.3伤害增加至145%</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/xixieji4.png" mode="aspectFit"></image>
+		 				<text>Lv.4伤害增加至152%</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>Lv.5伤害增加至159%</text> 
+		 				<text>undefined</text>
+						<text>undefined</text>
+						<text>undefined</text>
+						<text>undefined</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

@@ -1,0 +1,1 @@
+<view><block tt:for="{{list}}" tt:for-item="item" tt:for-index="index"><view class="jn"><view class="title"><view class="pic"><image src="{{item.image.full}}" mode="aspectFit"></image></view><view class="name"><text>{{item.name}}</text><text>{{"召唤师等级："+item.maxrank+"级"}}</text></view></view><view class="jieshao"><text>{{item.description}}</text></view></view></block></view>

@@ -1,0 +1,122 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>血牙8件 VS T2.5 盗贼安其拉神殿提升指南</text></view>
+			<view class="contwent">
+				
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy0.png" mode="aspectFit"/></view>
+				<view class="content"><text>怀旧服下阶段安其拉的到来，已离大家不远了，从安其拉神殿开始，怀旧服团本难度会有质的上升，不过以目前大家装备及实力来看，安其拉神殿只要打几遍熟悉后，就没有任何压力了。现如今金团极品装备价格一直居高不下，证明了大家还是要求提升自己，对即将到来的安其拉充满了向往与期待</text></view>
+				<view class="content"><text>下阶段安其拉神殿中会掉落大量盗贼可用的散件及T2.5套装，其中有一些散件非常极品，那么这些装备比起现阶段BIS会有多少提升呢?</text></view>
+				<view class="title"><text>盗贼现阶段bis装分析</text></view>
+				<view class="title"><text>剑贼血牙套</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy1.png" mode="aspectFit"/></view>
+				<view class="content"><text>高端盗贼的象征，最帅的的盗贼套装没有之一，整体暗红+黑的色调也比较符合盗贼的风格，虽然套装中有些部位属性有些鸡肋，但归于不俗的套装属性，血牙套装很受大部分剑贼的欢迎</text></view>
+				
+				<view class="title"><text>血牙8件</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy2.png" mode="aspectFit"/></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy3.png" mode="aspectFit"/></view> 
+				<view class="content"><text>通过计算可以得出，血牙8件套一共提供了86力量203敏捷3命中4暴击(2躲闪非伤害属性忽略不计)，换算攻强为598攻强(具体换算公式在以前文章中有提到魔兽世界怀旧服盗贼属性换算精讲及常用项链、披风、戒指测评)</text></view>
+				<view class="title"><text>匕首贼5+3</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy4.png" mode="aspectFit"/></view> 
+				<view class="content"><text>5+3意思就是，属性最好的5件血牙(头部，胸甲，护腕，腰带，鞋子)+夜幕杀手护肩(3力量26敏捷1命中)+熔火犬皮手套(15力量1暴击+5匕首技能)+暗影烈焰长靴(44攻强2命中)，总计73力量159敏捷6命中5暴击+44攻强=625攻强+5匕首技能</text></view>
+				<view class="title"><text>盗贼下阶段死亡执行者5件(T2.5)+3散件分析</text></view>
+				<view class="title"><text>死亡执行者5件</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy5.png" mode="aspectFit"/></view>
+				
+				<view class="content"><text>T2.5没有抗性加成，均为输出属性，总计为94力量157敏捷4命中3暴击</text></view>
+				<view class="content"><text>我们来看看T2.5对比T2有什么优势</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy6.png" mode="aspectFit"/></view> 
+				<view class="content"><text>通过对比可以看出，T2.5输出属性全面碾压T2(关于T2胸比T2.5胸好的谣言可以终止了)，其中胸和腿差距较小，头肩鞋差距较大，总差距换算成攻强是104攻强，已超过100点</text></view> 
+			    <view class="title"><text>T2.5与T2套装属性对比</text></view>
+			    <view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy7.png" mode="aspectFit"/></view> 
+			    <view class="content"><text>T2.5(3)件套属性，闪避冷却减少1分钟，挺实用的属性，对于安其拉大量的虫子小怪来讲，开闪避硬顶=生存力，减少闪避冷却时间=提高生存力。(5)件套属性，提高剔骨伤害15%，实打实的增伤属性，下版本配合9级剔骨能打出盗贼的天花板数字</text></view> 
+			    <view class="content"><text>T2(3)件套属性，毒药中毒几率提高5%，等于说把速效毒药中20%的中毒几率提高到了25%，提高了1/4中毒几率，在副本怪吃毒的情况下，常规速效全程大概能造成5%~6%的伤害，提高1/4中毒几率等于提升了1.5%左右的输出。(5)件套属性，佯攻降威胁值效果提高25%，基本没有任何用处的属性，任何情况下盗贼都不用去打佯攻，比起降低那一点仇恨，20能量的损失大的多，还不如ESC停手一秒，如果你是一个靠着佯攻控制仇恨的贼，建议出门右转去玩LR，卡CD假死即可。(8)件套属性，近战攻击有几率造成平均300点伤害，这个伤害是固定值，不会随着你装备/攻强提升而提升，特效触发概率为PPM机制，随武器速度变化，8件套效果大约会提升13~18点秒伤(血牙8件套触发计算这里面有魔兽世界怀旧服现阶段P4团本套装(夜幕杀手、血牙、赞达拉)测评)</text></view> 
+				<view class="title"><text>安其拉神殿BIS3散件</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy8.png" mode="aspectFit"/></view> 
+				 <view class="content"><text>与同部位血牙对比</text></view> 
+				<view class="content"><text>无尽痛苦腰带64攻强1命中1暴击=105攻强，血牙腰带13力量20敏捷1暴击=73攻强</text></view> 
+				<view class="content"><text>其拉死刑护腕15力量16敏捷1命中=61攻强，血牙护腕23敏1命中=58攻强</text></view> 
+				<view class="content"><text>强制者手套28力量20敏捷1命中=81攻强，血牙手套19力量20敏捷=55攻强</text></view> 
+				<view class="content"><text>对比可以看出，护腕差距较小，腰带与手套差距较大</text></view> 
+				<view class="content"><text>通过以上属性对比可以看出，下阶段剑贼采用5T2.5+安其拉神殿3散件会比血牙8件套好很多</text></view> 
+				
+				<view class="title"><text>匕首贼下阶段如何配装?</text></view> 
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy9.png" mode="aspectFit"/></view>
+				<view class="content"><text>先来拿T2.5鞋子与暗影烈焰长靴做下对比</text></view> 
+				<view class="content"><text>T2.5鞋子14力量26敏捷1命中=78攻强，暗影烈焰长靴44攻强2命中=78攻强，输出属性换算为一样，那么为什么暗影烈焰长靴83装等比T2.5 78装等高了5点，但输出属性是一样呢?</text></view> 
+				<view class="content"><text>因为暗影烈焰长靴严格来说并不是盗贼的装备，因为它加的护甲太高，达到了286点，比T2.5鞋子护甲高了100多点，耐力也高达22点，是熊T毕业的装备，由于高护甲高耐力占了一部分属性装等，所以导致它的输出属性与T2.5一样。这同样也是为什么那么多人选择装等68的吞噬披风(10智23法强1命中，纯输出属性)，而不选择奈法利安掉落的83装等的龙王披风(14智10耐28法强，属性全面)的原因</text></view> 
+				
+				<view class="title"><text>建议下阶段匕首贼配装</text></view> 
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy10.png" mode="aspectFit"/></view>
+				<view class="content"><text>无死钉前，5T2.5+狗皮手套+其拉死刑护腕+无尽痛苦腰带</text></view> 
+				<view class="content"><text>有死钉后，5T2.5+强制者手套+其拉死刑护腕+无尽痛苦腰带</text></view> 
+				<view class="content"><text>还有一种推荐，封印匕首的打法，死钉+狗皮手套，想了解的小伙伴可以去看看魔兽怀旧服：起价5万金?封印匕首最后一块拼图——“死亡之钉”</text></view> 
+				<view class="content"><text>你的眼睛会欺骗你，你的耳朵会欺骗你，你的经验会欺骗你，你的想象力同样会欺骗你，但数学不会。</text></view> 
+				<view class="content"><text>SIM跑分对比，数据说话</text></view> 
+				<view class="content"><text>跑分规则：剑贼武器为多彩+符文剑，匕首贼武器为毁灭狗牙，武器主副手附魔均附15敏，涂速效毒药，其他位置附魔为常规4阶段附魔，披风戒指饰品均为第四阶段BIS，天赋为战斗匕战斗剑通用天赋，种族为非人类贼→亡灵贼，为了公平性，BUFF采用联盟与部落共有BUFF，猎人光环+战士攻强+小德爪子，目标为63级龙类，DEBUFF5破、鲁莽、精灵火，战斗时长2分钟</text></view> 
+				
+				<view class="title"><text>剑贼血牙8件套跑分</text></view> 
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy11.png" mode="aspectFit"/></view>
+				<view class="content"><text>由于模拟器无法跑出血牙8件套装触发效果，按照数据计算补16点秒伤，那么血牙8件套真正跑分分数是：616</text></view> 
+				<view class="title"><text>剑贼安其拉T2.5+散件跑分</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy12.png" mode="aspectFit"/></view>
+				<view class="content"><text>跑分可以看出安其拉装备比现阶段血牙8件套秒伤高了24点</text></view> 
+				<view class="title"><text>匕首贼安其拉T2.5+散件跑分</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy13.png" mode="aspectFit"/></view>
+				<view class="title"><text>匕首贼安其拉T2.5+散件跑分</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy14.png" mode="aspectFit"/></view>
+				<view class="content"><text>可以看出下阶段对于匕首贼来说提升并没有剑贼大，秒伤只提升了16点，因为玩匕首的大家都知道输出循环中很少很少打剔骨，所以T2.5 5件套带来的剔骨增伤效果基本可以忽略不计。</text></view>  
+				<view class="title"><text>那么如果把狗皮手套拿下换成强制者手套，毁灭换成死钉，跑分会如何呢?</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/xy15.png" mode="aspectFit"/></view>
+				<view class="content"><text>692......我一开始还以为是哪里搞错了，检查了一遍模拟器设置跟以前一模一样，跑了好几次也是这个分数，也许这就是死亡之钉的实力吧</text></view> 
+				<view class="content"><text>综合可以看出，下版本安其拉套装和其他部位散件是有着不小提升的，而死钉也名副其实的是60年代毕业武器，仅次于帝殒的存在</text></view> 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

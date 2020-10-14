@@ -1,0 +1,117 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/qinghangdenggua0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">青杭灯呱</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>今天我一定要写完这篇故事。</text><text>听说真正的青行燈大人编了好多好多的怪谈故事，好羡慕她这样博学又聪明的人啊，我也想像青行燈大人那样，写一百个，不、写一千个故事！</text><text>嗯，写什么故事好呢？我最害怕鬼故事了，所以不能像青行燈大人那样写怪谈，那、那我就写一些好玩的，好笑的故事吧。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>小鹿男呱说，不管做什么都要持之以恒的练习，还给我看了他之前画的一大堆丑脸，他说只要一直练习下去，他就能画出一张世上最美男子的脸。可是，我感觉他离他的目标还有很远啊。</text><text>可是，他说的还是很有道理，我一定要坚持练习，那我就把小鹿男的故事写下来吧，嗯，就叫做~~</text><text>画画很丑的小鹿男呱吧。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>好不容易写完了，可是奇怪的是，小鹿男呱看了以后很生气，说我在说他的坏话。</text><text>可是、可是我写的都是真的啊，他画的那些脸，真的很丑啊~~</text><text>嗯，我不能气馁，继续加油写下一篇吧，就叫眼神不好的两面佛呱吧。</text><text>欸，怎么胧车发车的时间又要到了，今天看来是写不成了。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/qinghangdenggua1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>基本技能：</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/qinghangdenggua2.png" mode="aspectFit"></image>
+		 				<text>基本技能：以妖力攻击敌方目标，造成攻击100%伤害。</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/qinghangdenggua3.png" mode="aspectFit"></image>
+						<text>呱·吸魂灯</text>
+		 			   
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>燃起鬼灯攻击敌方全体，造成攻击80%伤害。</text>
+		 				<text>Lv.2伤害增加至83%</text>
+		 				<text>Lv.3伤害增加至86%</text>
+		 				<text>Lv.4伤害增加至90%</text>
+		 				<text>Lv.5伤害增加至95%</text> 
+		 			</view> 
+		 		</view> 
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

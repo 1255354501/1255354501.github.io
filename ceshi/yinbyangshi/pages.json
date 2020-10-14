@@ -1,0 +1,1099 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "阴阳师资料库"
+			}
+		},{
+		    "path" : "pages/yinyangshiSSR/yinyangshiSSR",
+		    "style" : {
+		        "navigationBarTitleText": "阴阳师SSR"
+		    }
+		},{
+		    "path" : "pages/yinyangshiSR/yinyangshiSR",
+		    "style" : {
+		        "navigationBarTitleText": "阴阳师SR"
+		    }
+		},{
+		    "path" : "pages/yinyangshiliandong/yinyangshiliandong",
+		    "style" : {
+		        "navigationBarTitleText": "阴阳师联动"
+		    }
+		}
+		,{
+		    "path" : "pages/yinyangshiguatai/yinyangshiguatai",
+		    "style" : {
+		        "navigationBarTitleText": "阴阳师呱太"
+		    }
+		},{
+		    "path" : "pages/yinyangshiSP/yinyangshiSP",
+		    "style" : {
+		        "navigationBarTitleText": "阴阳师SP"
+		    }
+		},{
+		    "path" : "pages/yysr/yysr",
+		    "style" : {
+				"navigationBarTitleText": "阴阳师R"
+			}
+		},
+		{
+            "path" : "pages/yysn/yysn",
+            "style" : {
+				"navigationBarTitleText": "阴阳师N"
+			}
+        },
+		
+		{
+            "path" : "pages/yysn/chishe/chishe",
+            "style" : {
+				 "navigationBarTitleText": "赤舌"
+				 }
+        },{
+            "path" : "pages/yysn/daomuxiaogui/daomuxiaogui",
+            "style" : {
+				 "navigationBarTitleText": "盗墓小鬼"
+				 }
+        },{
+            "path" : "pages/yysn/tangzhisanyao/tangzhisanyao",
+            "style" : {
+                "navigationBarTitleText": "唐纸伞妖"
+                }
+        },{ 
+            "path" : "pages/yysn/tianxieguilv/tianxieguilv",
+            "style" : {
+                "navigationBarTitleText": "天邪鬼绿"
+            }
+        },{
+            "path" : "pages/yysn/tianxieguichi/tianxieguichi",
+            "style" : {
+                "navigationBarTitleText": "天邪鬼赤"
+            }
+        },{
+            "path" : "pages/yysn/tianxieguiqing/tianxieguiqing",
+            "style" : {
+                "navigationBarTitleText": "天邪鬼青"
+            }
+        },{
+            "path" : "pages/yysn/tianxieguihuang/tianxieguihuang",
+            "style" : {
+                "navigationBarTitleText": "天邪鬼黄"
+            }
+        },{
+            "path" : "pages/yysn/jishenghun/jishenghun",
+            "style" : {
+                "navigationBarTitleText": "寄生魂"
+            }
+        },{
+            "path" : "pages/yysn/zhoushen/zhoushen",
+            "style" : {
+                "navigationBarTitleText": "帚神"
+                }
+        },{
+            "path" : "pages/yysn/tidengxiaoseng/tidengxiaoseng",
+            "style" : {
+                "navigationBarTitleText": "提灯小僧"
+            }
+        },{
+            "path" : "pages/yysn/tubi/tubi",
+            "style" : {
+                 "navigationBarTitleText": "涂壁"
+            }
+        },{
+            "path" : "pages/yysn/denglonggui/denglonggui",
+            "style" : {
+                "navigationBarTitleText": "灯笼鬼"
+                 }
+        },{
+            "path" : "pages/yysr/sanweihu/sanweihu",
+            "style" : {
+				 "navigationBarTitleText": "三尾狐"
+				 }
+        },{
+            "path" : "pages/yysr/chounvzhishi/chounvzhishi",
+            "style" : {
+				 "navigationBarTitleText": "丑时之女"
+				 }
+        },{
+            "path" : "pages/yysr/jiumingmao/jiumingmao",
+            "style" : { 
+				 "navigationBarTitleText": "九命猫"
+				 }
+        },{
+            "path" : "pages/yysr/tuwan/tuwan",
+            "style" : {
+				 "navigationBarTitleText": "兔丸"
+				 }
+        },{
+            "path" : "pages/yysr/bingyong/bingyong",
+            "style" : {
+				 "navigationBarTitleText": "兵勇"
+				 }
+        },{
+            "path" : "pages/yysr/gulonghuo/gulonghuo",
+            "style" : {
+				 "navigationBarTitleText": "古笼火"
+				 }
+        },{
+            "path" : "pages/yysr/tianjingxia/tianjingxia",
+            "style" : {
+				 "navigationBarTitleText": "天井下"
+				 }
+        },{
+            "path" : "pages/yysr/xiaoyouzhishou/xiaoyouzhishou",
+            "style" : {
+				 "navigationBarTitleText": "小柚之手"
+				 }
+        },{
+            "path" : "pages/yysr/shantu/shantu",
+            "style" : {
+				 "navigationBarTitleText": "山兔"
+				 }
+        },{
+            "path" : "pages/yysr/shantong/shantong",
+            "style" : {
+				 "navigationBarTitleText": "山童"
+				 }
+        },{
+            "path" : "pages/yysr/wugushi/wugushi",
+            "style" : {
+				 "navigationBarTitleText": "巫蛊师"
+				 }
+        },{
+            "path" : "pages/yysr/zuofutongzi/zuofutongzi",
+            "style" : {
+				 "navigationBarTitleText": "座敷童子"
+				 }
+        },{
+            "path" : "pages/yysr/shuzhu/shuzhu",
+            "style" : {
+				 "navigationBarTitleText": "数珠"
+				 }
+        },{
+            "path" : "pages/yysr/jiaotu/jiaotu",
+            "style" : {
+				 "navigationBarTitleText": "椒图"
+				 }
+        },{
+            "path" : "pages/yysr/wushizhiling/wushizhiling",
+            "style" : {
+				 "navigationBarTitleText": "武士之灵"
+				 }
+        },{
+            "path" : "pages/yysr/hetong/hetong",
+            "style" : {
+				 "navigationBarTitleText": "河童"
+				 }
+        },{
+            "path" : "pages/yysr/duyanxiaoseng/duyanxiaoseng",
+            "style" : {
+				 "navigationBarTitleText": "独眼小僧"
+				 }
+        },{
+            "path" : "pages/yysr/limao/limao",
+            "style" : {
+				 "navigationBarTitleText": "狸猫"
+				 }
+        },{
+            "path" : "pages/yysr/tongnv/tongnv",
+            "style" : {
+				 "navigationBarTitleText": "童女"
+				 }
+        },{
+            "path" : "pages/yysr/tongnan/tongnan",
+            "style" : {
+				 "navigationBarTitleText": "童男"
+				 }
+        },{
+            "path" : "pages/yysr/guanhu/guanhu",
+            "style" : {
+				 "navigationBarTitleText": "管狐"
+				 }
+        },{
+            "path" : "pages/yysr/yingcao/yingcao",
+            "style" : {
+				 "navigationBarTitleText": "莹草"
+				 }
+        },{
+            "path" : "pages/yysr/chongshi/chongshi",
+            "style" : {
+				 "navigationBarTitleText": "虫师"
+				 }
+        },{
+            "path" : "pages/yysr/hudiejing/hudiejing",
+            "style" : {
+				 "navigationBarTitleText": "蝴蝶精"
+				 }
+        },{
+            "path" : "pages/yysr/jue/jue",
+            "style" : {
+				 "navigationBarTitleText": "觉"
+				 }
+        },{
+            "path" : "pages/yysr/tiaotiaomeimei/tiaotiaomeimei",
+            "style" : {
+				 "navigationBarTitleText": "跳跳妹妹"
+				 }
+        },{
+            "path" : "pages/yysr/tiaotiaodidi/tiaotiaodidi",
+            "style" : {
+				 "navigationBarTitleText": "跳跳弟弟"
+				 }
+        },{
+            "path" : "pages/yysr/tieshu/tieshu",
+            "style" : {
+				 "navigationBarTitleText": "铁鼠"
+				 }
+        },{
+            "path" : "pages/yysr/yunv/yunv",
+            "style" : {
+				 "navigationBarTitleText": "雨女"
+				 }
+        },{
+            "path" : "pages/yysr/qingwaciqi/qingwaciqi",
+            "style" : {
+				 "navigationBarTitleText": "青蛙瓷器"
+				 }
+        },{
+            "path" : "pages/yysr/shifagui/shifagui",
+            "style" : {
+				 "navigationBarTitleText": "食发鬼"
+				 }
+        },{
+            "path" : "pages/yysr/egui/egui",
+            "style" : {
+				 "navigationBarTitleText": "饿鬼"
+				 }
+        },{
+            "path" : "pages/yysr/shouwu/shouwu",
+            "style" : {
+				 "navigationBarTitleText": "首无"
+				 }
+        },{
+            "path" : "pages/yysr/liyujing/liyujing",
+            "style" : {
+				 "navigationBarTitleText": "鲤鱼精"
+				 }
+        },{
+            "path" : "pages/yysr/yatiangou/yatiangou",
+            "style" : {
+				 "navigationBarTitleText": "鸦天狗"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/cangfengyimulian/cangfengyimulian",
+            "style" : {
+				 "navigationBarTitleText": "苍风一目连"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/chiyingyaodaoji/chiyingyaodaoji",
+            "style" : {
+				 "navigationBarTitleText": "赤影妖刀姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/tianjianrenxinguiqie/tianjianrenxinguiqie",
+            "style" : {
+				 "navigationBarTitleText": "天剑韧心鬼切"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/shaoyudatiangouji/shaoyudatiangouji",
+            "style" : {
+				 "navigationBarTitleText": "少羽大天狗"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/yuyuanbanruo/yuyuanbanruo",
+            "style" : {
+				 "navigationBarTitleText": "御怨般若"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/fushiqinghangdeng/fushiqinghangdeng",
+            "style" : {
+				 "navigationBarTitleText": "浮世青行灯"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/lianyucimutongzi/lianyucimutongzi",
+            "style" : {
+				 "navigationBarTitleText": "炼狱茨木童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/jintianyuzaoqian/jintianyuzaoqian",
+            "style" : {
+				 "navigationBarTitleText": "烬天玉藻前"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/daoheshenyuzhuanjin/daoheshenyuzhuanjin",
+            "style" : {
+				 "navigationBarTitleText": "稻荷神御馔津"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/fuguqingji/fuguqingji",
+            "style" : {
+				 "navigationBarTitleText": "缚骨清姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/linghaijinyuji/linghaijinyuji",
+            "style" : {
+				 "navigationBarTitleText": "聆海金鱼姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/cangfengyimulian/cangfengyimulian",
+            "style" : {
+				 "navigationBarTitleText": "苍风一目连"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/chiyingyaodaoji/chiyingyaodaoji",
+            "style" : {
+				 "navigationBarTitleText": "赤影妖刀姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/xiaolanghuangchuanzhizhu/xiaolanghuangchuanzhizhu",
+            "style" : {
+				 "navigationBarTitleText": "骁浪荒川之主"
+				 }
+        },{
+            "path" : "pages/yinyangshiSP/guiwangjiutuntongzi/guiwangjiutuntongzi",
+            "style" : {
+				 "navigationBarTitleText": "鬼王酒吞童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/yimuliangua/yimuliangua",
+            "style" : {
+				 "navigationBarTitleText": "一目连呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/liangmianfogua/liangmianfogua",
+            "style" : {
+				 "navigationBarTitleText": "两面佛呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/datiangougua/datiangougua",
+            "style" : {
+				 "navigationBarTitleText": "大天狗呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/yaodaojigua/yaodaojigua",
+            "style" : {
+				 "navigationBarTitleText": "妖刀姬呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/xiaolunangua/xiaolunangua",
+            "style" : {
+				 "navigationBarTitleText": "小鹿男呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/bianhuagua/bianhuagua",
+            "style" : {
+				 "navigationBarTitleText": "彼岸花呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/huaniaojuangua/huaniaojuangua",
+            "style" : {
+				 "navigationBarTitleText": "花鸟卷呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/cimugua/cimugua",
+            "style" : {
+				 "navigationBarTitleText": "茨木呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/huanggua/huanggua",
+            "style" : {
+				 "navigationBarTitleText": "荒呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/huangchuangua/huangchuangua",
+            "style" : {
+				 "navigationBarTitleText": "荒川呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/huiyejigua/huiyejigua",
+            "style" : {
+				 "navigationBarTitleText": "辉夜姬呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/jiutungua/jiutungua",
+            "style" : {
+				 "navigationBarTitleText": "酒吞呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/yanmogua/yanmogua",
+            "style" : {
+				 "navigationBarTitleText": "阎魔呱"
+				 }
+        },{
+            "path" : "pages/yinyangshiguatai/qinghangdenggua/qinghangdenggua",
+            "style" : {
+				 "navigationBarTitleText": "青杭灯呱"
+				 }
+        } ,{
+            "path" : "pages/yinyangshiliandong/maiyaolang/maiyaolang",
+            "style" : {
+				 "navigationBarTitleText": "卖药郎"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/nulianglusheng/nulianglusheng",
+            "style" : {
+				 "navigationBarTitleText": "奴良陆生"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/shashengwan/shashengwan",
+            "style" : {
+				 "navigationBarTitleText": "杀生丸"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/jiegeng/jiegeng",
+            "style" : {
+				 "navigationBarTitleText": "桔梗"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/quanyecha/quanyecha",
+            "style" : {
+				 "navigationBarTitleText": "犬夜叉"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/mitaojiezi/mitaojiezi",
+            "style" : {
+				 "navigationBarTitleText": "蜜桃&芥子"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/axiang/axiang",
+            "style" : {
+				 "navigationBarTitleText": "阿香"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/louqiya/louqiya",
+            "style" : {
+				 "navigationBarTitleText": "露琪亚"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/guideng/guideng",
+            "style" : {
+				 "navigationBarTitleText": "鬼灯"
+				 }
+        },{
+            "path" : "pages/yinyangshiliandong/heiqiyihu/heiqiyihu",
+            "style" : {
+				 "navigationBarTitleText": "黑崎一护"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guhuoniao/guhuoniao",
+            "style" : {
+				 "navigationBarTitleText": "姑获鸟"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/bailang/bailang",
+            "style" : {
+				 "navigationBarTitleText": "白狼"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yifanmujin/yifanmujin",
+            "style" : {
+				 "navigationBarTitleText": "一反木锦"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/wannianzhu/wannianzhu",
+            "style" : {
+				 "navigationBarTitleText": "万年竹"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/jiuciliang/jiuciliang",
+            "style" : {
+				 "navigationBarTitleText": "久次良"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/shuweng/shuweng",
+            "style" : {
+				 "navigationBarTitleText": "书翁"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/erkounv/erkounv",
+            "style" : {
+				 "navigationBarTitleText": "二口女"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/renmianshu/renmianshu",
+            "style" : {
+				 "navigationBarTitleText": "人面树"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yijinzhentian/yijinzhentian",
+            "style" : {
+				 "navigationBarTitleText": "以津真天"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/rulianshi/rulianshi",
+            "style" : {
+				 "navigationBarTitleText": "入殓师"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/fenghuanghuo/fenghuanghuo",
+            "style" : {
+				 "navigationBarTitleText": "凤凰火"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/fengli/fengli",
+            "style" : {
+				 "navigationBarTitleText": "凤梨"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/panguan/panguan",
+            "style" : {
+				 "navigationBarTitleText": "判官"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/huajing/huajing",
+            "style" : {
+				 "navigationBarTitleText": "化鲸"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xiazhongshaonv/xiazhongshaonv",
+            "style" : {
+				 "navigationBarTitleText": "匣中少女"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xixieji/xixieji",
+            "style" : {
+				 "navigationBarTitleText": "吸血姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yecha/yecha",
+            "style" : {
+				 "navigationBarTitleText": "夜叉"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yaohu/yaohu",
+            "style" : {
+				 "navigationBarTitleText": "妖狐"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yaoqinshi/yaoqinshi",
+            "style" : {
+				 "navigationBarTitleText": "妖琴师"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guhuoniao/guhuoniao",
+            "style" : {
+				 "navigationBarTitleText": "姑获鸟"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/mengpo/mengpo",
+            "style" : {
+				 "navigationBarTitleText": "孟婆"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xiaosongwan/xiaosongwan",
+            "style" : {
+				 "navigationBarTitleText": "小松丸"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yi/yi",
+            "style" : {
+				 "navigationBarTitleText": "弈"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/huibishou/huibishou",
+            "style" : {
+				 "navigationBarTitleText": "惠比寿"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yujuchong/yujuchong",
+            "style" : {
+				 "navigationBarTitleText": "於菊虫"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/rihefang/rihefang",
+            "style" : {
+				 "navigationBarTitleText": "日和坊"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xingxiongtongzi/xingxiongtongzi",
+            "style" : {
+				 "navigationBarTitleText": "星熊童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/taohuayao/taohuayao",
+            "style" : {
+				 "navigationBarTitleText": "桃花妖"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yinghuayao/yinghuayao",
+            "style" : {
+				 "navigationBarTitleText": "樱花妖"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/haifangzhu/haifangzhu",
+            "style" : {
+				 "navigationBarTitleText": "海坊主"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/hairen/hairen",
+            "style" : {
+				 "navigationBarTitleText": "海忍"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/qingji/qingji",
+            "style" : {
+				 "navigationBarTitleText": "清姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/yanyanluo/yanyanluo",
+            "style" : {
+				 "navigationBarTitleText": "烟烟罗"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/quanshen/quanshen",
+            "style" : {
+				 "navigationBarTitleText": "犬神"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/maozhanggui/maozhanggui",
+            "style" : {
+				 "navigationBarTitleText": "猫掌柜"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/bailang/bailang",
+            "style" : {
+				 "navigationBarTitleText": "白狼"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/baitongzi/baitongzi",
+            "style" : {
+				 "navigationBarTitleText": "白童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/baimugui/baimugui",
+            "style" : {
+				 "navigationBarTitleText": "百目鬼"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/zhiwu/zhiwu",
+            "style" : {
+				 "navigationBarTitleText": "纸舞"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/luoxinfu/luoxinfu",
+            "style" : {
+				 "navigationBarTitleText": "络新妇"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/banruo/banruo",
+            "style" : {
+				 "navigationBarTitleText": "般若"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xun/xun",
+            "style" : {
+				 "navigationBarTitleText": "薰"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xienv/xienv",
+            "style" : {
+				 "navigationBarTitleText": "蝎女"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xieji/xieji",
+            "style" : {
+				 "navigationBarTitleText": "蟹姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/tiaotiaogege/tiaotiaogege",
+            "style" : {
+				 "navigationBarTitleText": "跳跳哥哥"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/zhuiyueshen/zhuiyueshen",
+            "style" : {
+				 "navigationBarTitleText": "追月神"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/jinyuji/jinyuji",
+            "style" : {
+				 "navigationBarTitleText": "金鱼姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/lianyou/lianyou",
+            "style" : {
+				 "navigationBarTitleText": "镰鼬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/xuenv/xuenv",
+            "style" : {
+				 "navigationBarTitleText": "雪女"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/qingfangzhu/qingfangzhu",
+            "style" : {
+				 "navigationBarTitleText": "青坊主"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/shimengmo/shimengmo",
+            "style" : {
+				 "navigationBarTitleText": "食梦貘"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/gunv/gunv",
+            "style" : {
+				 "navigationBarTitleText": "骨女"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guishibai/guishibai",
+            "style" : {
+				 "navigationBarTitleText": "鬼使白"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guishihei/guishihei",
+            "style" : {
+				 "navigationBarTitleText": "鬼使黑"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guijiangshi/guijiangshi",
+            "style" : {
+				 "navigationBarTitleText": "鬼僵尸"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/guinvhongye/guinvhongye",
+            "style" : {
+				 "navigationBarTitleText": "鬼女红叶"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/zhen/zhen",
+            "style" : {
+				 "navigationBarTitleText": "鸩"
+				 }
+        },{
+            "path" : "pages/yinyangshiSR/heitongzi/heitongzi",
+            "style" : {
+				 "navigationBarTitleText": "黑童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yimulian/yimulian",
+            "style" : {
+				 "navigationBarTitleText": "一目连"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/buzhihuo/buzhihuo",
+            "style" : {
+				 "navigationBarTitleText": "不知火"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/liangmianfo/liangmianfo",
+            "style" : {
+				 "navigationBarTitleText": "两面佛"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yunwaijing/yunwaijing",
+            "style" : {
+				 "navigationBarTitleText": "云外镜"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/baqidashe/baqidashe",
+            "style" : {
+				 "navigationBarTitleText": "八岐大蛇"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/datiangou/datiangou",
+            "style" : {
+				 "navigationBarTitleText": "大天狗"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/dayuewan/dayuewan",
+            "style" : {
+				 "navigationBarTitleText": "大岳丸"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yaodaoji/yaodaoji",
+            "style" : {
+				 "navigationBarTitleText": "妖刀姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/xiaolunan/xiaolunan",
+            "style" : {
+				 "navigationBarTitleText": "小鹿男"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/shanfeng/shanfeng",
+            "style" : {
+				 "navigationBarTitleText": "山风"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/bianhua/bianhua",
+            "style" : {
+				 "navigationBarTitleText": "彼岸花"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yuzhuanjin/yuzhuanjin",
+            "style" : {
+				 "navigationBarTitleText": "御馔津"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/longyechaji/longyechaji",
+            "style" : {
+				 "navigationBarTitleText": "泷夜叉姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yuzaoqian/yuzaoqian",
+            "style" : {
+				 "navigationBarTitleText": "玉藻前"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/baicangzhu/baicangzhu",
+            "style" : {
+				 "navigationBarTitleText": "白藏主"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yuanjieshen/yuanjieshen",
+            "style" : {
+				 "navigationBarTitleText": "缘结神"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/huaniaojuan/huaniaojuan",
+            "style" : {
+				 "navigationBarTitleText": "花鸟卷"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/cimutongzi/cimutongzi",
+            "style" : {
+				 "navigationBarTitleText": "茨木童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/huang/huang",
+            "style" : {
+				 "navigationBarTitleText": "荒"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/huangchuanzhizhu/huangchuanzhizhu",
+            "style" : {
+				 "navigationBarTitleText": "荒川之主"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/huiyeji/huiyeji",
+            "style" : {
+				 "navigationBarTitleText": "辉夜姬"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/jiutuntongzi/jiutuntongzi",
+            "style" : {
+				 "navigationBarTitleText": "酒吞童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/lingluyuqian/lingluyuqian",
+            "style" : {
+				 "navigationBarTitleText": "铃鹿御前"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/yanmo/yanmo",
+            "style" : {
+				 "navigationBarTitleText": "阎魔"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/xuetongzi/xuetongzi",
+            "style" : {
+				 "navigationBarTitleText": "雪童子"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/qinghangdeng/qinghangdeng",
+            "style" : {
+				 "navigationBarTitleText": "青行灯"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/mianlingqi/mianlingqi",
+            "style" : {
+				 "navigationBarTitleText": "面灵气"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/guiqie/guiqie",
+            "style" : {
+				 "navigationBarTitleText": "鬼切"
+				 }
+        },{
+            "path" : "pages/yinyangshiSSR/guitongwan/guitongwan",
+            "style" : {
+				 "navigationBarTitleText": "鬼童丸"
+				 }
+        }
+         
+        ,{
+            "path" : "pages/yuhun/yuhun",
+            "style" : {
+				 "navigationBarTitleText": "御魂"
+			}
+        },{
+            "path" : "pages/yuhun/sanwei/sanwei",
+            "style" : {
+				 "navigationBarTitleText": "三味"
+				 }
+        },{
+            "path" : "pages/yuhun/shanghunniao/shanghunniao",
+            "style" : {
+				 "navigationBarTitleText": "伤魂鸟"
+				 }
+        },{
+            "path" : "pages/yuhun/fuyi/fuyi",
+            "style" : {
+				 "navigationBarTitleText": "副翼"
+				 }
+        },{
+            "path" : "pages/yuhun/fanzhen/fanzhen",
+            "style" : {
+				 "navigationBarTitleText": "反枕"
+				 }
+        },{
+            "path" : "pages/yuhun/dicangxiang/dicangxiang",
+            "style" : {
+				 "navigationBarTitleText": "地藏像"
+				 }
+        },{
+            "path" : "pages/yuhun/xinyan/xinyan",
+            "style" : {
+				 "navigationBarTitleText": "心眼"
+				 }
+        },{
+            "path" : "pages/yuhun/zhaocaimao/zhaocaimao",
+            "style" : {
+				 "navigationBarTitleText": "招财猫"
+				 }
+        },{
+            "path" : "pages/yuhun/rinvsishi/rinvsishi",
+            "style" : {
+				 "navigationBarTitleText": "日女巳时"
+				 }
+        },{
+            "path" : "pages/yuhun/mumei/mumei",
+            "style" : {
+				 "navigationBarTitleText": "木魅"
+				 }
+        },{
+            "path" : "pages/yuhun/shuyao/shuyao",
+            "style" : {
+				 "navigationBarTitleText": "树妖"
+				 }
+        },{
+            "path" : "pages/yuhun/niepanzhihuo/niepanzhihuo",
+            "style" : {
+				 "navigationBarTitleText": "涅槃之火"
+				 }
+        },{
+            "path" : "pages/yuhun/huoling/huoling",
+            "style" : {
+				 "navigationBarTitleText": "火灵"
+				 }
+        },{
+            "path" : "pages/yuhun/zheng/zheng",
+            "style" : {
+				 "navigationBarTitleText": "狰"
+				 }
+        },{
+            "path" : "pages/yuhun/zhenzhu/zhenzhu",
+            "style" : {
+				 "navigationBarTitleText": "珍珠"
+				 }
+        },{
+            "path" : "pages/yuhun/poshi/poshi",
+            "style" : {
+				 "navigationBarTitleText": "破势"
+				 }
+        },{
+            "path" : "pages/yuhun/wangqie/wangqie",
+            "style" : {
+				 "navigationBarTitleText": "网切"
+				 }
+        },{
+            "path" : "pages/yuhun/tihun/tihun",
+            "style" : {
+				 "navigationBarTitleText": "薙魂"
+				 }
+        },{
+            "path" : "pages/yuhun/bangjing/bangjing",
+            "style" : {
+				 "navigationBarTitleText": "蚌精"
+				 }
+        },{
+            "path" : "pages/yuhun/beifu/beifu",
+            "style" : {
+				 "navigationBarTitleText": "被服"
+				 }
+        },{
+            "path" : "pages/yuhun/lunrudao/lunrudao",
+            "style" : {
+				 "navigationBarTitleText": "轮入道"
+				 }
+        },{
+            "path" : "pages/yuhun/fanhunxiang/fanhunxiang",
+            "style" : {
+				 "navigationBarTitleText": "返魂香"
+				 }
+        },{
+            "path" : "pages/yuhun/zhennv/zhennv",
+            "style" : {
+				 "navigationBarTitleText": "针女"
+				 }
+        },{
+            "path" : "pages/yuhun/zhongling/zhongling",
+            "style" : {
+				 "navigationBarTitleText": "钟灵"
+				 }
+        },{
+            "path" : "pages/yuhun/zhenmushou/zhenmushou",
+            "style" : {
+				 "navigationBarTitleText": "镇墓兽"
+				 }
+        },{
+            "path" : "pages/yuhun/jingji/jingji",
+            "style" : {
+				 "navigationBarTitleText": "镜姬"
+				 }
+        },{
+            "path" : "pages/yuhun/yinmoluo/yinmoluo",
+            "style" : {
+				 "navigationBarTitleText": "阴摩罗"
+				 }
+        },{
+            "path" : "pages/yuhun/xueyouhun/xueyouhun",
+            "style" : {
+				 "navigationBarTitleText": "雪幽魂"
+				 }
+        },{
+            "path" : "pages/yuhun/touzigui/touzigui",
+            "style" : {
+				 "navigationBarTitleText": "骰子鬼"
+				 }
+        },{
+            "path" : "pages/yuhun/meiyao/meiyao",
+            "style" : {
+				 "navigationBarTitleText": "魅妖"
+				 }
+        },{
+            "path" : "pages/yuhun/chimeizhixia/chimeizhixia",
+            "style" : {
+				 "navigationBarTitleText": "魑魅之匣"
+				 }
+        },{
+            "path" : "pages/yuhun/mingwu/mingwu",
+            "style" : {
+				 "navigationBarTitleText": "鸣屋"
+				 }
+        },{
+            "path" : "pages/yuhun/youguxiang/youguxiang",
+            "style" : {
+				 "navigationBarTitleText": "幽谷响"
+				 }
+        },{
+            "path" : "pages/yuhun/kuanggu/kuanggu",
+            "style" : {
+				 "navigationBarTitleText": "狂骨"
+				 }
+        }
+        
+        ,{
+            "path" : "pages/yuhun/shijian/shijian",
+            "style" : {
+				 "navigationBarTitleText": "阴阳师御魂副本每日掉落时间表及副本掉落"
+				 }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "阴阳师资料库",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

@@ -1,0 +1,123 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/jiuciliang0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">久次良</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>我刻在船上的第一个字是久。</text><text>那年我为深海的秘宝而来，船队触礁沉没，全员葬身大海，我被一头巨鲸救起才得以活命。</text><text>它把我带到铃鹿山——我原本的目的地，大海深处的妖怪之国。</text><text>这里没有人类的纷争，没有血腥的杀戮。我逐渐习惯平静的妖怪生活。</text><text>日子长了，我感觉到自己的身体发生了变化，并且开始听懂巨鲸所说的话：我的名字叫久次良呗，你知道我说啥了呗？</text><text>这、这是幻听吗~~</text><text>看来是听得懂呗，你变成妖怪了呗，已经不是人类了呗。</text><text>成为妖怪的我与巨鲸久次良结为好友。</text><text>铃鹿山是我的第二个家乡，这里的妖怪都是我的同伴。于是我承担了守卫海岸的任务。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>我刻在船上的第二个字是岳。</text><text>启程前往铃鹿山之前，我以为这传说中的藏宝之地是个极其险恶的地方。</text><text>被巨鲸带到铃鹿山的那时，我又以为自己会被凶恶的妖怪吃掉。</text><text>铃鹿山的食物多得很，还不需要吃你这个粗糙无味的家伙。</text><text>少主不仅允许我住下，还给了我食物和衣服，教我铃鹿山的生存之道。</text><text>除了我，有许许多多的妖怪被少主收留，他们后来都成了铃鹿山的重要战力。</text><text>都看清楚了吗，这就是铃鹿山的秘宝——你今后要守护的珍宝。</text><text>为什么~~比起我，铃鹿山有更纯粹的妖怪。少主不该更愿意相信他们吗？</text><text>你要质疑我的判断？</text><text>我誓死保护少主，以及铃鹿山的一切。</text><text>他是铃鹿山的守护者，却无条件信任了我这个卑鄙的寻宝</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>我刻在船上的第三个字是忍。</text><text>那个自称海忍的妖怪和我一样，被铃鹿山救下，又被铃鹿山收留。</text><text>她本是鬼族，我以为她会很快融入这个妖怪的国度，但久次良却不喜欢她，因为她的眼神当中总有一丝阴影。</text><text>事实证明久次良是对的。</text><text>那晚，一声惨叫划破夜空，我就亲眼看到海忍跃出水面，大量鲜血从海底涌了上来。</text><text>我就说~~讨厌海忍呗~~少主~~少主拜托你了呗~~</text><text>少主赶到时，久次良已经断了气，我跪地请求：请允许我暂时离开铃鹿山，为久次良讨回公道！</text><text>从今以后你就是久次良，让它陪着你。</text><text>少主用妖力抽出久次良的骨头，将这沉重的武器交到我手上。</text><text>朋友啊，我要用你的遗骨，刺穿那个忍者的喉咙。一切结束以后，我们再一起回家，一起守护铃鹿山。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/jiuciliang1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/jiuciliang2.png" mode="aspectFit"></image>
+		 				<text>基本技能：鲸骨·驻</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>自身回合攻击前，为友方全体施加骨盾，随后使用骨刃斩向目标，造成攻击80%的伤害。若施加骨盾时友方全体均已拥有骨盾，则攻击时会额外造成敌方生命上限10%的真实伤害（不超过攻击120%）。处于进攻姿态时，技能替换为「鲸骨·开」，等级随「鲸骨·驻」技能强化。</text>
+		 				<text>Lv.2伤害增加至85%</text>
+		 				<text>Lv.3伤害增加至90%</text>
+		 				<text>Lv.4伤害增加至95%</text>
+		 				<text>Lv.5伤害增加至100%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/jiuciliang3.png" mode="aspectFit"></image>
+		 			    <text>鱼鳞之备</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>唯一效果。守备姿态下，友方全体提升10%效果抵抗，10%防御，并在回合结束后有80%概率获得骨盾，若已拥有骨盾，则该友方会治疗自身已损生命值15%（不超过久次良攻击120%）。【施放】久次良切换为进攻姿态，并为友方全体增加15%行动条。处于进攻姿态时，技能替换为「方圆之备」，等级随「鱼鳞之备」技能强化。</text>
+		 				<text>Lv.2提升防御效果增至20%</text>
+		 				<text>Lv.3提升效果抵抗效果增至20%</text>
+		 				<text>Lv.4增加行动条效果增至30%</text>
+		 				<text>Lv.5增加行动条效果对自身增至60%</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/jiuciliang4.png" mode="aspectFit"></image>
+		 				<text>觉醒技能：以守为攻</text>
+		 			</view> 
+		 			<view class="jinengjs"> 
+		 				<text>唯一效果。没有骨盾的友方受到非传导伤害时，为受到伤害的友方施加骨盾并反击伤害来源。单个回合内，若多个没有骨盾的友方受到伤害，仅为其中一个施加骨盾并反击。处于进攻姿态时，技能替换为「协同作战」。</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

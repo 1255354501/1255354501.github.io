@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<style type="text/css">
+			.content{
+				display: flex;
+				justify-content: center;
+			}
+			.image{
+				max-width: 750px;
+				width: 100%;
+				background-color: #00B7FF;
+				
+			}
+			.image .img{
+				width: 100%;
+			}
+			.top{
+				position: fixed;
+				    max-width: 750px;
+				    width: 100%;
+				    bottom: 0;
+				    background: #cd5c5c;
+				    border: 0px solid #CCC;
+				    z-index: 99999;
+				    margin: 0 auto;
+				    padding: 2 0 2 0;
+				    font-size: 1rem;
+				    padding-left: 12px;
+				    color: #ffdb2a;
+				    line-height: 1.4rem;
+			}
+		</style>
+	</head>
+	<body class="content">
+		<div class="image" id="image">
+			
+		</div>
+		<div class="top">
+			<p>
+    Salin nomor telepon kami, tambahkan ke buku alamat, lalu tambahkan WhatsApp kami dan segera mulai hasilkan uang. BERGABUNG SEKARANG! + WhatsApp:</p>
+	<a href=""> +6282172749030  </a>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function goPAGE(){
+			let divA=document.getElementsByClassName("image"); 
+			if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+				divA[0].innerHTML=`<img class="img" src="images/移动页/1.jpg" >
+			<img class="img" src="images/移动页/2.jpg" >
+			<img class="img" src="images/移动页/3.jpg" >
+			<img class="img" src="images/移动页/4.jpg" >
+			<img class="img" src="images/移动页/5.jpg" >
+			<img class="img" src="images/移动页/6.jpg" >
+			<img class="img" src="images/移动页/7.jpg" >`
+			}else { 
+				divA[0].innerHTML='<img class="img" src="./images/pc页/f991bd8a59b55755d8927da080470f2.jpg" alt="网络出差了...">';
+			}
+		}
+		goPAGE();        // 调用function 
+		// console.log(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))
+	</script>
+</html>
+  

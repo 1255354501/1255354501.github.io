@@ -1,0 +1,143 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/lianbo.png"  mode="aspectFit"></image>
+			<text class="name">廉颇</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/lianbo0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>勇士之魂</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>廉颇释放技能过程中会处于霸体状态。进入战斗后廉颇的战意会逐渐提升，战意越高减伤越多，且减伤有上限。当战意充盈时，廉颇提升自身攻击速度。脱战后战意逐渐降低。 在敌方交控制技能时，可释放技能利用霸体效果免疫；进入战斗前，可利用兵线和野怪保持战意。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/lianbo1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>爆裂冲撞</text>
+						<text>冷却值：9/8.4/7.8/7.2/6.6/6</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>廉颇向指定方向发起冲锋，对敌人造成伤害并将其击飞。 被动：廉颇连续使用普攻时，第三次普攻会变成直拳重击，对敌人造成额外伤害，并减少爆裂冲撞的冷却时间。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/lianbo2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>熔岩重击</text>
+						<text>冷却值：9/8.6/8.2/7.8/7.4/7</text>
+						<text>消耗：0</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>廉颇迸发狂暴力量获得护盾，并通过臂甲将力量传入地面，对附近敌人造成减速，非英雄单位会逐渐陷落到区域的重心。1秒后地面会崩裂，对区域内的敌人造成高额伤害，距离中心越近伤害越高。如果区域内有敌方单位，会重置爆裂冲撞的冷却时间。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/lianbo3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>天崩地裂</text>
+						<text>冷却值：54/45/36</text>
+						<text>消耗：0</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>廉颇跳向指定区域连续锤击地面三次，第一次和第二次锤击时会造成减速，第三次锤击会将范围内敌人击飞。每次锤击的伤害递增。</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升熔岩重击副升爆裂冲撞</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/弱化</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/rh.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>异变+鹰眼+隐逸</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/lianbomw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：若廉颇是辅助位，则携带坦克铭文：宿命、虚空、调和；若走对抗路则携带百穿铭文：异变、鹰眼、隐匿。 廉颇团战要先手开团，利用一三技能的突进效果，可对敌方后排造成较大威胁。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/lianbocz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：提高生存能力，在团战中控制敌人为队友提供更多的操作空间。</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/lianbocz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：抓准时间进入战场利用位移技能接近敌方英雄并释放范围技能可以打出更多的伤害。</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

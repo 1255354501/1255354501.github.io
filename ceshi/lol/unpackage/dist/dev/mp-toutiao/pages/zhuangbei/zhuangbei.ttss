@@ -1,0 +1,72 @@
+
+.content{ 
+	  display: -webkit-box; 
+	  display: -webkit-flex; 
+	  display: flex;
+	  -webkit-flex-wrap: wrap;
+	          flex-wrap: wrap;
+}
+.zb{
+	  width: 180rpx;
+	  height: 200rpx;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	          flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	          justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	          align-items: center;
+}
+.zb image{
+	  width: 80rpx;
+	  height: 80rpx;
+}
+.zbname{
+	  font-size: 20rpx;
+}
+.xq{
+	  position: fixed;
+	  background-color: rgba(0,0,0,.8);
+	  width: 100%;
+	  padding: 20rpx 20rpx;
+}
+.xq .title{
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-orient: horizontal;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: row;
+	          flex-direction: row;
+}
+.xq .title .name{
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	          flex-direction: column;
+	  color: #F0F0F0;
+}
+.xq .title .name text{
+	  padding-bottom: 10rpx;
+}
+.xqpic image{
+	  width: 130rpx;
+	  height: 130rpx;
+	  margin-right: 20rpx;
+}
+.text{
+	  color: #F0F0F0;
+}
+.text text{
+	  padding: 10rpx 0;
+}
+

@@ -1,0 +1,101 @@
+<template>
+	<view class="content">
+		<view class="title"><text>拉姆歼灭战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>在妖精领的深处，冒险者们见到了守护与调停之神——雷神拉姆。虽然冒险者们向拉姆传达了嘉恩·艾·神纳的意思，希望人类和妖精族能够和平共处，但是拉姆却要求他们展示自己是否真的具有能够驱逐帝国的力量。</text></view><view class="text-title"><text>拉姆留下了在制裁之地等待冒险者的话语，便随着闪电一同消失了。冒险者为了表明驱散黑暗的决心，也为了向雷神证明自己的力量，做出了前往圣地的决定。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/lamu110.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：神判古树</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加10%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：15</text></view>
+				<view class="text-text-text"><text>新手奖励：75</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：50级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于65</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>制裁之雷</text></view>
+				<view class="text-text-text"><text>战斗精英和魔法导师（除设限特职）50级</text></view>
+				<view class="text-text-text"><text>帕帕力莫</text></view>
+				<view class="text-text-text"><text>黑衣森林东部林区X:23.6,Y:14.2</text></view>
+				<view class="text-text-text"><text>前置任务：揭穿秘密</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.拉姆</text></view>
+				<view class="text-text-text"><text>雷暴：地上会随机出现电圈，还会点名几位玩家电圈，电圈不要叠加，被三个电圈劈到基本都会死，劈完之后，有概率留下一个电球。电球可以被玩家回收，场地上电球越多，BOSS的AOE越疼。</text></view><view class="text-text-text"><text>电光：以BOSS为中心的圆形AOE，躲开即可。</text></view><view class="text-text-text"><text>混乱冲击：点名一位玩家，获得恐怖BUFF，无法移动，可以被电圈劈一下解除。建议被点名后远离BOSS，给自己头上标个符号让其他玩家来电你。</text></view><view class="text-text-text"><text>制裁之雷：全屏AOE，如果场地上小怪没打完且BOSS血量过低，则强制团灭。</text></view><view class="text-text-text"><text>滚雷：连线两名玩家，攻击会损失HP，随便一个人连吃三个电球就能解除。</text></view><view class="text-text-text"><text>P1:BOSS会对MT不断释放圆形AOE，请其余玩家远离MT，MT开场可以吃三个球获得避雷效果来减少BOSS造成的伤害，P1电球随便吃。</text></view><view class="text-text-text"><text>P2:BOSS血量被削减到60%以下之后，场地周围会出现三个仲裁者之影，需要玩家集火打掉，出现小怪后不要再打BOSS，如果BOSS血量过低，且小怪没有打掉会强制团灭。MT请注意远离其他玩家，其他玩家也请注意远离当前MT，对T的圆形AOE伤害对非T职业还是很痛的。</text></view><view class="text-text-text"><text>P3：打完三个小怪后，BOSS读条制裁之雷，进入最后阶段，该阶段会出现滚雷，因此场地上最好留3个电球，否则被连线就停手。之后还会出现一个仲裁者之影，打掉即可。</text></view>  
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/lamu114.png" mode="aspectFit"></image></view>
+				 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

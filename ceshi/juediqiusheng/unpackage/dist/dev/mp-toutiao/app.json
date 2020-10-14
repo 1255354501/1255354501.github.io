@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ditu/ditu",
+    "pages/wuqi/wuqi",
+    "pages/peijian/peijian",
+    "pages/zaiju/zaiju",
+    "pages/wuzi/wuzi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "绝地求生",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

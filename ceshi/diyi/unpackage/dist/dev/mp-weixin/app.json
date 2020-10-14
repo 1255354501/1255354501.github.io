@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "练习",
+    "navigationBarBackgroundColor": "#ff0000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

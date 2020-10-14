@@ -1,0 +1,133 @@
+.content {
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.title-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.title-list .text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	width: 19%;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 0 20rpx;
+}
+.title-list .text image {
+	width: 100%;
+	height: 90px;
+}
+.title-list .text text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding-bottom: 60rpx;
+}
+.list .cont {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 20rpx 0;
+}
+.list .cont .txt {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding-right: 20rpx;
+}
+.list .cont .txt .txt-title {
+	width: 460rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	-webkit-align-content: center;
+	        align-content: center;
+	font-weight: 800;
+}
+.list .cont .txt .txt-content {
+	width: 573rpx;
+	font-size: 34rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	-webkit-align-content: center;
+	        align-content: center;
+	margin-top: 10rpx;
+}
+.txt-pic {
+	width: 90rpx;
+	height: 90rpx;
+}
+.txt-pic image {
+	width: 100%;
+	height: 100%;
+}
+swiper{
+	height: 200rpx;
+}
+swiper-item{
+	width: 100%;
+	height: 200rpx;
+	border-radius: 10rpx;
+}
+swiper-item image{
+	width: 100%;
+	height: 200rpx;
+}
+.scroll{
+	white-space: nowrap;
+	width: 100%;
+}
+.li{
+	display: inline-block;
+	width: 20%;  
+	text-align: center; 
+	font-size: 36rpx;
+	padding: 20rpx 0;
+	margin-top: 10rpx;
+}
+.border{
+	height: 6rpx;
+	width: 80rpx;
+	background-color: #ffff00;
+	float: left;
+	margin-left: 28rpx
+} 
+

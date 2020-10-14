@@ -1,0 +1,129 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSP/fushiqinghangdeng0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">浮世青行灯</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>周身是一片黑暗，仿佛时间都在此凝固。</text><text>少女就躺在黑暗中，口中念念有词。</text><text>九十九，就讲一个天生残疾的孩子主动寻死的故事吧。</text><text>故事发生在冬天，照顾她的祖母被作乱的妖怪杀死了~~咳，大概是被杀死了吧？</text><text>她第一次离开了自家的宅子。</text><text>总归是要死去的，只不过是方式不同罢了。</text><text>她这样想着，决定照着怪谈尝试一下。</text><text>或许讲一百个故事后，神明大人会大发慈悲让她没有痛苦地死去吧。</text><text>好像有点短？就这样吧。</text><text>结局是，结局是第一百个故事的开头。</text><text>她努力撑起身子想看看四周，却失败了，只能重新瘫倒回地面。</text><text>她成功地讲完了第一百个故事，可惜没有什么神明大人，百物语的结局是无聊的死亡。</text><text>咳咳咳~~青色的火光划破黑暗。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>我透过她浑浊的眼睛看到了曾经的自己。</text><text>你听的故事似乎不怎么完整，百物语的结局从来都不是什么神明降临。</text><text>咳咳，这样吗？</text><text>那你是什么？</text><text>来吃掉我的妖怪？</text><text>你这样脏兮兮的小家伙，一点都不好吃。</text><text>不吃人的妖怪吗？</text><text>这好像也是个不错的故事开头~~咳咳，可惜我要死了。</text><text>是啊，她的生命之火就要燃尽了。</text><text>主角死亡，故事走向结局。</text><text>青色的火焰凝聚在我手中，灯里烧着她短暂的一生：婴孩时在母亲怀中的啼哭，病榻上的辗转，趴在祖母膝头细细听的那些故事，街头流浪时沾满身的雪泥~~</text><text>好像，我的人生，是个很糟糕的故事啊~~</text><text>我，咳咳，不喜欢这个结局~~糟透了。</text><text>她在灯里看到了那一切，又随着火光的熄灭慢慢闭上眼睛。</text><text>青色的火焰再度燃起。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSP/fushiqinghangdeng1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>该式神无法觉醒</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSP/fushiqinghangdeng2.png" mode="aspectFit"></image>
+		 				<text>基本技能：浮光</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>青焰化作蝴蝶，引燃敌方目标，造成攻击100%伤害并附加掠火，持续2回合。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSP/fushiqinghangdeng3.png" mode="aspectFit"></image>
+		 			    <text>茕灯焕夜</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>唯一效果。浮世青行灯为万物续写结局，自身永久获得不熄。收集友方获得的所有鬼火。收集满100点鬼火后，获得额外技能『浮世终话』。</text>
+		 				<text>Lv.2收集友方溢出的所有鬼火</text>
+		 				<text>Lv.3其他友方施放技能时收集1点鬼火</text>
+		 				<text>Lv.4收集附加掠火的单位施放技能消耗的所有鬼火</text>
+		 				<text>Lv.5友方通过鬼火行动条获得鬼火时，额外获得1点鬼火；在自身回合结束时，使鬼火行动条额外推进1格。</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSP/fushiqinghangdeng4.png" mode="aspectFit"></image>
+		 				<text>告死暝灯</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>暝灯落下，宣告死亡。选择一个目标后攻击敌方全体，对被选择的敌方目标造成攻击211%伤害，并必定附加掠火，持续2回合。对其他目标造成攻击105%伤害，并随机选择两个目标附加掠火，持续2回合。优先选择没有附加掠火的目标。</text>
+						<text>Lv.2对被选择的敌方目标伤害增加至216%，对其他目标伤害增加至110%</text>
+						<text>Lv.3对被选择的敌方目标伤害增加至221%，对其他目标伤害增加至115%</text>
+						<text>Lv.4对被选择的敌方目标伤害增加至226%，对其他目标伤害增加至120%</text> 
+						<text>Lv.5对被选择的敌方目标伤害增加至231%，对其他目标伤害增加至125%</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

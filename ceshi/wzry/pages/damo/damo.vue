@@ -1,0 +1,143 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/damo.png"  mode="aspectFit"></image>
+			<text class="name">达摩</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/damo0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>真言·心经</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：达摩每次释放技能将会获得真言护体，每层真言增加80点物理防御，持续5秒，最多叠加3层；如果技能命中目标，下两次普通攻击将变成双拳攻击，但第二拳只会造成（+30%物理加成）的物理伤害；同时增加100%攻击速度，持续2秒；每次拳击会回复60点生命值</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/damo1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>真言·无相</text>
+						<text>冷却值：7</text>
+						<text>消耗：45</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>达摩往前冲刺挥出强力冲拳，对路径上的敌人造成200/240/280/320/360/400（+70%物理加成）点物理伤害并击飞目标0.5秒</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/damo2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>真言·明王</text>
+						<text>冷却值：10/9.6/9.2/8.8/8.4/8.0</text>
+						<text>消耗：60</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>达摩快速朝指定方向连续打出五拳，每一拳造成75/90/105/120/135/150（+33%物理加成）点物理伤害并减少目标20/28/36/44/52/60点物理防御，最多叠加5层，持续5秒</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/damo3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>真言·普渡</text>
+						<text>冷却值：35/30/25</text>
+						<text>消耗：100</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>达摩向指定方向挥出超强一拳，对附近的敌人造成150/225/300（+45%物理加成）点物理伤害并将敌人向该方向击退；被击退的敌人如果在飞行过程中触碰了地形边缘将会再次受到150/225/300（+45%物理加成）点物理伤害并晕眩1.5秒；成功将敌方击退至地形边缘可再次释放真言·普渡，再次释放时达摩会向指定方向飞踢，对路径上的敌人造成150/225/300（+45%物理加成）点物理伤害并附带目标已损生命值12%的额外伤害</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议： 主升真言·无相副升真言·明王</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/终结</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zs.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>铭文推荐：异变+鹰眼+狩猎</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/dmmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：这套铭文增加物理攻击、物理穿透、移速与攻击速度。物理攻击与穿透的加成增加技能和普攻的伤害，配合技能大幅度削弱敌人的护甲和防御效果，移速加成提高机动性，攻速加成让释放技能后能更快速打出被动的额外伤害。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/dmzb1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：达摩的爆发富有节奏，但比较依赖技能，所以装备选择上可以累积伤害为主，争取一套将敌方击溃</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/dmzb2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：达摩的控制能力有一定的范围限制，在自身爆发时也会受到其他对手的攻击，所以最后也可以补充一件防装以保证自己的爆发能够顺利打完</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+	
+</style>

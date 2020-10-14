@@ -1,0 +1,143 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiang.png"  mode="aspectFit"></image>
+			<text class="name">孙尚香</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiang0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>活力迸发</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：孙尚香每次普通攻击命中敌人都会减少0.5秒翻滚突袭的冷却时间。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiang1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>翻滚突袭</text>
+						<text>冷却值：5消耗：</text>
+						<text>25</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>孙尚香向指定方向翻滚，下一次普通攻击变更为强化射击，强化射击会对一条直线上的敌人造成250/275/300/325/350/375（+100%物理加成）点物理伤害，如果翻滚后附近有敌方英雄将会增加80%持续衰减的移动速度，持续2秒，使用强化射击后会重置下一次普通攻击并增加攻击距离。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiang2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>红莲爆弹</text>
+						<text>冷却值：8.0/7.6/7.2/6.8/6.4/6.0</text>
+						<text>消耗：50</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>孙尚香朝指定位置投掷爆弹，对范围内敌人造成150/170/190/210/230/250（+100%物理加成）点物理伤害并减少其90%移动速度，持续1秒。被命中的英雄和小兵还会被标记5秒，孙尚香的普攻伤害会对标记目标造成额外100/120/140/160/180/200（+20%物理加成）点物理伤害（对小兵的伤害翻倍）；命中敌人后增加孙尚香物理穿透25%,持续5秒。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiang3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>究极弩炮</text>
+						<text>冷却值：30/25/20</text>
+						<text>消耗：100</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>孙尚香蓄力向指定方向发射一枚弩炮，弩炮在触碰敌人或者飞行到最远距离后将发生爆炸，对第一名触碰的敌人造成500/750/1000（+185%物理加成）点物理伤害，对爆破范围内的敌人造成75%伤害。</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升翻滚突袭副升红莲爆弹</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：疾跑/狂暴</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jp.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/kb.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>祸源+鹰眼+隐逸</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiangmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：蓝色隐匿移速方便孙尚香更好的移动寻找输出位置，团战支援也比较迅速，物理攻击可以提伤害。绿色鹰眼，穿透护甲后孙尚香的攻击伤害会更高。前期在有祸源铭文的情况下，暴击更多，清野，清兵线的速度更快，发育更快。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiangcz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：孙尚香通过翻滚会打出节奏性的强化普攻配合宗师之力，会让爆发力更加强大</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/sunshangxiangcz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：当对手消耗能力较强时，可以选择吸血属性的装备为自己带来一定的续航效果</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

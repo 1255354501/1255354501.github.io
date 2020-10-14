@@ -1,0 +1,129 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/louqiya0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">露琪亚</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>从第一次见面开始，海燕大人就是这样子。</text><text>平凡的部下与长官的关系，那种平凡正是我所渴望的。</text><text>这份如同不知不觉将手置于阳光中的温暖正是海燕大人的象征。</text><text>在那个夜里，我为了保全自己，杀了海燕大人。</text><text>我退缩了。</text><text>这份罪无论经过多少年都不会消失。</text><text>我真的可以待在这里吗</text><text>我的心该归往何处</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>一护虽是死神代理，却不是死神；虽是人类，却不是普通人类。</text><text>在得到死神力量之前，一护就希望得到能保护身边人的力量。</text><text>可是，在得到所期望的力量那刻起，就必须背负起现世和尸魂界这两个世界。</text><text>那是我们所不知道的重量。</text><text>不过，一护就是承担着这重量在前进。</text><text>我们也能同样做到吗</text><text>历史会重复，还是向前延伸。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>一护，如你所说，我们无论遇到什么事都不会改变。</text><text>我知道孤独的滋味，身陷囹圄的孤独滋味。</text><text>我也知道喜悦的滋味，同伴前来相救的喜悦滋味。</text><text>还有，同伴遍体鳞伤倒下时的惶恐滋味。</text><text>我想起来了，我心的归属。</text><text>海燕大人把他的心托付给了我。</text><text>我想留在这里。</text><text>留在尸魂界。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/louqiya1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>基本技能：</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/louqiya2.png" mode="aspectFit"></image>
+		 				<text>基本技能：袖白雪</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>前跃并使用袖白雪斩击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/louqiya3.png" mode="aspectFit"></image>
+		 			    <text>初舞·月白</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>对敌方全体造成攻击116%伤害，并有20%基础概率将其冰冻1回合。</text>
+		 				<text>Lv.2伤害增加至127%</text>
+		 				<text>Lv.3基础概率增至25%</text>
+		 				<text>Lv.4伤害增加至134%</text>
+		 				<text>Lv.5基础概率增至30%</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/louqiya4.png" mode="aspectFit"></image>
+		 				<text>觉醒技能:三舞·白刀</text>
+		 			</view> 
+		 			<view class="jinengjs"> 
+		 				<text>在每个行动（不论敌我）结束时，若自身生命比例降至50%以下时，解除自身所有控制效果，并使自身获得三舞·白刀，直到战斗结束。</text>
+						<text>Lv.2冻伤间接伤害增至生命上限14%</text>
+						<text>Lv.3三舞·白刀提升速度增至30点</text>
+						<text>Lv.4三舞·白刀无视总效果抵抗增至20%</text> 
+						<text>Lv.5触发比例增至60%</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

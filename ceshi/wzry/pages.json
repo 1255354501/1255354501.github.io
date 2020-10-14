@@ -1,0 +1,519 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "掌上荣耀"
+			}
+		},{
+		    "path" : "pages/damo/damo",
+		    "style" : {
+				"navigationBarTitleText": "达摩"
+			}
+		},{
+            "path" : "pages/xiaoqiao/xiaoqiao",
+            "style" : {
+				"navigationBarTitleText": "小乔"
+			}
+        },{
+            "path" : "pages/ake/ake",
+            "style" : {
+				"navigationBarTitleText": "阿轲"
+			}
+        },{
+            "path" : "pages/anqila/anqila",
+            "style" : {
+				"navigationBarTitleText": "安琪拉" 
+			}
+        },{
+            "path" : "pages/baiqi/baiqi",
+            "style" : {
+				"navigationBarTitleText": "白起"
+			}
+        }
+        ,{
+            "path" : "pages/bianque/bianque",
+            "style" : {
+				"navigationBarTitleText": "扁鹊"
+			}
+        },{
+            "path" : "pages/caocao/caocao",
+            "style" : {
+				"navigationBarTitleText": "曹操"
+			}
+        },{
+            "path" : "pages/chengyaojin/chengyaojin",
+            "style" : {
+				"navigationBarTitleText": "程咬金"
+			}
+        },{
+            "path" : "pages/daji/daji",
+            "style" : {
+				"navigationBarTitleText": "妲己"
+			}
+        },{
+            "path" : "pages/direnjie/direnjie",
+            "style" : { 
+				"navigationBarTitleText": "狄仁杰"
+			}
+        },{
+            "path" : "pages/dianwei/dianwei",
+            "style" : {
+				"navigationBarTitleText": "典韦"
+			}
+        },{
+            "path" : "pages/diaocan/diaocan",
+            "style" : {
+				"navigationBarTitleText": "貂蝉"
+			}
+        },{
+            "path" : "pages/gaojianli/gaojianli",
+            "style" : {
+				"navigationBarTitleText": "高渐离"
+				}
+        },{
+            "path" : "pages/gongben/gongben",
+            "style" : {
+				"navigationBarTitleText": "宫本武藏"
+			}
+        },{
+            "path" : "pages/guanyu/guanyu",
+            "style" : {
+				"navigationBarTitleText": "关羽"
+				}
+        },{
+            "path" : "pages/hanxin/hanxin",
+            "style" : {
+				"navigationBarTitleText": "韩信"
+				}
+        }
+        ,{
+            "path" : "pages/jiangziya/jiangziya",
+            "style" : {
+				"navigationBarTitleText": "姜子牙"
+				}
+        },{
+            "path" : "pages/laofuzi/laofuzi",
+            "style" : {
+				"navigationBarTitleText": "老夫子"
+				}
+        } ,{
+            "path" : "pages/libai/libai",
+            "style" : {
+				"navigationBarTitleText": "李白"}
+        },{
+            "path" : "pages/lianbo/lianbo",
+            "style" : {
+				"navigationBarTitleText": "廉颇"
+				}
+        },{
+            "path" : "pages/liubang/liubang",
+            "style" : { 
+				"navigationBarTitleText": "刘邦"
+			}
+        },{
+            "path" : "pages/liushan/liushan",
+            "style" : {
+				"navigationBarTitleText": "刘禅"
+				}
+        },{
+            "path" : "pages/luban/luban",
+            "style" : {
+				"navigationBarTitleText": "鲁班七号"
+				}
+        }
+        ,{
+            "path" : "pages/luna/luna",
+            "style" : {
+				"navigationBarTitleText": "露娜"
+				}
+        },{
+            "path" : "pages/lvbu/lvbu",
+            "style" : {
+				"navigationBarTitleText": "吕布"
+				}
+        },{
+            "path" : "pages/make/make",
+            "style" : {
+				"navigationBarTitleText": "马可波罗"
+				}
+        }
+        ,{
+            "path" : "pages/miyue/miyue",
+            "style" : { 
+				"navigationBarTitleText": "芈月"
+			}
+        },{
+            "path" : "pages/mozi/mozi",
+            "style" : {
+				"navigationBarTitleText": "墨子"
+				}
+        },{
+            "path" : "pages/sunbin/sunbin",
+            "style" : {
+				"navigationBarTitleText": "孙膑"}
+        },{
+            "path" : "pages/sunshangxiang/sunshangxiang",
+            "style" : {
+				"navigationBarTitleText": "孙尚香"
+				}
+        },{
+            "path" : "pages/wuzetian/wuzetian",
+            "style" : {
+				"navigationBarTitleText": "武则天"
+				}
+        },{
+            "path" : "pages/xiahoudun/xiahoudun",
+            "style" : { 
+				"navigationBarTitleText": "夏侯惇"
+			}
+        },{
+            "path" : "pages/xiangyu/xiangyu",
+            "style" : {
+				"navigationBarTitleText": "项羽"
+				}
+        },{
+            "path" : "pages/yingzheng/yingzheng",
+            "style" : {
+				"navigationBarTitleText": "嬴政"
+			}
+        },{
+            "path" : "pages/zhaoyun/zhaoyun",
+            "style" : {
+				"navigationBarTitleText": "赵云"
+				}
+        },{
+            "path" : "pages/zhenji/zhenji",
+            "style" : {
+				"navigationBarTitleText": "甄姬"
+				}
+        },{
+            "path" : "pages/zhongwuyan/zhongwuyan",
+            "style" : {
+				"navigationBarTitleText": "钟无艳"
+				}
+        },{
+            "path" : "pages/zhouyu/zhouyu",
+            "style" : {
+				"navigationBarTitleText": "周瑜"
+				}
+        },{
+            "path" : "pages/zhuangzhou/zhuangzhou",
+            "style" : {
+				"navigationBarTitleText": "庄周"
+				}
+        },{
+            "path" : "pages/yixing/yixing",
+            "style" : {
+				"navigationBarTitleText": "弈星"
+				}
+        },{
+            "path" : "pages/shouyue/shouyue",
+            "style" : {
+				"navigationBarTitleText": "百里守约"
+				}
+        },{
+            "path" : "pages/xuance/xuance",
+            "style" : {
+				"navigationBarTitleText": "百里玄策"
+				}
+        },{
+            "path" : "pages/huowu/huowu",
+            "style" : {
+				"navigationBarTitleText": "不知火舞"
+				}
+        },{
+            "path" : "pages/caiwenji/caiwenji",
+            "style" : {
+				"navigationBarTitleText": "蔡文姬"
+				}
+        },{
+            "path" : "pages/chengjisihan/chengjisihan",
+            "style" : {
+				"navigationBarTitleText": "成吉思汗"
+				}
+        },{
+            "path" : "pages/daqiao/daqiao",
+            "style" : {
+				"navigationBarTitleText": "大乔"
+				}
+        },{
+            "path" : "pages/donghuang/donghuang",
+            "style" : {
+				"navigationBarTitleText": "东皇太一"
+				}
+        },{
+            "path" : "pages/ganjiang/ganjiang",
+            "style" : {
+				"navigationBarTitleText": "干将莫邪"
+				}
+        },{
+            "path" : "pages/gongsunli/gongsunli",
+            "style" : {
+				"navigationBarTitleText": "公孙离"
+				}
+        },{
+            "path" : "pages/guiguzi/guiguzi",
+            "style" : {
+				"navigationBarTitleText": "鬼谷子"
+				}
+        },{
+            "path" : "pages/houyi/houyi",
+            "style" : {
+				"navigationBarTitleText": "后羿"
+				}
+        },{
+            "path" : "pages/huamulan/huamulan",
+            "style" : {
+				"navigationBarTitleText": "花木兰"
+				}
+        },{
+            "path" : "pages/huangzhong/huangzhong",
+            "style" : { 
+				"navigationBarTitleText": "黄忠"
+			}
+        },{
+            "path" : "pages/juyoujing/juyoujing",
+            "style" : {
+				"navigationBarTitleText": "橘右京"
+				}
+        },{
+            "path" : "pages/kai/kai",
+            "style" : {
+				"navigationBarTitleText": "凯"
+				}
+        },{
+            "path" : "pages/kuangtie/kuangtie",
+            "style" : {
+				"navigationBarTitleText": "狂铁"
+				}
+        },{
+            "path" : "pages/lanlingwang/lanlingwang",
+            "style" : {
+				"navigationBarTitleText": "兰陵王"
+				}
+        },{
+            "path" : "pages/liyuanfang/liyuanfang",
+            "style" : {
+				"navigationBarTitleText": "李元芳"
+				}
+        },{
+            "path" : "pages/liubei/liubei",
+            "style" : {
+				"navigationBarTitleText": "刘备"
+				}
+        },{
+            "path" : "pages/machao/machao",
+            "style" : {
+				"navigationBarTitleText": "马超"
+				}
+        },{
+            "path" : "pages/mengqi/mengqi",
+            "style" : {
+				"navigationBarTitleText": "梦奇"
+				}
+        },{
+            "path" : "pages/milaidi/milaidi",
+            "style" : {
+				"navigationBarTitleText": "米莱狄"
+				}
+        },{
+            "path" : "pages/mingshiyin/mingshiyin",
+            "style" : {
+				"navigationBarTitleText": "明世隐"
+			}
+        },{
+            "path" : "pages/nezha/nezha",
+            "style" : {
+				"navigationBarTitleText": "哪吒"
+			}
+        },{
+            "path" : "pages/nakelulu/nakelulu",
+            "style" : {
+				"navigationBarTitleText": "娜可露露"
+			}
+        },{
+            "path" : "pages/niumo/niumo",
+            "style" : {
+				"navigationBarTitleText": "牛魔"
+			}
+        },{
+            "path" : "pages/nvwa/nvwa",
+            "style" : {
+				"navigationBarTitleText": "女娲"
+			}
+        },{
+            "path" : "pages/pangu/pangu",
+            "style" : {
+				"navigationBarTitleText": "盘古"
+			}
+        },{
+            "path" : "pages/simayi/simayi",
+            "style" : {
+				"navigationBarTitleText": "司马懿"
+			}
+        },{
+            "path" : "pages/sulie/sulie",
+            "style" : {
+				"navigationBarTitleText": "苏烈"
+				}
+        },{
+            "path" : "pages/sunce/sunce",
+            "style" : {
+				"navigationBarTitleText": "孙策"
+				}
+        },{
+            "path" : "pages/sunwukong/sunwukong",
+            "style" : {
+				"navigationBarTitleText": "孙悟空"
+				}
+        },{
+            "path" : "pages/taiyi/taiyi",
+            "style" : {
+					"navigationBarTitleText": "太以真人"
+			}
+        },{
+            "path" : "pages/wangzhaojun/wangzhaojun",
+            "style" : {
+				"navigationBarTitleText": "王昭君"
+				}
+        },{
+            "path" : "pages/xishi/xishi",
+            "style" : {
+				"navigationBarTitleText": "西施"
+			}
+        },{
+            "path" : "pages/yadianna/yadianna",
+            "style" : {
+				"navigationBarTitleText": "雅典娜"
+				
+				}
+        },{
+            "path" : "pages/yase/yase",
+            "style" : {
+				"navigationBarTitleText": "亚瑟"
+			}
+        },{
+            "path" : "pages/yangjian/yangjian",
+            "style" : {
+				"navigationBarTitleText": "杨戬"
+				}
+        },{
+            "path" : "pages/yangyuhuan/yangyuhuan",
+            "style" : {
+				"navigationBarTitleText": "杨玉环"
+				}
+        },{
+            "path" : "pages/yao/yao",
+            "style" : {
+				"navigationBarTitleText": "瑶"
+				}
+        },{
+            "path" : "pages/zhanshiyao/zhanshiyao",
+            "style" : {
+				"navigationBarTitleText": "曜"
+			}
+        },{
+            "path" : "pages/yuji/yuji",
+            "style" : {
+				"navigationBarTitleText": "虞姬"
+			}
+        },{
+            "path" : "pages/yuange/yuange",
+            "style" : {
+				"navigationBarTitleText": "元歌"
+			}
+        },{
+            "path" : "pages/zhangfei/zhangfei",
+            "style" : {
+			   "navigationBarTitleText": "张飞"
+			}
+        },{
+            "path" : "pages/zhangliang/zhangliang",
+            "style" : {
+				"navigationBarTitleText": "张良"
+			}
+        },{
+            "path" : "pages/zhongkui/zhongkui",
+            "style" : {
+				"navigationBarTitleText": "钟馗"
+			}
+        },{
+            "path" : "pages/zhugeliang/zhugeliang",
+            "style" : {
+				"navigationBarTitleText": "诸葛亮"
+			}
+        },{
+            "path" : "pages/zhubajie/zhubajie",
+            "style" : {
+				"navigationBarTitleText": "猪八戒"
+			}
+        },{
+            "path" : "pages/change/change",
+            "style" : {
+				"navigationBarTitleText": "嫦娥"
+			}
+        },{
+            "path" : "pages/dunshan/dunshan",
+            "style" : {
+				"navigationBarTitleText": "盾山"
+			}
+        },{
+            "path" : "pages/jialuo/jialuo",
+            "style" : {
+				"navigationBarTitleText": "伽罗"
+			}
+        },{
+            "path" : "pages/jing/jing",
+            "style" : {
+				"navigationBarTitleText": "镜"
+			}
+        },{
+            "path" : "pages/lixin/lixin",
+            "style" : {
+				"navigationBarTitleText": "李信"
+			}
+        },{
+            "path" : "pages/lubandashi/lubandashi",
+            "style" : {
+				"navigationBarTitleText": "鲁班大师"
+			}
+        },{
+            "path" : "pages/mengtian/mengtian",
+            "style" : {
+				"navigationBarTitleText": "蒙恬"
+			}
+        },{
+            "path" : "pages/mengya/mengya",
+            "style" : {
+				"navigationBarTitleText": "蒙犽"
+			}
+        },{
+            "path" : "pages/waner/waner",
+            "style" : {
+				"navigationBarTitleText": "上官婉儿"
+			}
+        },{
+            "path" : "pages/shenmengxi/shenmengxi",
+            "style" : {
+				"navigationBarTitleText": "沈梦溪"
+			}
+        },{
+            "path" : "pages/yunzhongjun/yunzhongjun",
+            "style" : {
+				"navigationBarTitleText": "云中君"
+			}
+        },{
+            "path" : "pages/peiqinhu/peiqinhu",
+            "style" : {
+				"navigationBarTitleText": "裴擒虎"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "掌上荣耀",
+		"navigationBarBackgroundColor": "#d8dbe5",
+		"backgroundColor": "#FFFFFF"
+	}
+}

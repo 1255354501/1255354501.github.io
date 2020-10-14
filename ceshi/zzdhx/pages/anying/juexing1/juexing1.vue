@@ -1,0 +1,119 @@
+<template>
+	<view class="content">
+		<view class="title"><text>伊甸希望乐园觉醒之章1</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>在暗之战士们的努力下，爱梅特赛尔克被消灭了。就这样第一世界逃过了灭亡的危机，可与此同时继承了光之巫女力量的少女——琳感知到了一股巨大的光之力已经觉醒。为了确认光之力的出处，一行人前往了空无大地进行调查，并在那里发现了坠落在地面的世界上最初诞生的食罪灵。一行人将这个光之泛滥发生源的食罪灵命名为伊甸，并为了让第一世界的环境重获新生，打算尝试操控伊甸。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing10.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：伊甸内核</text></view>
+		    	<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：10/5</text></view>
+				<view class="text-text-text"><text>新手奖励：40</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：80级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于425</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：否</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>伊甸的支配者</text></view>
+				<view class="text-text-text"><text>战斗精英和魔法导师（除设限特职）80级</text></view>
+				<view class="text-text-text"><text>琳</text></view>
+				<view class="text-text-text"><text>空无大地X:6.1,Y:5.8</text></view>
+				<view class="text-text-text"><text>前置任务：起始的“乐园”</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text><strong>2.至尊伊甸</strong></text></view>
+				<view class="text-text-text"><text>除极大爆震期间场地的边缘都有即死伤害</text></view>
+				<view class="text-text-text"><text>伊甸重力：全屏释放的血量百分比AOE，护盾以外的减伤无效，注意回复。另外此技能后的平A极有可能倒T。</text></view>
+				<view class="text-text-text"><text>冷漠之恶：点名4DPS的圆形AOE，随后会产生陷阱区，注意分散同时将陷阱放置于场边。</text></view><view class="text-text-text"><text>超重压：踩到陷阱触发的伤害，伤害较高同时会进入加重状态</text></view>
+				<view class="text-text-text"><text>伊甸核爆：月环AOE，靠近回避。</text></view><view class="text-text-text"><text>虚荣之恶：点名双T的直线AOE，注意避开人群。</text></view>
+				<view class="text-text-text"><text>乐园之枪：读条对当前一仇释放的单体攻击，注意减伤。</text></view>
+				<view class="text-text-text"><text>天国分断：跟随乐园之枪后对当前一仇释放的单体攻击。</text></view>
+				<view class="text-text-text"><text>净土之光：boss在读条前会移动到场地的一角，同时朝向场地中心读条释放大范围AOE，靠近即可。</text></view>
+				<view class="text-text-text"><text>三角攻击：在净土之光后使用，boss返回场中，点名每个玩家释放爆炎，以自身为圆心释放玄冰，以自身为中心十字释放暴雷，注意分散和回避。</text></view>
+				<view class="text-text-text"><text>空间转换：全屏AOE，注意减伤和回复。同时会转换场地。</text></view>
+				<view class="text-text-text"><text>净土射线：读条技能，释放后场地内周围的八个光球会朝向随机目标多次发射可以回避的直线激光。</text></view><view class="text-text-text"><text>失乐园：读条技能，释放后场地内随机点名数位队员脚下出现可以回避的圆形AOE。</text></view>
+				<view class="text-text-text"><text>净土之光：boss在读条失乐园后会前往场地一角读条净土之光，此时不要急于走到boss后方。</text></view>
+				<view class="text-text-text"><text>空间转换：boss回到场中心，读条全屏AOE，场地切换回通常状态。</text></view>
+				<view class="text-text-text"><text>极大爆震：读条大伤害全屏AOE，同时伴随转场，注意回复。</text></view>
+				<view class="text-text-text"><text>乐园冲：极大爆震后场地中心左右出现的两个距离衰减AOE，推荐集体前往场地边缘减少伤害。</text></view><view class="text-text-text"><text>乐园冲后，中心点会出现两个乐园守护者，双T拉住仇恨同时注意面向。</text></view>
+				<view class="text-text-text"><text>魔力斩击：乐园守护者对自身一仇释放的扇形AOE。</text></view>
+				<view class="text-text-text"><text>魔力爆发：乐园守护者读条释放的全屏AOE，注意减伤和回复。</text></view>
+				<view class="text-text-text"><text>归于尘土：长时间未击倒乐园守护者会读条释放的狂暴技能。</text></view>
+				<view class="text-text-text"><text>永恒吐息：结束小怪阶段后，播放超长动画对全队造成的大伤害，注意结束前确保全队血量在健康状态。</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing14.png mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing15.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing16.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

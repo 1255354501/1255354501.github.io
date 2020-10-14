@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/1-10/1-10",
+    "pages/11-20/11-20",
+    "pages/21-30/21-30",
+    "pages/31-40/31-40",
+    "pages/41-50/41-50",
+    "pages/51-60/51-60",
+    "pages/61-70/61-70",
+    "pages/8/8",
+    "pages/9/9",
+    "pages/10/10",
+    "pages/11/11",
+    "pages/12/12",
+    "pages/13/13",
+    "pages/14/14",
+    "pages/15/15",
+    "pages/16/16",
+    "pages/17/17",
+    "pages/18/18",
+    "pages/19/19",
+    "pages/20/20",
+    "pages/21/21",
+    "pages/22/22",
+    "pages/23/23",
+    "pages/24/24",
+    "pages/25/25",
+    "pages/26/26",
+    "pages/27/27",
+    "pages/28/28"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "魔兽大世界",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

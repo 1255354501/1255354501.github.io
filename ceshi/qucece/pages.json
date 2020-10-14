@@ -1,0 +1,212 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "趣测测"
+			}
+		},{
+		    "path" : "pages/wzry/wzry",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/gxfc/gxfc",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cjgl/cjgl",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cggl/cggl",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/zyzs/zyzs",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/yysds/yysds",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/wzsf/wzsf",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nidaodiyouduowangfu？/nidaodiyouduowangfu？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nizaiaiqingzhongyouduohen？/nizaiaiqingzhongyouduohen？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/niyouduo“quexinyan”？/niyouduo“quexinyan”？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/niyouduoqingxuhua？/niyouduoqingxuhua？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/niyouduonanjiayu？/niyouduonanjiayu？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nidexinyouduoleiliao？/nidexinyouduoleiliao？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nidexinlinianlingyouduoda？/nidexinlinianlingyouduoda？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nidexinchangyouduolengying？/nidexinchangyouduolengying？",
+            "style" : {}
+        },{
+            "path" : "pages/quce2/nihuanhuibeigaobaiduoshaoci？/nihuanhuibeigaobaiduoshaoci？",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nihuidanshendaoshimoshihou/nihuidanshendaoshimoshihou",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nihuishiyigeduoshaofenlianren/nihuishiyigeduoshaofenlianren",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nineixinyouduoweiqu/nineixinyouduoweiqu",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nizaiaiqingzhongyouduosong/nizaiaiqingzhongyouduosong",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nishiqingganzhangaihuanzhema/nishiqingganzhangaihuanzhema",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/niyouduorangrenxinteng/niyouduorangrenxinteng",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/niderenshengxuyaoaiqingma/niderenshengxuyaoaiqingma",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nidelianaiduanweiyouduogao/nidelianaiduanweiyouduogao",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nideanheizhishuyouduogao/nideanheizhishuyouduogao",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nidezuijiaaiqingjulishiduoyuan/nidezuijiaaiqingjulishiduoyuan",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nidetaohuaweihechichibulai/nidetaohuaweihechichibulai",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nizhebeizihuiyouaiqingma/nizhebeizihuiyouaiqingma",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/nizhebeizinengzhaodaozhenzhengdelinghunbanlvma/nizhebeizinengzhaodaozhenzhengdelinghunbanlvma",
+            "style" : {}
+        },{
+            "path" : "pages/quce3/zhebeiziyujianzhenaidejishuaiyouduoda/zhebeiziyujianzhenaidejishuaiyouduoda",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/niweirenyouduojueqiang/niweirenyouduojueqiang",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nidaodiyouduo“xiong”/nidaodiyouduo“xiong”",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/niduizijiyouduohen/niduizijiyouduohen",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/niyouduohuipan/niyouduohuipan",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/niyouduosong/niyouduosong",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/niyouduocuiruo/niyouduocuiruo",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nidefoxizhishuyouduogao/nidefoxizhishuyouduogao",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nideneixinyouduo”sang“/nideneixinyouduo”sang“",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nidexijingzhishuyouduoshao/nidexijingzhishuyouduoshao",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nideningmengjingzhishuyouduogao/nideningmengjingzhishuyouduogao",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nidelinghunyouduoran/nidelinghunyouduoran",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nidelianpiyouduohou/nidelianpiyouduohou",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nishenshangde“baqi”zhishuyouduoshao/nishenshangde“baqi”zhishuyouduoshao",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/nizhebeizihuiqianjiduanqingzhai/nizhebeizihuiqianjiduanqingzhai",
+            "style" : {}
+        },{
+            "path" : "pages/quce4/guzilideniyouduojianqiang/guzilideniyouduojianqiang",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nishinianhouhuiyueruduoshao/nishinianhouhuiyueruduoshao",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nishiyigexiaozuojingma/nishiyigexiaozuojingma",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nishinageshenxiandezhuanshi/nishinageshenxiandezhuanshi",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nizuixiang《hongloumeng》lideshui/nizuixiang《hongloumeng》lideshui",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nizuixiangwuxiaxiaoshuozhongdeshui/nizuixiangwuxiaxiaoshuozhongdeshui",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nizuixiangdanmeijuzhongdeshui/nizuixiangdanmeijuzhongdeshui",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nidewushangjiancedan/nidewushangjiancedan",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nidedanshenzongjiebaogao/nidedanshenzongjiebaogao",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nidegongshouyinxiangjiandingdan/nidegongshouyinxiangjiandingdan",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nideyuwanggouchengtu/nideyuwanggouchengtu",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nidelinghunyouduose/nidelinghunyouduose",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nidetianpinrenge/nidetianpinrenge",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nideshentilizhuzhuoshimoshenshou/nideshentilizhuzhuoshimoshenshou",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nideyincangrenxingjiance/nideyincangrenxingjiance",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/nixianfengliaoma/nixianfengliaoma",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/bierenyanzhongnichangshimoyang/bierenyanzhongnichangshimoyang",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/deyunshelinidezuijiaCPshishui/deyunshelinidezuijiaCPshishui",
+            "style" : {}
+        },{
+            "path" : "pages/quce5/wodebingshanxinggetu/wodebingshanxinggetu",
+            "style" : {}
+        }
+    ],
+	"navigateToMiniProgramAppIdList":["tt0b497df494736173"],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "趣测测",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

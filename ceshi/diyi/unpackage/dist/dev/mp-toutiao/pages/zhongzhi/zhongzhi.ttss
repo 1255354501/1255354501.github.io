@@ -1,0 +1,53 @@
+
+.title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 100%;
+	padding-left:20rpx;
+	padding-top: 30rpx;
+	border-bottom: 1rpx solid #000000;
+}
+.title .titleCentent{
+	 width: 65%;
+	 word-break: break-all;
+	 text-overflow: ellipsis;
+	 overflow: hidden;
+	 display: -webkit-box;
+	 -webkit-line-clamp: 2;
+	 -webkit-box-orient: vertical;
+	 padding-left: 20rpx;
+}
+.content{
+	  margin-top: 10rpx;
+	  padding-left: 20rpx;
+	  padding-right: 20rpx;
+}
+.image{
+	  width: 100%;
+	  margin-top: 10rpx;
+}
+.content view{
+	  margin-bottom: 20rpx;
+}
+.content .list{
+	  display: block;
+	  -webkit-flex-wrap: nowrap;
+	          flex-wrap: nowrap;
+}
+.content .list text{
+	  display: block;
+	  margin-bottom: 10rpx;
+}
+.wendao view{
+	  margin-top: 10rpx;
+	  /* display: block; */
+}
+.wendao view text{
+	 display: block;
+	 margin-top: 10rpx;
+}
+.wendao .da{
+	  text-indent: 40rpx;
+}
+

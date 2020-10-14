@@ -1,0 +1,132 @@
+<template>
+	<view class="content">
+		<view class="title"><text>禁忌城邦玛哈</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>亚菲姆湿地位于阿尔迪纳德次大陆西岸，魔法城邦玛哈的遗迹仍然静静地保留在这里。通过这些遗迹，我们依稀还能够看到第五星历时期那座以追求极致的破坏力为荣的魔法文明。而这里，正是赤喙空贼团和冒险者的下一个目的地。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng140.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view> 
+		    	<view class="text-text-text"><text>任务地点：禁忌城邦玛哈</text></view>
+				<view class="text-text-text"><text>任务时限：120分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成:</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>1</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>5</text></view>
+				</view>
+				<view class="text-text-text"><text>首领数量：4</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：100</text></view>
+				<view class="text-text-text"><text>新手奖励：50</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view> 
+				<view class="text-text-text"><text>等级要求：60级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于205</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view> 
+				<view class="text-text-text"><text>禁忌城邦玛哈</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师60级</text></view>
+				<view class="text-text-text"><text>斯塔西娅阿巴拉提亚云海X:6.2,Y:5.8</text></view>
+				<view class="text-text-text"><text>前置任务：魔航船虚无方舟</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2. 阿剌克涅</text></view>
+				<view class="text-text-text"><text>第一阶段</text></view><view class="text-text-text"><text>基本出啥躲啥，aoe有这几种：</text></view><view class="text-text-text"><text>boss尾部的扇形范围伤害</text></view><view class="text-text-text"><text>boss沉下地面后以场地中心开始覆盖全场的三连圆周型伤害，顺序发动，从场地中心→外围一周→最外围一周，站在两次伤害范围交接处前后两步就可以躲开</text></view>
+				<view class="text-text-text"><text>接上一个会在场地随机处释放一个范围衰减伤害点，远离即可，该点也是boss之后会从地底冲出的位置</text></view><view class="text-text-text"><text>随机点名玩家顺序释放蛛网，踩上去会得到一个“消化粘液”的debuff，远离人群放置即可</text></view><view class="text-text-text"><text>随机点名几位玩家头顶绿球释放粘液蛋，范围非常大建议点名玩家自主远离人群，未点名玩家也往范围外跑，该技能无伤害但在释放之后会对范围内所有玩家进行连线，被连线的玩家不能动不能放技能，需要有人走过断线，如果范围内只有被点名玩家则不会被连线</text></view>
+				<view class="text-text-text"><text>第二阶段</text></view><view class="text-text-text"><text>所有人被boss上抬到一个蛛网区域，区域分为两种：紫灰色的蛛网结构型地面，绿色的填充型地面，绿色的踩上去会有减速的debuff，只能走紫灰色型地面</text></view><view class="text-text-text"><text>出现两种小怪：大地以太、酸液蜘蛛，出啥打啥，酸液蜘蛛打掉之后会出现一个洞，下去一队玩家打蛛丝结扣，一共三个，打完巢穴就会崩塌，上面的玩家优先大地以太，由于下面会随机刷新小怪蛛网侍女，建议一t一n自觉下去</text></view>
+				<view class="text-text-text"><text>整个蛛网巢穴阶段boss会一直读条向心聚爆，灵性抬血应对即可</text></view><view class="text-text-text"><text>第三阶段</text></view><view class="text-text-text"><text>回到地面之后依然是p1那几个点名和范围aoe的重复，没什么好说的</text></view><view class="text-text-text"><text>dps正常这里再打几下就结束了，但是如果没有打死boss，就会出现分摊+点名二连，这次点名放置蛛网之后，boss会潜入地下，在场地内制造漩涡流沙，需要一直往外跑并且站在被放置的蛛网上来躲避</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng144.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng145.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text><strong>3.弗加尔</strong></text></view><view class="text-text-text"><text>第一阶段</text></view><view class="text-text-text"><text>boss连线地面上的尸体（场景内随机）产生绿圈，该绿圈会在几秒后爆炸，让范围内所有人产生一个“逐渐僵尸化”的debuff，持续35s，只是僵尸化这个debuff无更多影响，但如果是同时站在两个绿圈的交叉处被喷到，就会直接变成不能动的僵尸，boss在每个阶段都会一直释放这个绿圈，p1躲不躲都行</text></view><view class="text-text-text"><text>召唤几只小怪and三连长方形aoe，灵性躲避打掉即可</text></view><view class="text-text-text"><text>在整个场地产生数个喷出红色雾气的小红圈，踩上去会有一个出血的debuff，一个人踩就可以，一定要灵性踩，之后boss会释放一个全屏aoe，剩的圈越多伤害越高</text></view>
+				<view class="text-text-text"><text>随机点名几位玩家释放“祭品烙印”，和其他被点名玩家聚在一起即可，千万不要自己跑远自闭，不然除了点名者还会牵连队友会变成青蛙</text></view><view class="text-text-text"><text>第二阶段</text></view><view class="text-text-text"><text>boss在场地中央释放一个红圈，召唤出三只小怪，以进入场地时的面向为标准，正面是B，左A右C，每队t拉一只，B队固定位置会刷出梦魇，AC是哈加提，注意面向，优先击杀梦魇，t或dps注意打断梦魇的读条技能欺瞒雾，但一般dps不划水前提下直接集火掉就不会放出这个技能，哈加提会有背对即可躲掉的死亡宣告，如果中了记得py奶妈或者诗人的康复</text></view>
+				<view class="text-text-text"><text>打完小怪是全屏aoe，灵性抬血就行</text></view><view class="text-text-text"><text>这个阶段开始，boss召唤出的绿圈一定要进去，不要贪输出，绿圈会在boss快读条完“超即死”的时候爆发，只爆发一次，没有带着“逐渐僵尸化”或者“僵尸化”debuff的人会立刻去世</text></view>
+				<view class="text-text-text"><text>随机点名玩家长方形aoe三条，圆形跟随aoe三位，灵性躲避</text></view><view class="text-text-text"><text>boss在此阶段会在场地随机地点释放绿球，该绿球的效果和绿圈一模一样，产生绿圈时会立刻爆炸，注意：从这个阶段开始每一次绿圈都会伴随超即死，一定要看见绿圈or绿球就要靠近</text></view><view class="text-text-text"><text>之后boss会读条地狱之风技能并发动p1的小红圈技能，地狱之风效果是把所有存活玩家的血量削到三位数，并且不受无敌or奶妈盾之类的影响，奶妈在这里一定要立刻抬血，尤其是mt队，不然boss一个顺劈mt就暴毙了，抬血完踩红圈同p1，由于踩红圈会有一个出血debuff，没有被奶关爱的人就不要去送了，正常的话这里就打完了，之后是各个技能的循环</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng146.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng147.png" mode="aspectFit"></image></view>
+				<view class="text-text-title"><text>4.奥兹玛</text></view>
+				<view class="text-text-text"><text>这个boss之前会有一个小怪“石面”，简单提一提</text></view><view class="text-text-text"><text>场地左中右三个圈分别标ABC，开始打之后AC队会封锁，出啥打啥，打完等看到石面读碑文核爆，ABC三队各出一个人去踩自己队范围内的红圈，然后在中间的魔法壁障内集中躲掉这个技能</text></view><view class="text-text-text"><text>该小怪会一直释放对t面向的无读条长形aoe，所以绝对要拉背面</text></view><view class="text-text-text"><text>奥兹玛</text></view><view class="text-text-text"><text>第一阶段</text></view>
+				<view class="text-text-text"><text>到场之后B队不动，A左C右在长形平台上站好，B队正对面的弧形带标A，另外两个弧形左B右C，boss开始是球形，另外有两种模式随机出</text></view><view class="text-text-text"><text>正方体：靠近boss，dn和t分别站在长形平台的左右两边，该阶段会一直对t释放不可闪避的长形aoe</text></view><view class="text-text-text"><text>三角体：远离长形平台站在两边的弧形带上，boss会对长形平台释放全覆盖的aoe，中则附加缩小中毒减速三重debuff，等他释放完一次就可以回去了</text></view>
+				<view class="text-text-text"><text>中间会出现几种模式不同的技能：</text></view><view class="text-text-text"><text>紫色的大圈是范围衰减点名，需要去到各自队伍所标点的弧形带上释放，就不会波及到长形平台</text></view><view class="text-text-text"><text>出现小怪“压缩世界的断片”，st两队拉住打掉</text></view><view class="text-text-text"><text>第二阶段</text></view><view class="text-text-text"><text>boss读条黑洞，进入压缩世界，三队分别四人踩塔然后打掉平台上的小怪即可</text></view>
+				<view class="text-text-text"><text>奥兹玛之影，会读条技能侵入，背对即可，如果不小心中了也要背对解除，不然会变成压缩块，正常输出一般这里就打完了，如果没有，会有三个点名紫圈，远离人群即可</text></view><view class="text-text-text"><text>回到表世界，boss重复p1技能，新增有：</text></view><view class="text-text-text"><text>分摊，灵性奶即可</text></view>
+				<view class="text-text-text"><text>出现蓝球，建议奶带盾吃，dps非满血别吃，重点是远离人群吃</text></view><view class="text-text-text"><text>随机点名一人的小范围aoe，附带出血debuff，无预警灵性奶即可</text></view><view class="text-text-text"><text>boss读条技能神圣，附带击退效果注意站位</text></view><view class="text-text-text"><text>同p1的紫色大圈范围衰减，但是点名变成两个，建议一人站弧形带一人站长形平台的左后方or右后方，弧形带上挤一挤也可以站两个</text></view>
+				<view class="text-text-text"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng148.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng149.png" mode="aspectFit"></image></view>
+				<view class="text-text-title"><text>5.卡洛菲斯提莉</text></view>
+				<view class="text-text-text"><text>第一阶段</text></view><view class="text-text-text"><text>该boss会有读条技能“接发”，观察他左边或者右边哪边出现了一团黑的，就去另一边，出现了变异头发那边，会释放覆盖整个半场的aoe，附加切伤debuff，dps中则半血，释放速度非常快所以看到变异就去另一边，不要贪，但这里如果有灵性t，可以更改面向，把他头发变异那边转往没人的后半场</text></view><view class="text-text-text"><text>接发出现圆形aoe之后，地面上还会伴随出现紫圈，该紫圈只要有人踩，会立刻把圈周围所有玩家拘束进“魔发束缚”，请远离紫圈，如果不幸出现了“魔发束缚”一定要第一时间打掉，不然在里面的玩家会立刻去世</text></view>
+				<view class="text-text-text"><text>第二阶段</text></view><view class="text-text-text"><text>boss释放多个“魔力水晶”and“大魔力水晶”，打掉即可</text></view><view class="text-text-text"><text>在这个阶段会重复魔发束缚，优先打这个</text></view><view class="text-text-text"><text>随机点名几位玩家，头上有标记，脚下形成追踪型圆形aoe，在场地边缘远离人群绕圈一直跑就行</text></view>
+				<view class="text-text-text"><text>打完水晶会有全屏aoe，正常打完了水晶的话伤害很低，然后是p1技能循环</text></view><view class="text-text-text"><text>在这里新增技能是：场地上出现数个圆形aoe，aoe结束后相同位置会长出变异的头发，分别是：圆球形远离，斧头形靠近，圆球型会把自身周围玩家砸上天并附加易伤buff，斧头形是朝外的圆环型aoe并附加易伤buff，脚下的一圈是安全点，有时会出现两种都有的，靠近斧头形即可，注意这个boss很多技能附带debuff，吃一个两个没事，层数多了直接嗝屁</text></view>
+				<view class="text-text-text"><text>boss台词“是正面而迎还是背向而立”时，会在场地各处出现变异的头发，同时面对boss的人会被boss吸到场中央，连吃三段头发伤害残血并上天，背对boss的人会被击飞到场地边缘，但这里要注意被击飞的方向是否躲开了那些变异的头发</text></view><view class="text-text-text"><text>紧接着是接发的半场aoe，一定要看好boss切哪边，之后会在场地边缘出现镰刀型头发，效果是交叉释放的长条形aoe，范围比较宽，不被这几个头发交叉处覆盖的边缘扇形区域是安全点</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng1410.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng1411.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jicheng1412.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

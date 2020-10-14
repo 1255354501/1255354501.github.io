@@ -1,0 +1,73 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>火法点燃详解 被削并非被砍</text></view>
+			<view class="contwent">
+				<view class="content"><text>在7月26日的时候，暴雪发表了蓝贴修复了在怀旧服中火法点燃的Bug，引起了法师玩家大片哀嚎，纷纷表示暴雪没有原汁原味保留60年代的机制，然而近期暴雪给玩家的回复却大相径庭。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf1.png" mode="aspectFit"/></view>
+				
+				<view class="title"><text>点燃的机制</text></view>
+				<view class="content"><text>对于非法师玩家可能不了解火法的机制，这里简单介绍一下：火法可以通过天赋点出“点燃”这个技能，在法术暴击之后附加持续4秒40%伤害的DOT。但是由于60年代BOSS的debuff位很少，如果多个火法将会产生非常多的DOT，所以暴雪设计了点燃的叠加机制。让所有火法的点燃伤害都归到1个点燃上，暴击之后会重新刷新点燃的持续时间，并且累计伤害最多5层。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf2.png" mode="aspectFit"/></view>
+				
+				<view class="title"><text>点燃机制的修改是原汁原味</text></view>
+				<view class="content"><text>而此次暴雪修改点燃的机制是针对超过1层点燃之后的持续时间由原来的4秒削弱到不到3秒的时间，变相增加了法师玩家叠点燃的难度。同时在WCL上火法玩家的DPS统计也将会分配到个人，双管齐下之后火法的DPS很难再出现能够与狂暴战比肩的情况，这是大部分法师抱怨的原因。</text></view>
+				<view class="content"><text>但是之后暴雪的回应却让玩家大跌眼镜，暴雪表示：修复火法的“点燃”机制是为了原汁原味</text></view>
+				
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf3.png" mode="aspectFit"/></view>
+				<view class="content"><text>起因是在5月份有人在论坛反应怀旧服的“点燃”机制是遵循2.01版本的机制，(怀旧服是用2.0的框架开发),而不是1.12的机制,而这个机制相对来说太强大了。</text></view> 
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf4.png" mode="aspectFit"/></view> 
+				<view class="content"><text>而暴雪在安其拉开门之前修改了这个“原汁原味”的机制，需要让玩家注意的是，提出法师点燃机制非“原汁原味”的是前N服的测试总监。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf5.png" mode="aspectFit"/></view>
+				 
+				<view class="content"><text>之后玩家找到早期6的0年代的PVP视频中也侧面证明了2层及以上的点燃只有不到3秒左右的持续时间。</text></view> 
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/hf6.png" mode="aspectFit"/></view>
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

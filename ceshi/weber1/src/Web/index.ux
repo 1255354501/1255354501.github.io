@@ -1,0 +1,84 @@
+<template>
+    <div class="doc-main">
+      <div class="titlebar">
+        <image class="leftbackimg" @click="backClick()" src="/Common/img/arrow-left1.png"></image>
+        <text>{{title}}</text>
+      </div>
+      <div style="height:90px;width:100%;"></div>
+      <!-- webview  -->
+      <div class="doc-comp">
+        <web id="webkit" @click="{{ys()}}" class="web-comp" src="{{url}}" allowthirdpartycookies="true"></web>
+      </div>
+    </div>
+</template>
+
+<script>
+
+import router from '@system.router'
+import prompt from '@system.prompt'
+
+export default {
+  data: {
+  },
+  props:{
+    title: '',
+    url: ''
+  },
+  onReady () {
+
+  },
+  backClick(){
+    router.back()
+  },
+  ys(){
+    console.info(222)
+    console.info(this.$element('webkit'))
+    
+  }
+
+}
+</script>
+
+<style>
+  .doc-main{
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+
+  .titlebar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+  }
+  .leftbackimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+  }
+  .titlebar text{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #000;
+  }
+  .titlerightimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+  }
+
+  .doc-comp {
+    flex: 1;
+    flex-direction: column;
+  }
+  .web-comp {
+    flex: 1;
+  }
+
+</style>

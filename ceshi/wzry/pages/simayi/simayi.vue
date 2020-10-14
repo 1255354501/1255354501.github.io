@@ -1,0 +1,142 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/simayi.png"  mode="aspectFit"></image>
+			<text class="name">司马懿</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍：</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/simayi0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>静默之语</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：司马懿能够获得2000范围内施法者的视野且在该范围内释放技能会为司马懿回复5点能量；司马懿基础拥有80点能量（每级提升3点能量上限），同时每次击杀或者助攻能够提升10点能量上限，最高可以提升到200点能量上限；释放技能会激活幽影之牙；幽影之牙：司马懿增加30点移动速度并将手持巨大的镰刀进行普通攻击，持续4秒，镰刀每击造成250（+40%法术加成）点法术伤害，召唤镰刀后的首次攻击可位移到目标身后造成500（+80%法术加成）点法术伤害</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/simayi1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>幽影之咬</text>
+						<text>冷却值：9</text>
+						<text>消耗：40</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>司马懿释放无法被选中的灵体，持续两面，控制灵体时本体免疫控制；灵体穿过的敌人时造成100/120/140/160/180/200（+20%法术加成）点法术伤害，释放普通攻击或效果结束后本体将会移动至灵体的位置，并对路径上的敌人造成100/120/140/160/180/200（+20%法术加成）点法术伤害和50%减速，持续1秒</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/simayi2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>荒芜之域</text>
+						<text>冷却值：6</text>
+						<text>消耗：40</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>司马懿释放灵力，压制周围的区域造成300/340/380/420/460/500（+30%法术加成）点法术伤害与1秒沉默，如果司马懿2秒后还在被压制的区域中则会获得25/30/35/40/45/50点的能量；被动：司马懿吸收部分的法术伤害时，将其中30%在5秒内转化为生命值</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/simayi3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>死神降临</text>
+						<text>冷却值：35/30/25</text>
+						<text>消耗：40</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>司马懿化身死神，在短暂的蓄力后向指定地点冲击，造成700/875/1050（100%法术加成）点法术伤害，并且会对冲击路径触碰的敌人造成50%伤害</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议： 主升荒芜之域副升幽影之咬</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/狂暴</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zl.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>铭文推荐：凶兆+心眼+贪婪 </text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/simayimw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：攻速在前中期十分重要，在能量不多的情况下，每次被动触发可以挥舞多少次镰刀直接关系到了能制造多少伤害。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/simayicz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：司马懿缺乏回复手段，需要用噬神之书来补充其持续作战的能力，巫术法杖则会让司马懿的刺杀更具爆发力</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt"><text>推荐二：</text></view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/simayicz2.png" mode="aspectFit"></image></view> 
+				<view class="tips"> 
+					<text>Tips：司马懿利用被动可以洞悉对手位置并且大招也能超越距离发起突袭，综合下来说司马懿非常适合打野位置</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

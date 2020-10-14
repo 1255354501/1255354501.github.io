@@ -1,0 +1,102 @@
+<template>
+	<view class="content">
+		<view class="title"><text>亚历山大机神城启动之章1</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>沉没在沙利亚克河中央的萨雷安遗迹突然变成机械巨人动了起来。原来是哥布林族的科学家组织青蓝之手对遗迹进行了请神，召唤了大型蛮神。如果蛮神完全复苏了的话，那么龙堡内陆低地的以太定会枯竭，同时新兴城邦田园郡也会被摧毁。为了阻止蛮神复苏，需进入到蛮神内部调查其动力源，从而找出阻止蛮神的方法！</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qidong40.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：戈耳狄俄斯之拳</text></view>
+		    	<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：10</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：60级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于170</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>迈向毁灭</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师60级</text></view>
+				<view class="text-text-text"><text>斯洛菲克斯</text></view>
+				<view class="text-text-text"><text>田园郡X:7.6,Y:6.6</text></view>
+				<view class="text-text-text"><text>前置任务：苍穹之禁城</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.压迫者</text></view>
+				<view class="text-text-text"><text>MT拉BOSS到北方，奶妈站中间加血，注意奶被点名的人。BOSS掉血到一定程度会分身，ST拉开分身到南方，两个分身的血量不要相差太大。BOSS上天后，躲避距离衰减AOE。把小怪拉到红光柱处打死，小怪死后会出红圈，不要踩进去。</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qidong44.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qidong45.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qidong46.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

@@ -1,0 +1,103 @@
+<template>
+	<view class="content">
+		<view class="title"><text>伊弗利特歼灭战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>光之战士们成功将究极神兵破坏的消息令艾欧泽亚的人们欢欣不已，然而这也成了蛮族势力重新抬头的契机。</text></view><view class="text-title"><text>由于究极神兵的威胁，蜥蜴人族一直潜伏着没有什么动作，可现在他们又再次举行了请神仪式，并且献上了更多的水晶，令火神伊弗利特带着更强的力量重现人间。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fulite20.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：炎帝陵</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加10%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：15</text></view>
+				<view class="text-text-text"><text>新手奖励：60</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：50级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于49</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>火神伊弗利特重现世间</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师50级</text></view>
+				<view class="text-text-text"><text>桑克瑞德</text></view>
+				<view class="text-text-text"><text>沙之家X:6.1,Y:5.1</text></view>
+				<view class="text-text-text"><text>前置任务：蛮神的真正力量</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.伊弗利特</text></view>
+				<view class="text-text-text"><text>注意点：</text></view><view class="text-text-text"><text>1，躲好BOSS的技能地火喷发，尤其是后半段会连续放出，DPS躲好，减少治疗压力。</text></view><view class="text-text-text"><text>2，光辉炎柱，这个技能在50级有了很大范围的增强，在攻击范围上有了极大加强，除了之前的中间四个和周围一圈的，BOSS还会释放几乎全屏的光辉炎柱，中间只有一竖道的地方留给玩家躲避，所以在BOSS释放这个技能的时候请一定打断。</text></view><view class="text-text-text"><text>3，BOSS会多出一个技能，就是支线型的冲刺，伤害较高，就是从圆形场地一边冲向另一边，随着血量的减少，会逐步增加到3个分身，分别进行3次冲击，躲好这个技能，支线冲刺，还是比较好躲的。</text></view><view class="text-text-text"><text>4，BOSS半血的时候依旧会召唤出火狱之楔，而且是4个，需要迅速打掉，否则可能会团灭。</text></view><view class="text-text-text"><text>打法：</text></view><view class="text-text-text"><text>1，除了跑火、躲中心火柱和被击退，人群总是应该集合在BOSS背后。</text></view><view class="text-text-text"><text>2，在BOSS喊话“骁勇善战”之前，地火追人只有一发，不要跑太远了，及时回来。在喊话过之后开始，地火追人为三发。在柱子打掉以后，一次会点出多个地火。</text></view><view class="text-text-text"><text>3，歼灭战的新技能：冲锋，此难度下最主要的减员方式。</text></view><view class="text-text-text"><text>分身躲避方法：</text></view><view class="text-text-text"><text>当你站在场中面向BOSS的分身时，冲锋总是从左边往右边的顺序进行的(也就是顺时针顺序)</text></view><view class="text-text-text"><text>第一件事是跑离中场，并且确认自己不在第一发冲刺的路线上；</text></view><view class="text-text-text"><text>或者直接跑在边缘随便找个固定位置杵着就好，吃一发冲锋也不至于暴毙。</text></view><view class="text-text-text"><text>“狱火之楔”打法：</text></view><view class="text-text-text"><text>“狱火之楔”出现以后，直接DPS撸掉就好，像史蒂夫撸树一样轻松。</text></view><view class="text-text-text"><text>破坏掉柱子以后:</text></view><view class="text-text-text"><text>有三连地火喷发就跑起来躲一躲。外圈火柱喷发以后可以先移动到外圈等内圈火柱。</text></view><view class="text-text-text"><text>只要三连冲锋和三连地火回避得当就可以一直打到BOSS结束。</text></view><view class="text-text-text"><text>技能介绍</text></view><view class="text-text-text"><text>1,烈焰焚烧：向正前方进行大范围扇形喷火攻击，造成约1500~1900伤害。瞬发无先兆。</text></view><view class="text-text-text"><text>2,火神爆裂：以BOSS自身为中心圆心AoE，对范围内所有敌对目标造成500~600伤害并击退。瞬发无先兆。</text></view><view class="text-text-text"><text>3,地火喷发：随机选取一名玩家为目标，撕裂其脚下的地面并且数秒后发生爆炸，造成约2300~2800伤害。</text></view><view class="text-text-text"><text>4,深红旋风：伊弗利特向前直线冲刺，对所有撞到的目标造成约2600伤害。无地面提示。</text></view><view class="text-text-text"><text>5,热风：对伊弗利特周围所有目标造成约200伤害。瞬发。</text></view><view class="text-text-text"><text>6,光辉炎柱：在战斗场地内施放多个圆形范围AoE，数秒后在圆形中央爆发火柱对范围内敌对目标造成AoE伤害。越靠近圆形中央受到的伤害越高，在圆形中央造成约2400伤害。</text></view><view class="text-text-text"><text>7,火狱之楔：在战斗场地中央召唤四个“火狱之楔”。</text></view><view class="text-text-text"><text>8,地狱之火炎：对战斗场地内所有敌对目标造成AoE伤害。伤害量取决于场上剩余的“火狱之楔”数量。</text></view> 
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fulite24.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fulite25.png" mode="aspectFit"></image></view>
+				 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

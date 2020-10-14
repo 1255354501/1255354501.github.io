@@ -1,0 +1,107 @@
+<template>
+	<view class="content">
+		<view class="title"><text>巴哈姆特大迷宫邂逅之章1</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>帝国西方堡是加雷马帝国军第十四军团在威尔布兰德岛东岸设置的基地，然而其战略目的却与其他的帝国基地有所不同，既不是为了占领该地的资源，也不是为攻打利姆萨·罗敏萨做准备。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou50.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view> 
+		    	<view class="text-text-text"><text>任务地点：陨石勘查坑表层</text></view>
+					<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text"><text>超越之力：保持30%</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+		    	<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+				<view class="text-text-text"><text>地图宝箱数量：1</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view> 
+				<view class="text-text-text"><text>等级要求：50级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于70</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view> 
+				<view class="text-text-text"><text>蛮神苏醒</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师50级于里昂热</text></view>
+				<view class="text-text-text"><text>于里昂热</text></view>
+				<view class="text-text-text"><text>沙之家 X:6.1 , Y:5.0</text></view>
+				<view class="text-text-text"><text>前置任务：土神泰坦重现世间</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.神杖巨蛇</text></view>
+				<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou54.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>BOSS-1：自卫系统</text></view><view class="text-text-text"><text>排斥炮：读条技能，Boss自身周围圆形AOE，躲开即可。</text></view><view class="text-text-text"><text>穿透射线：读条技能，直线AOE</text></view><view class="text-text-text"><text>高压电流：读条技能，全屏AOE，附带10秒麻痹效果，可插言打断</text></view><view class="text-text-text"><text>物体199：（软狂暴）蓄能完成之后的全屏AOE</text></view><view class="text-text-text"><text>召唤小怪：总计出现6只。</text></view><view class="text-text-text"><text>防卫系统，警备系统，迎击系统每个小怪都会释放排斥炮，且会与boss连线，一定时间之后会消失（被吃了）并为Boss附加一层伤害提高效果（6层最多）。其中警备系统会使用“污染加浓”自身周围圆形AOE，半径小于排斥炮，读条很快。</text></view>
+				<view class="text-text-text"><text>小怪阶段不用多数，暗物质巨像有对前方扇形伤害，注意面向。</text></view>
+				<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou55.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>BOSS-2：神杖巨蛇</text></view><view class="text-text-text"><text>场地闪烁，里面有人会产生小怪；进入黄色地板，会有出血效果</text></view><view class="text-text-text"><text>甩头攻击：无读条前方扇形</text></view><view class="text-text-text"><text>喷毒：随机点名，会产生毒圈，站里面掉血</text></view><view class="text-text-text"><text>钢鳞：Boss自身物理伤害提高效果（最多8层）</text></view><view class="text-text-text"><text>低于一定血量后会分裂成两只，但Boss会附加伤害降低效果，请T各拉一只即可，一段时间之后会再次融合</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou56.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou57.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/xiehou58.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

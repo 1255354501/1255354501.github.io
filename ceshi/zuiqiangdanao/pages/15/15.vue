@@ -1,0 +1,73 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>安其拉废墟3号BOSS莫阿姆攻略 术士猎人全力抽蓝</text></view>
+			<view class="contwent">
+				<view class="content"><text>安其拉废墟是魔兽世界怀旧服即将推出的一个副本，这个副本的地位类似于祖格，但是部分掉落比bwl还要好，相信很多玩家都心动不远，当然，玩家想要成功的通关该副本，玩家还是需要了解boss的技能，现在就给大家介绍一下安其拉废墟老一库林纳克斯的技能。</text></view>  
+				<view class="title"><text>技能介绍</text></view>
+				<view class="content"><text>3号BOSS莫阿姆会使用4个技能。</text></view>
+				<view class="content"><text>3号BOSS莫阿姆1技能是法力吸取：莫阿姆会从玩家身上吸取500法力。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/fx30.png" mode="aspectFit"/></view>
+				
+				<view class="content"><text>3号BOSS莫阿姆2技能是奥术爆炸：如果莫阿姆满蓝，之后进行奥爆，可以瞬间秒杀大部分血量不高的玩家。</text></view> 
+				
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/fx31.png" mode="aspectFit"/></view><view class="content"><text>3号BOSS莫阿姆3技能是召唤法力恶魔：开战90秒后。莫阿姆会召唤三个法力元素。法力元素会不断奥爆。</text></view>
+				<view class="content"><text>3号BOSS莫阿姆4技能是石化：召唤法力元素后，莫阿姆会石化，在这个状态下莫阿姆不会进行攻击，也不会吸取法力。</text></view>
+				<view class="title"><text>BOSS攻略技巧</text></view>
+				<view class="content"><text>打这个boss也非常简单，术士、牧师、猎人一定要全力进行抽蓝，避免boss的蓝量回满，不然将会瞬间团灭。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/fx32.png" mode="aspectFit"/></view>
+				<view class="content"><text>法力元素不必打，术士玩家全部放逐，然后全体玩家集体抽boss。如果玩家在BOSS脱离石像状态前将其杀死boss，boss会再次召唤法力元素，不断的恶性循环导致团灭。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/fx33.png" mode="aspectFit"/></view>
+				  
+				 
+				<view class="content"><text>以上就是为各位玩家整理的相关攻略，希望可以帮助到各位玩家。</text></view>
+				 
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

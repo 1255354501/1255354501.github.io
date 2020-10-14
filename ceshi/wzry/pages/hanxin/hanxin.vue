@@ -1,0 +1,144 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/hanxin.png"  mode="aspectFit"></image>
+			<text class="name">韩信</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/hanxin0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>杀意之枪</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：韩信的第四次普通攻击会将敌人击飞0.5秒；韩信释放技能命中目标后会增加60%攻击速度</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/hanxin1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>无情冲锋</text>
+						<text>冷却值：9/8.4/7.8/7.2/6.6/6</text>
+						<text>消耗：55</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>韩信持枪向指定目标周围发起冲锋，冲锋会对范围内目标造成250/270/290/310/330/350（+85％物理加成）点物理伤害并将范围内敌人击飞0.8秒；冲锋后5秒内可发动第二次冲锋，但不会击飞敌人</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/hanxin2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>背水一战</text>
+						<text>冷却值：5</text>
+						<text>消耗：80</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>韩信向后跳跃并使下一次普通攻击变更为横扫攻击，持续3秒，横扫会对范围内敌人造成180/200/220/240/260/280(+100％物理加成）点物理伤害</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/hanxin3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>国士无双</text>
+						<text>冷却值：36/30/24</text>
+						<text>消耗：140</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>韩信朝指定方向乱舞四次长枪，对命中的敌人每次造成250/300/350(+85％物理加成）点物理伤害；最后一次攻击会将范围内的敌人击飞0.5秒；乱舞期间韩信处于霸体状态并获得30%伤害减免</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升无情冲锋副升背水一战</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：终结/净化</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zs.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jh.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>纷争+鹰眼+兽痕</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/hanxinmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：红色纷争，物理攻击可以让韩信足够的输出，提升清野效率和与敌方的对抗能力；绿色鹰眼，物理穿透进一步提高韩信的穿甲输出能力；蓝色兽痕，暴击率的加成可以在一定程度上使得韩信的输出最大化。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang"> 
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/hanxincz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：韩信对冷却缩减也有一定的需求，这会让他更加灵活，而纯净苍穹也会让其在突袭敌人时生存能力大幅提升</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/hanxincz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：宗师之力会让韩信的单次骚扰更加犀利，在单带时会给与对方更大压力</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

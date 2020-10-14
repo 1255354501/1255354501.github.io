@@ -1,0 +1,79 @@
+<template>
+    <div class="doc-main">
+      <div class="titlebar">
+        <image class="leftbackimg" @click="backClick()" src="/Common/img/arrow-left1.png"></image>
+        <text>下载管理</text>
+      </div>
+      <div style="height:90px;width:100%;"></div>
+      <div class="nulltip">
+        <text>暂无更多数据</text>
+      </div>
+    </div>
+</template>
+
+<script>
+
+import router from '@system.router'
+
+export default {
+  data: {
+  },
+  onReady () {
+
+  },
+
+  backClick(){
+    router.back()
+  }
+
+}
+</script>
+
+<style>
+  .doc-main{
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+
+  .titlebar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+  }
+  .leftbackimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+  }
+  .titlebar text{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #000;
+  }
+  .titlerightimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+  }
+
+  .nulltip{
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;    
+  }
+  .nulltip text{
+    flex: 1;
+    text-align: center;
+    width: 100%;
+    font-size: 28px;
+    color: #777;
+  }
+</style>

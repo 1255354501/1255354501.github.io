@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "绝地求生攻略" 
+			}
+		},{
+		    "path" : "pages/ditu/ditu",
+		    "style" : {
+				"navigationBarTitleText": "绝地求生地图介绍"
+			}
+		}
+	    
+        ,{
+            "path" : "pages/wuqi/wuqi",
+            "style" : {
+				"navigationBarTitleText": "绝地求生武器介绍"
+			}
+        }
+        ,{
+            "path" : "pages/peijian/peijian",
+            "style" : {
+				"navigationBarTitleText": "绝地求生配件介绍"
+			}
+        }
+        ,{
+            "path" : "pages/zaiju/zaiju",
+            "style" : {
+				"navigationBarTitleText": "绝地求生载具介绍"
+				}
+        }
+        ,{
+            "path" : "pages/wuzi/wuzi", 
+            "style" : {
+				"navigationBarTitleText": "绝地求生物资介绍"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "绝地求生",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

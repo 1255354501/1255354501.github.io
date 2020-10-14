@@ -1,0 +1,126 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/axiang0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">阿香</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>我是众合地狱主任辅佐官，阿香。</text><text>我只是一名普通的地狱之鬼，身任狱卒的鬼女哦。</text><text>我以前只是众合地狱的普通职员，后来众合地狱的女性职员越来越多，我才升任了合主任辅佐职的。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>众合地狱经常发生斗殴事件呢，简直就像江户一样。</text><text>真头痛啊，就算是刑场之外的斗殴，如果太过分的话，也必须向鬼灯大人报告呢。</text><text>不过，还是谢谢你们过来游玩。</text><text>啊抱歉，吓到你们了吧？它们都是蛇狱卒的后代哦。</text><text>我会在自己的房间里，对蛇狱卒进行管教工作呢。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>我很喜欢有礼貌的人呢。</text><text>还有，我什么书都喜欢看哦。</text><text>我一直以为，鬼卒道士中国天使这本书是面向小孩子的，但没想到故事复杂、有些地方也比较深奥，还蛮有趣的哦。</text><text>从那么远的地方过来真是辛苦了，请喝点茶。</text><text>是发生了什么事情吗？虽然我不清楚具体的情况，但需要我帮忙吗？</text><text>哎呀，忘记带钱包了。今天客人拜访，我还打算弄熏火腿的说~~</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/axiang1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>基本技能：</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/axiang2.png" mode="aspectFit"></image>
+		 				<text>基本技能：蛇卒·毒牙</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>命令身后的蛇突袭敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/axiang3.png" mode="aspectFit"></image>
+		 			    <text>蛇之影</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>攻击时，有100%基础概率为敌方附加1层蛇之影，上限3层，持续3回合。</text>
+		 			
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiliandong/axiang4.png" mode="aspectFit"></image>
+		 				<text>蛇卒·狂暴</text> 
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>召唤蛇之力攻击敌方目标，造成攻击180%伤害（每层蛇之影额外提升40%），对有3层蛇之影的敌方有100%基础概率使其眩晕1回合。</text>
+						<text>Lv.2伤害增加至189%</text>
+						<text>Lv.3伤害增加至198%</text> 
+						<text>Lv.4伤害增加至207%</text>
+					    <text>Lv.5伤害增加至216%</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		 <script>
+		  	export default {
+		  		data() {
+		  			return {
+		  				title: 'Hello',
+		  				ggg:false
+		  			}
+		  		},
+		  		onLoad:function(){
+		 			let self=this
+		  			uni.getStorage({
+		  			    key: 'ggg',
+		  			    success: function (res) { 
+		  					self.ggg=res.data; 
+		  					if(res.data=="true"||res.data==true){
+		  						const bannerAd = tt.createRewardedVideoAd({
+		  						  adUnitId: "qkih7580bi5ik6gpjs"
+		  						});
+		  						  bannerAd.show().then(() => {
+		  						      console.log("广告显示成功");
+		  						    }).catch((err) => {
+		  								bannerAd.load().then(() => {
+		  								    console.log("手动加载成功");
+		  								    return bannerAd.show();
+		  								  });
+		  						      console.log("广告组件出现问题", err);
+		  						    });
+		  						bannerAd.onClose((res) => {
+		  						  if (!res.isEnded) {
+		  						    uni.navigateBack({
+		  						        delta: 1
+		  						    });
+		  						  }
+		  						});
+		  					}
+		  			    }
+		  			}); 
+		  		},
+		  		methods: {
+		              openvideo:function(url){ 
+		  				uni.navigateTo({
+		  				    url: url+`?ggg=${this.ggg}`
+		  				});
+		  			}
+		  		}
+		  	}
+		  </script>
+		 	 
+		 <style>
+		 	@import url("/static/yysr.css");
+		 </style>

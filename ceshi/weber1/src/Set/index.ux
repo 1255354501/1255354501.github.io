@@ -1,0 +1,404 @@
+<template>
+    <div class="doc-main">
+      <div class="titlebar">
+        <image class="leftbackimg" @click="backClick" src="/Common/img/arrow-left1.png"></image>
+        <text>设置</text>
+      </div>
+      <div style="height:90px;width:100%;"></div>
+      <!-- 设置 -->
+      <div class="setlist">
+        <div class="setitem" @click="engineClick">
+          <div class="setitem-left">
+            <text>搜索引擎</text>
+          </div>
+          <div class="setitem-right">
+            <text>{{engineName}}</text>
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+        <div class="setitem" @click="yinsiClick">
+          <div class="setitem-left">
+            <text>隐私策略</text>
+          </div>
+          <div class="setitem-right">
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+        <div class="setitem" @click="serviceClick()">
+          <div class="setitem-left">
+            <text>服务协议</text>
+          </div>
+          <div class="setitem-right">
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+        <div class="setitem">
+          <div class="setitem-left">
+            <text>DNS预读</text>
+          </div>
+          <div class="setitem-right">
+            <switch checked="true" class="switch"></switch>
+          </div>
+        </div>
+        <div class="setitem">
+          <div class="setitem-left">
+            <text>优化内存</text>
+          </div>
+          <div class="setitem-right">
+            <switch checked="true" class="switch"></switch>
+          </div>
+        </div>
+        <div class="setitem">
+          <div class="setitem-left">
+            <text>搜索优化</text>
+          </div>
+          <div class="setitem-right">
+            <switch checked="true" class="switch"></switch>
+          </div>
+        </div>
+        <div class="setitem" @click="usClick()">
+          <div class="setitem-left">
+            <text>关于我们</text>
+          </div>
+          <div class="setitem-right">
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+        <div class="setitem" @click="lianxiClick">
+          <div class="setitem-left">
+            <text>联系我们</text>
+          </div>
+          <div class="setitem-right">
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+        <div class="setitem" @click="clearClick">
+          <div class="setitem-left">
+            <text>清除数据</text>
+          </div>
+          <div class="setitem-right">
+            <image src="/Common/img/arrow-right1.png"></image>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="version">
+        <text>版本号：9.1.0</text>
+      </div>
+
+      <!-- -->
+      <div class="enginecon" show="{{engineshow}}">
+        <div class="enginebg" @click="setbgClick"></div>
+        <div class="enginebody">
+          <div class="engineitem">
+            <div class="engineitem-left">
+              <image src="/Common/img/ss_baidu.jpg"></image>
+              <text class="engineitem-txt">百度</text>
+            </div>
+            <div class="engineitem-right">
+              <input onchange="showChangePrompt" value="baidu" name="aaa" type="radio"></input>  
+            </div>
+          </div>
+          <div class="engineitem">
+            <div class="engineitem-left">
+              <image src="/Common/img/ss_360.png"></image>
+              <text class="engineitem-txt">360</text>
+            </div>
+            <div class="engineitem-right">
+              <input onchange="showChangePrompt" value="360" name="aaa" type="radio"></input>  
+            </div>
+          </div>
+          <div class="engineitem">
+            <div class="engineitem-left">
+              <image src="/Common/img/ss_shenma.jpg"></image>
+              <text class="engineitem-txt">神马</text>
+            </div>
+            <div class="engineitem-right">
+              <input onchange="showChangePrompt" value="shenma" name="aaa" type="radio"></input>  
+            </div>
+          </div>
+          <div class="engineitem">
+            <div class="engineitem-left">
+              <image src="/Common/img/ss_sougou.jpg"></image>
+              <text class="engineitem-txt">搜狗</text>
+            </div>
+            <div class="engineitem-right">
+              <input onchange="showChangePrompt" value="sougou" name="aaa" type="radio"></input>  
+            </div>
+          </div>
+          <div class="engineitem">
+            <div class="engineitem-left">
+              <image src="/Common/img/ss_biying.jpg"></image>
+              <text class="engineitem-txt">必应</text>
+            </div>
+            <div class="engineitem-right">
+              <input onchange="showChangePrompt" value="biying" name="aaa" type="radio"></input>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+</template>
+
+<script>
+
+import router from '@system.router'
+import prompt from '@system.prompt'
+import storage from '@system.storage'
+
+export default {
+  data: {
+    engineshow: false,
+    engineName: '百度'
+  },
+  onReady () {
+    var self = this
+    storage.get({
+      key: 'engine',
+      success: function(data) {
+
+        console.info(data)
+        var str = ''
+        if(data=='baidu'){
+          str = '百度'
+        }else if(data=='360'){
+          str = '360'
+        }else if(data=='shenma'){
+          str = '神马'
+        }else if(data=='sougou'){
+          str = '搜狗'
+        }else if(data=='biying'){
+          str = '必应'
+        }
+        self.engineName = str
+      }
+    })
+  },
+  //后退
+  backClick(){
+    router.back()
+  },
+  engineClick(){
+    this.engineshow = true
+  },
+  //选择搜索引擎
+  showChangePrompt (e) {
+    var str = ''
+    if(e.value=='baidu'){
+      str = '百度'
+    }else if(e.value=='360'){
+      str = '360'
+    }else if(e.value=='shenma'){
+      str = '神马'
+    }else if(e.value=='sougou'){
+      str = '搜狗'
+    }else if(e.value=='biying'){
+      str = '必应'
+    }
+    prompt.showToast({
+      message:  '切换为'+str+'搜索'
+    })
+    this.engineName = str
+    this.engineshow = false
+
+    storage.set({
+      key: 'engine',
+      value: e.value
+    })
+  },
+  yinsiClick(){
+    router.push({
+      uri: '/Web',
+      params: {
+        title: '隐私政策',
+        url: 'http://quickapp.bingo88.cn/static/yszc.html'
+      }
+    })
+  },
+  serviceClick(){
+    router.push({
+      uri: '/Web',
+      params: {
+        title: '服务协议',
+        url: 'http://quickapp.bingo88.cn/static/yhxy.html'
+      }
+    })
+  },
+  usClick(){
+    router.push({
+      uri: '/Web',
+      params: {
+        title: '关于我们',
+        url: 'http://quickapp.bingo88.cn/static/about.html'
+      }
+    })
+  },
+  lianxiClick(){
+    router.push({
+      uri: '/Web',
+      params: {
+        title: '联系我们',
+        url: 'http://quickapp.bingo88.cn/static/lxwm.html'
+      }
+    })
+  },
+  clearClick(){
+    //历史数据
+    storage.delete({
+      key: 'history',
+      success: function(data) {
+      }
+    })
+    prompt.showToast({
+      message: '清理完毕'
+    })
+  },
+
+}
+</script>
+
+<style>
+  .doc-main{
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+
+  .titlebar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+  }
+  .leftbackimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+  }
+  .titlebar text{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #000;
+  }
+  .titlerightimg{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 23px;
+    right: 20px;
+  }
+
+  .setlist{
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding: 10px 15px;
+  }
+  .setitem{
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid #eee;
+    flex: 1;
+    flex-direction: row;
+    justify-content:center;
+  }
+  .setitem-left{
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+  }
+  .setitem-left text{
+    color: #777;
+    align-items: center;
+    justify-content:center;
+    justify-content:flex-start;
+  }
+  .setitem-right{
+    flex: 1;
+    align-items: center;
+    justify-content:flex-end;
+  }
+  .setitem-right switch{
+    align-items: center;
+    justify-content: center;
+  }
+  .setitem-right text{
+    color: #777;
+    margin-right: 20px;
+  }
+  .setitem-right image{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .version{
+    position: fixed;
+    bottom: 40px;
+    width: 100%;
+  }
+  .version text{
+    width: 100%;
+    text-align: center;
+    color: #999;
+  }
+
+
+  .enginecon{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+  .enginebg{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .enginebody{
+    width: 70%;
+    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    flex-direction: column;
+    padding: 15px 30px;
+  }
+  .engineitem{
+    flex: 1;
+    flex-direction: row;
+    padding: 5px 20px;
+  }
+  .engineitem-left{
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+  }
+  .engineitem-txt{
+    font-size: 28px;
+    color: #555;
+    margin-left: 15px;
+  }
+  .engineitem-right{
+    flex: 1;
+    align-items: center;
+    justify-content:flex-end;
+  }
+
+</style>

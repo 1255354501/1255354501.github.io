@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/xinshou/xinshou",
+    "pages/yincang/yincang",
+    "pages/xiyou/xiyou",
+    "pages/changcheng/changcheng",
+    "pages/sanjiaolong/sanjiaolong",
+    "pages/binwei/binwei"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "疯狂动物园攻略",
+    "navigationBarBackgroundColor": "#7c8096",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

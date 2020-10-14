@@ -1,0 +1,125 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/qingji0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">清姬</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>嘶~~嘶~~那个和尚在哪~~？</text><text>背叛了我之后，还敢恬不知耻地活在这世上，那个男人在哪！</text><text>明明和我约好了一定会回来的。</text><text>明明说过会来迎娶我的！</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>在哪？到底在哪！一定要把他找出来，让他知道背叛我是什么下场！</text><text>这就是我还活着的唯一意义。</text><text>~~什么？我的这副蛇的外貌很丑？</text><text>真正喜欢一个人的话，决不能沉醉在仇恨之中？</text><text>不要擅自把我的爱说成像是已经结束的悲恋一样！</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>在我内心深处，这份爱还在继续燃烧。</text><text>我要把那个男人的全身紧紧地盘绕起来，让他动弹不得，我这炽热的体温会一直陪伴着他，直到他再也感觉不到温度。</text><text>这样热烈渴求的感情，不是爱情还能是什么？</text><text>没错~~嘶嘶~~只要是为了达成这份恋情，我什么都可以做！</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/qingji1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/qingji2.png" mode="aspectFit"></image>
+		 				<text>基本技能：蛇行击</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>鞭打敌方目标，造成攻击86%伤害，并有100%基础概率附加3级中毒，持续5回合；然后对其附加焚火，造成攻击22%间接伤害，持续1回合。</text>
+		 				<text>Lv.2伤害增加至90%</text>
+		 				<text>Lv.3伤害增加至94%</text>
+		 				<text>Lv.4伤害增加至98%</text>
+		 				<text>Lv.5伤害增加至102%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/qingji3.png" mode="aspectFit"></image>
+		 			    <text>Lv.6间接伤害增至33%</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>淬毒</text>
+		 				<text>每当目标被清姬附加中毒时，同时降低其10点防御力，上限降低150点防御力，直到战斗结束。多个清姬在场时，共用上限。</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/qingji4.png" mode="aspectFit"></image>
+		 				<text>焚身之火</text>
+		 				
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>喷吐火焰攻击敌方全体3次，每次造成攻击36%伤害，并有100%基础概率附加3级中毒，持续5回合；然后对敌方全体附加焚火，造成攻击66%间接伤害，持续1回合。</text>
+						<text>Lv.2伤害增加至38%</text> 
+						<text>Lv.3伤害增加至40%</text>
+					    <text>Lv.4伤害增加至42%</text> 
+		 				<text>Lv.5间接伤害增至99%</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

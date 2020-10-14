@@ -1,0 +1,143 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/mozi.png"  mode="aspectFit"></image>
+			<text class="name">墨子</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/mozi0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>兼爱非攻</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：墨子连续使用普通攻击时，第四次普通攻击将变更为炮击，炮击会造成450（+70%法术加成）法术伤害，同时将目标击退0.75秒；当墨子施放技能时会获得抵免300（+35%法术加成）点伤害的护盾，持续3秒，最多叠加3层</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/mozi1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>和平漫步</text>
+						<text>冷却值：10/9/8/7/6/5</text>
+						<text>消耗：70</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>墨子驾驶机关人向指定方向突进，对路径上的敌人造成250/300/350/400/450/500（+38法术加成）点法术伤害，并将下一次普通攻击变更为炮击</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/mozi2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>机关重炮</text>
+						<text>冷却值：7</text>
+						<text>消耗：55</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>墨子驾驶机关人向指定方向发射一枚炮弹，炮弹命中敌人时会发生范围爆炸造成550/600/650/700/750/800（+55%法术加成）点法术伤害并将范围内敌人眩晕1秒，炮弹爆炸后将留下弹坑持续4秒每0.5秒造成50/56/62/68/74/80（+5%法术加成）点法术伤害</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/mozi3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>墨守成规</text>
+						<text>冷却值：50/45/40</text>
+						<text>消耗：150</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>墨子驾驶机关人展开高能屏障，对触碰到屏障的敌人每0.5秒造成200/250/300（+45%法术加成）点法术伤害并将其晕眩在原地，屏障最多持续3.3秒</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升机关重炮副升和平漫步</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：治疗术/晕眩</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zl.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/xy.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>梦魇+怜悯+狩猎</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/mozimw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：梦魇的法术攻击和穿透搭配墨子的高法强可以快速清线，消耗敌人。狩猎可使墨子更快的打出普攻的被动。而怜悯的10%冷却可让墨子的技能冷却更快</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/mozicz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：墨子技能的较远射程配合圣杯的续航能力，能让墨子不用担心蓝耗，打出足够的消耗伤害，并且回响可以帮助墨子更加安全的清线</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/mozicz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：墨子的特长是消耗，所有经济都用来发展伤害能力可以极大提升其对于敌人的威慑力</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

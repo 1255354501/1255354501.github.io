@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "疯狂动物园攻略"
+			}
+		}
+	    ,{
+            "path" : "pages/xinshou/xinshou",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园：新手攻略 怎么抓小动物"
+			}
+        }
+        ,{
+            "path" : "pages/yincang/yincang",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园：隐藏动物抓捕攻略汇总"
+			}
+        }
+        ,{
+            "path" : "pages/xiyou/xiyou",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园：稀有动物抓捕攻略"
+			}
+        }
+        ,{
+            "path" : "pages/changcheng/changcheng",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园攻略：长城隐藏动物获取攻略"
+			}
+        }
+        ,{
+            "path" : "pages/sanjiaolong/sanjiaolong",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园手游：死亡骑士三角龙怎么抓"
+			}
+        }
+        ,{
+            "path" : "pages/binwei/binwei",
+            "style" : {
+				"navigationBarTitleText": "疯狂动物园攻略：濒危动物抓捕攻略"}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "疯狂动物园攻略",
+		"navigationBarBackgroundColor": "#7c8096",
+		"backgroundColor": "#F8F8F8"
+	}
+}

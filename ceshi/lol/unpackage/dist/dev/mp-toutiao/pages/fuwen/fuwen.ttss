@@ -1,0 +1,87 @@
+
+.content{
+		padding: 0 20rpx;
+		padding-bottom: 60rpx;
+}
+.text-area{
+		padding-top: 20rpx;
+		margin-bottom: 20rpx;
+}
+.text-area .title{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center; 
+		-webkit-box-orient: vertical; 
+		-webkit-box-direction: normal; 
+		-webkit-flex-direction: column; 
+		        flex-direction: column;
+		font-size: 40rpx;
+}
+.tt{
+		font-size: 60rpx;
+}
+.tv{
+		color: #00a383;
+}
+.text-area .title text{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.text-area .ts{
+		padding-bottom: 20rpx;
+}
+.zuhe{
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	          flex-direction: column;
+}
+.zuhe .zht{
+	   color: #00a383;
+	   text-indent: 40rpx;
+	   margin-bottom: 20rpx; 
+	   font-size: 40rpx;
+}
+.zuhe .zhv{ 
+  	   text-indent: 80rpx;
+}
+.zltitle{
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	          justify-content: center;
+	  padding: 0 20rpx;
+}
+.zlt{
+	  color: #00a383; 
+	  margin-bottom: 20rpx;
+	  font-size: 40rpx;
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	          align-items: center;
+}
+.zlt image{
+	  width: 100rpx;
+	  height: 100rpx;
+	  margin-right: 10rpx;
+}
+.zlv{
+	  text-indent: 40rpx;
+       padding-bottom: 20rpx;
+}
+

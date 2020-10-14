@@ -1,0 +1,71 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>安其拉2号boss吉祥三宝攻略 亚尔基公主优先杀</text></view>
+			<view class="contwent">
+				<view class="content"><text>安其拉副本即将开放，安其拉作为上古之神的老巢，内部存在众多的boss，同时也有大量极品装备等着玩家来拿，相信各位玩家都非常感兴趣。现在就给大家整理下安其拉副本2号bos亚尔基公主、维姆和克利领主攻略，希望可以帮助到各位玩家。</text></view> 
+				<view class="title"><text>技能介绍</text></view>
+				<view class="content"><text>克利领主会释放群体毒箭，造成500点自然伤害和125点持续性自然伤害。此外，克利领主死后时，尸体周围会产生一大片毒云，玩家务必远离，不然会受到每秒2000点的自然伤害。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/aaql20.png" mode="aspectFit"/></view>
+				
+				<view class="content"><text>亚尔基公主会释放群体恐惧，同时会加血，坦克注意拉开即可。</text></view>
+				<view class="content"><text>维姆技能较弱，会不断冲锋，</text></view>
+				
+				
+				<view class="title"><text>打法介绍</text></view>
+				<view class="content"><text>在体验服中，克利领主受到了极大的削弱，所以玩家最后击杀这个boss即可。由于亚尔基公主会群恐，所以部落萨满插好图腾，联盟牧师上好防恐，其他输出卖力抽boss即可；之后玩家再集火杀维姆；最后所有玩家杀克利领主。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/aaql21.png" mode="aspectFit"/></view>
+				 
+				<view class="content"><text>由于克利领主会群体毒箭，所以建议团队将其拉远点，但是玩家要注意一旦BOSS距离过远，boss会复位，所以玩家不要拉得太远。此外，猎人注意开好守护，增加自然抗性。</text></view>
+				 
+				<view class="content"><text>以上就是为各位玩家整理的相关攻略，希望可以帮助到各位玩家。</text></view>
+				 
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

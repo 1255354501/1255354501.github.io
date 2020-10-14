@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/1-5/1-5",
+    "pages/6-10/6-10",
+    "pages/11-15/11-15",
+    "pages/16-20/16-20",
+    "pages/21-25/21-25",
+    "pages/26-30/26-30",
+    "pages/31-35/31-35",
+    "pages/36-40/36-40",
+    "pages/41-45/41-45",
+    "pages/46-50/46-50"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "这游戏太难了",
+    "navigationBarBackgroundColor": "#e1ac66",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

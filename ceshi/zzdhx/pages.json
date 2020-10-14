@@ -1,0 +1,692 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "最终的幻想游戏攻略"
+			}
+		},{
+			"path": "pages/index/dxay",
+			"style": {
+				"navigationBarTitleText": "大型任务（暗影之逆焰）"
+			}
+		},{
+			"path": "pages/index/dxcq",
+			"style": {
+				"navigationBarTitleText": "大型任务（苍穹之禁城）"
+			}
+		},{
+			"path": "pages/index/dxcs",
+			"style": {
+				"navigationBarTitleText": "大型任务（重生之境）"
+			}
+		},{
+			"path": "pages/index/dxhl",
+			"style": {
+				"navigationBarTitleText": "大型任务（红莲之狂潮）"
+			}
+		},{
+			"path": "pages/index/tfay",
+			"style": {
+				"navigationBarTitleText": "讨伐歼灭战（暗影之逆焰）"
+			}
+		},{
+			"path": "pages/index/tfcq",
+			"style": {
+				"navigationBarTitleText": "讨伐歼灭战（苍穹之禁城）"
+			}
+		},{
+			"path": "pages/index/tfhl",
+			"style": {
+				"navigationBarTitleText": "讨伐歼灭战（红莲之狂潮）"
+			}
+		},{
+			"path": "pages/index/tfcs",
+			"style": {
+				"navigationBarTitleText": "讨伐歼灭战（重生之境）"
+			}
+		},{
+            "path" : "pages/anying/juexing1/juexing1",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 觉醒之章1"
+				 }
+        },{
+            "path" : "pages/anying/juexing2/juexing2",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 觉醒之章1"
+				 }
+        },{
+            "path" : "pages/anying/juexing3/juexing3",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 觉醒之章2"
+				 }
+        },{
+            "path" : "pages/anying/juexing4/juexing4",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 觉醒之章2"
+				 }
+        },{
+            "path" : "pages/anying/juexing5/juexing5",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 觉醒之章3"
+				 }
+        },{
+            "path" : "pages/anying/juexing6/juexing6",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 觉醒之章3"
+				 }
+        },{
+            "path" : "pages/anying/juexing7/juexing7",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 觉醒之章4"
+				 }
+        },{
+            "path" : "pages/anying/juexing8/juexing8",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 觉醒之章4"
+				 }
+        },{
+            "path" : "pages/anying/gongming9/gongming9",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 共鸣之章1"
+				 }
+        },{
+            "path" : "pages/anying/gongming10/gongming10",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 共鸣之章1"
+				 }
+        },{
+            "path" : "pages/anying/gongming11/gongming11",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 共鸣之章2"
+				 }
+        },{
+            "path" : "pages/anying/gongming12/gongming12",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 共鸣之章2"
+				 }
+        },{
+            "path" : "pages/anying/gongming13/gongming13",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 共鸣之章3"
+				 }
+        },{
+            "path" : "pages/anying/gongming14/gongming14",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 共鸣之章3"
+				 }
+        },{
+            "path" : "pages/anying/gongming15/gongming15",
+            "style" : {
+				 "navigationBarTitleText": "伊甸希望乐园 共鸣之章4"
+				 }
+        },{
+            "path" : "pages/anying/gongming16/gongming16",
+            "style" : {
+				 "navigationBarTitleText": "伊甸零式希望乐园 共鸣之章4"
+				 }
+        },{
+            "path" : "pages/anying/zhigong17/zhigong17",
+            "style" : {
+				 "navigationBarTitleText": "复制工厂废墟"
+				 }
+        },{
+            "path" : "pages/cangqiong/tiandong1/tiandong1",
+            "style" : {
+				 "navigationBarTitleText": "0亚历山大机神城 天动之章2"
+				 }
+        },{
+            "path" : "pages/cangqiong/tiandong2/tiandong2",
+            "style" : {
+				 "navigationBarTitleText": "1亚历山大机神城 天动之章3"
+				 }
+        },{
+            "path" : "pages/cangqiong/tiandong3/tiandong3",
+            "style" : {
+				 "navigationBarTitleText": "2亚历山大机神城 天动之章4"
+				 }
+        },{
+            "path" : "pages/cangqiong/qidong4/qidong4",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 启动之章1"
+				 }
+        },{
+            "path" : "pages/cangqiong/qidong5/qidong5",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 启动之章2"
+				 }
+        },{
+            "path" : "pages/cangqiong/qidong6/qidong6",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 启动之章3"
+				 }
+        },{
+            "path" : "pages/cangqiong/qidong7/qidong7",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 启动之章4"
+				 }
+        },{
+            "path" : "pages/cangqiong/lvdong8/lvdong8",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 律动之章1"
+				 }
+        },{
+            "path" : "pages/cangqiong/lvdong9/lvdong9",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 律动之章2"
+				 }
+        },{
+            "path" : "pages/cangqiong/lvdong10/lvdong10",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 律动之章3"
+				 }
+        },{
+            "path" : "pages/cangqiong/lvdong11/lvdong11",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 律动之章4"
+				 }
+        },{
+            "path" : "pages/cangqiong/tiandong12/tiandong12",
+            "style" : {
+				 "navigationBarTitleText": "亚历山大机神城 天动之章1"
+				 }
+        },{
+            "path" : "pages/cangqiong/13/13",
+            "style" : {
+				 "navigationBarTitleText": "影之国"
+				 }
+        },{
+            "path" : "pages/cangqiong/jicheng14/jicheng14",
+            "style" : {
+				 "navigationBarTitleText": "禁忌城邦玛哈"
+				 }
+        },{
+            "path" : "pages/cangqiong/chuanxu15/chuanxu15",
+            "style" : {
+				 "navigationBarTitleText": "魔航船虚无方舟"
+				 }
+        },{
+            "path" : "pages/chongsheng/zhenyuan1/zhenyuan1",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 真源之章1"
+				 }
+        },{
+            "path" : "pages/chongsheng/zhenyuan2/zhenyuan2",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 真源之章2"
+				 }
+        },{
+            "path" : "pages/chongsheng/zhenyuan3/zhenyuan3",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 真源之章3"
+				 }
+        },{
+            "path" : "pages/chongsheng/zhenyuan4/zhenyuan4",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 真源之章4"
+				 }
+        },{
+            "path" : "pages/chongsheng/xiehou5/xiehou5",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 邂逅之章1"
+				 }
+        },{
+            "path" : "pages/chongsheng/xiehou6/xiehou6",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 邂逅之章2"
+				 }
+        },{
+            "path" : "pages/chongsheng/xiehou7/xiehou7",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 邂逅之章3"
+				 }
+        },{
+            "path" : "pages/chongsheng/xiehou8/xiehou8",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 邂逅之章4"
+				 }
+        },{
+            "path" : "pages/chongsheng/xiehou9/xiehou9",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 邂逅之章5"
+				 }
+        },{
+            "path" : "pages/chongsheng/ruqin10/ruqin10",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 入侵之章1"
+				 }
+        },{
+            "path" : "pages/chongsheng/ruqin11/ruqin11",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 入侵之章2"
+				 }
+        },{
+            "path" : "pages/chongsheng/ruqin12/ruqin12",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 入侵之章3"
+				 }
+        },{
+            "path" : "pages/chongsheng/ruqin13/ruqin13",
+            "style" : {
+				 "navigationBarTitleText": "巴哈姆特大迷宫 入侵之章4"
+				 }
+        },{
+            "path" : "pages/chongsheng/gudai14/gudai14",
+            "style" : {
+				 "navigationBarTitleText": "水晶塔 古代人迷宫"
+				 }
+        },{
+            "path" : "pages/chongsheng/xier15/xier15",
+            "style" : {
+				 "navigationBarTitleText": "水晶塔 希尔科斯塔"
+				 }
+        },{
+            "path" : "pages/chongsheng/taan16/taan16",
+            "style" : {
+				 "navigationBarTitleText": "水晶塔 暗之世界"
+				 }
+        },{
+            "path" : "pages/honglian/aerfa1/aerfa1",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 阿尔法幻境2"
+				 }
+        },{
+            "path" : "pages/honglian/aerfa2/aerfa2",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 阿尔法幻境3"
+				 }
+        },{
+            "path" : "pages/honglian/aerfa3/aerfa3",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 阿尔法幻境4"
+				 }
+        },{
+            "path" : "pages/honglian/deerta4/deerta4",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 德尔塔幻境1"
+				 }
+        },{
+            "path" : "pages/honglian/deerta5/deerta5",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 德尔塔幻境2"
+				 }
+        },{
+            "path" : "pages/honglian/deerta6/deerta6",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 德尔塔幻境3"
+				 }
+        },{
+            "path" : "pages/honglian/deerta7/deerta7",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 德尔塔幻境4"
+				 }
+        },{
+            "path" : "pages/honglian/xigema8/xigema8",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 西格玛幻境1"
+				 }
+        },{
+            "path" : "pages/honglian/xigema9/xigema9",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 西格玛幻境2"
+				 }
+        },{
+            "path" : "pages/honglian/xigema10/xigema10",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 西格玛幻境3"
+				 }
+        },{
+            "path" : "pages/honglian/xigema11/xigema11",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 西格玛幻境4"
+				 }
+        },{
+            "path" : "pages/honglian/aerfa12/aerfa12",
+            "style" : {
+				 "navigationBarTitleText": "欧米茄时空狭缝 阿尔法幻境1"
+				 }
+        },{
+            "path" : "pages/honglian/oubone13/oubone13",
+            "style" : {
+				 "navigationBarTitleText": "乐欲之所瓯博讷修道院"
+				 }
+        },{
+            "path" : "pages/honglian/dulaba14/dulaba14",
+            "style" : {
+				 "navigationBarTitleText": "失落之都拉巴纳斯塔" 
+				 }
+        },{
+            "path" : "pages/honglian/duolana15/duolana15",
+            "style" : { 
+				 "navigationBarTitleText": "封闭圣塔黎铎拉纳大灯塔"
+				 }
+        },{
+            "path" : "pages/tfay/sigunian1/sigunian1",
+            "style" : {
+				 "navigationBarTitleText": "迪斯孤念歼灭战"
+				 }
+        },{
+            "path" : "pages/tfay/hadisi2/hadisi2",
+            "style" : {
+				 "navigationBarTitleText": "迪斯歼灭战"
+				 }
+        },{
+            "path" : "pages/tfay/xialingjun3/xialingjun3",
+            "style" : {
+				 "navigationBarTitleText": "瑕灵君歼殛战"
+				 }
+        },{
+            "path" : "pages/tfay/xialingjun4/xialingjun4",
+            "style" : {
+				 "navigationBarTitleText": "瑕灵君歼灭战"
+				 }
+        },{
+            "path" : "pages/tfay/tanniya5/tanniya5",
+            "style" : {
+				 "navigationBarTitleText": "坦妮雅歼殛战"
+				 }
+        },{
+            "path" : "pages/tfay/tanniya6/tanniya6",
+            "style" : {
+				 "navigationBarTitleText": "坦妮雅歼灭战"
+				 }
+        } ,{
+            "path" : "pages/tachangqiong/bisimai1/bisimai1",
+            "style" : {
+				 "navigationBarTitleText": "斯麦歼殛战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/bisimai2/bisimai2",
+            "style" : {
+				 "navigationBarTitleText": "斯麦歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/shihuanxiang3/shihuanxiang3",
+            "style" : {
+				 "navigationBarTitleText": "桌骑士幻想歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/zhuoqishi4/zhuoqishi4",
+            "style" : {
+				 "navigationBarTitleText": "桌骑士歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/gechuanqi5/gechuanqi5",
+            "style" : {
+				 "navigationBarTitleText": "德霍格传奇征龙战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/dehuoge6/dehuoge6",
+            "style" : {
+				 "navigationBarTitleText": "德霍格征龙战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/zuerwan7/zuerwan7",
+            "style" : {
+				 "navigationBarTitleText": "尔宛歼殛战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/zuerwan8/zuerwan8",
+            "style" : {
+				 "navigationBarTitleText": "尔宛歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/suofeiya9/suofeiya9",
+            "style" : {
+				 "navigationBarTitleText": "菲娅歼殛战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/suofeiya10/suofeiya10",
+            "style" : {
+				 "navigationBarTitleText": "菲娅歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/luobona11/luobona11",
+            "style" : {
+				 "navigationBarTitleText": "波那歼殛战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/luobona12/luobona12",
+            "style" : {
+				 "navigationBarTitleText": "波那歼灭战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/feiluote13/feiluote13",
+            "style" : {
+				 "navigationBarTitleText": "菲洛特歼殛战"
+				 }
+        },{
+            "path" : "pages/tachangqiong/feiluote14/feiluote14",
+            "style" : {
+				 "navigationBarTitleText": "菲洛特歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/baobiao1/baobiao1",
+            "style" : {
+				 "navigationBarTitleText": "镖歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/xiangtiannv2/xiangtiannv2",
+            "style" : {
+				 "navigationBarTitleText": "祥天女歼殛战"
+				 }
+        },{
+            "path" : "pages/tfhl/xiangtiannv3/xiangtiannv3",
+            "style" : {
+				 "navigationBarTitleText": "祥天女歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/duyouye4/duyouye4",
+            "style" : {
+				 "navigationBarTitleText": "读幽夜歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/yuedu5/yuedu5",
+            "style" : {
+				 "navigationBarTitleText": "读歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/zhuque6/zhuque6",
+            "style" : {
+				 "navigationBarTitleText": "雀诗魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/zhuque7/zhuque7",
+            "style" : {
+				 "navigationBarTitleText": "雀镇魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/longshangwei8/longshangwei8",
+            "style" : {
+				 "navigationBarTitleText": "龙上位狩猎战"
+				 }
+        },{
+            "path" : "pages/tfhl/huolong9/huolong9",
+            "style" : {
+				 "navigationBarTitleText": "龙狩猎战"
+				 }
+        },{
+            "path" : "pages/tfhl/baihu10/baihu10",
+            "style" : {
+				 "navigationBarTitleText": "虎诗魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/baihu11/baihu11",
+            "style" : {
+				 "navigationBarTitleText": "虎镇魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/longmenghuan12/longmenghuan12",
+            "style" : {
+				 "navigationBarTitleText": "龙梦幻歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/shenlong13/shenlong13",
+            "style" : {
+				 "navigationBarTitleText": "龙歼灭战"
+				 }
+        },{
+            "path" : "pages/tfhl/qinglong14/qinglong14",
+            "style" : {
+				 "navigationBarTitleText": "龙诗魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/qinglong15/qinglong15",
+            "style" : {
+				 "navigationBarTitleText": "龙镇魂战"
+				 }
+        },{
+            "path" : "pages/tfhl/zuozhinan16/zuozhinan16",
+            "style" : {
+				 "navigationBarTitleText": "佐之男歼殛战"
+				 }
+        },{
+            "path" : "pages/tfhl/zuozhinan17/zuozhinan17",
+            "style" : {
+				 "navigationBarTitleText": "佐之男歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/fulite1/fulite1",
+            "style" : {
+				 "navigationBarTitleText": "弗利特歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/fulite2/fulite2",
+            "style" : {
+				 "navigationBarTitleText": "弗利特歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/fulite3/fulite3",
+            "style" : {
+				 "navigationBarTitleText": "弗利特讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/weiyasang4/weiyasang4",
+            "style" : {
+				 "navigationBarTitleText": "维亚桑歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/weiyasang5/weiyasang5",
+            "style" : {
+				 "navigationBarTitleText": "维亚桑歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/daqiaoshang6/daqiaoshang6",
+            "style" : {
+				 "navigationBarTitleText": "桥上的决斗"
+				 }
+        },{
+            "path" : "pages/tfcs/aoding7/aoding7",
+            "style" : {
+				 "navigationBarTitleText": "丁歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/xiwa8/xiwa8",
+            "style" : {
+				 "navigationBarTitleText": "瓦歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/xiwa9/xiwa9",
+            "style" : {
+				 "navigationBarTitleText": "瓦歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/lamu10/lamu10",
+            "style" : {
+				 "navigationBarTitleText": "姆歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/lamu11/lamu11",
+            "style" : {
+				 "navigationBarTitleText": "姆歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/wuxiancheng12/wuxiancheng12",
+            "style" : {
+				 "navigationBarTitleText": "限城的死斗"
+				 }
+        },{
+            "path" : "pages/tfcs/qimeila13/qimeila13",
+            "style" : {
+				 "navigationBarTitleText": "化奇美拉讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/taitan14/taitan14",
+            "style" : {
+				 "navigationBarTitleText": "坦歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/taitan15/taitan15",
+            "style" : {
+				 "navigationBarTitleText": "坦歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/taitan16/taitan16",
+            "style" : {
+				 "navigationBarTitleText": "坦讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/haidela17/haidela17",
+            "style" : {
+				 "navigationBarTitleText": "德拉讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/xiujiade18/xiujiade18",
+            "style" : {
+				 "navigationBarTitleText": "都伊修加德保卫战"
+				 }
+        },{
+            "path" : "pages/tfcs/shenbingpo19/shenbingpo19",
+            "style" : {
+				 "navigationBarTitleText": "极神兵破坏作战"
+				 }
+        },{
+            "path" : "pages/tfcs/doujida20/doujida20",
+            "style" : {
+				 "navigationBarTitleText": "玛吉娜杯斗技大会决赛"
+				 }
+        },{
+            "path" : "pages/tfcs/lixianwang21/lixianwang21",
+            "style" : {
+				 "navigationBarTitleText": "古力贤王歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/lixianwang22/lixianwang22",
+            "style" : {
+				 "navigationBarTitleText": "古力贤王歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/jialouluo23/jialouluo23",
+            "style" : {
+				 "navigationBarTitleText": "楼罗歼殛战"
+				 }
+        },{
+            "path" : "pages/tfcs/jialouluo24/jialouluo24",
+            "style" : {
+				 "navigationBarTitleText": "楼罗歼灭战"
+				 }
+        },{
+            "path" : "pages/tfcs/jialouluo25/jialouluo25",
+            "style" : {
+				 "navigationBarTitleText": "楼罗讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/yalesi26/yalesi26",
+            "style" : {
+				 "navigationBarTitleText": "布里亚勒斯讨伐战"
+				 }
+        },{
+            "path" : "pages/tfcs/tatien27/tatien27",
+            "style" : {
+				 "navigationBarTitleText": "塔提恩强攻战"
+				 }
+        }
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "最终的幻想游戏攻略",
+		"navigationBarBackgroundColor": "#C8C7CC",
+		"backgroundColor": "#C8C7CC"
+	}
+}

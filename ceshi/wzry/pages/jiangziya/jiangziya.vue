@@ -1,0 +1,144 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/jiangziya.png"  mode="aspectFit"></image>
+			<text class="name">姜子牙</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/jiangziya0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>心魔</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：每120秒姜子牙为友军增加168点经验值 (开局120秒后第一次触发)</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/jiangziya1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>忏悔</text>
+						<text>冷却值：8</text>
+						<text>消耗：5</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>姜子牙聚集能量对目标区域的敌人进行冲击，对受到冲击的敌人造成每0.5秒70/84/98/112/126/140（+11%法术加成）点法术伤害，持续5秒；持续期间敌人还将逐渐减少移动速度，物理和法术防御，最多将会减少50/58/66/74/82/90%移动速度，10/14/18/22/26/30%物理防御和法术防御</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/jiangziya2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>湮灭</text>
+						<text>冷却值：12/11/10/9/8/7</text>
+						<text>消耗：60</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>白起在指定位置召唤镰刀，镰刀在一定延迟后收回，对范围内的敌人造成200/230/260/290/320/350（+100%物理加成）点法术伤害并将其拉回；同时敌人会减少50%移动速度，持续2.5秒。被动：白起对生命值低于30%的目标会额外造成30%伤害。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/jiangziya3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>断罪</text>
+						<text>冷却值：10/8/6</text>
+						<text>消耗：70</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>姜子牙朝指定方向引导能量聚集，最多持续3秒，冲击波会造成450/600/750（+40%法术加成）～1350（+120%法术加成）点法术伤害并且可对路径上的建筑造成10%伤害；聚集时间会影响冲击波的伤害和攻击距离，冲击波最远可攻击1800距离内的敌人；进行任意操作都会中断聚集过程并立即放出冲击波</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升忏悔副升湮灭</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/治疗术</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zl.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>梦魇+献祭+轮回</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/jiangziyamw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：红色梦魇提供的法术攻击和法术穿透能有效提高前期的输出，绿色献祭提高输出频率增加输出伤害，蓝色轮回能在后期高伤害的情况下获得一定的续航能力。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/jiangziyacz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：当对方物理伤害高时使用此套装备，让白起能扛能打。</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/jiangziyacz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：姜子牙的控制能力相当出色，配合疾步之靴可以快速游走边路，为队友打出致命控制</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+
+</style>

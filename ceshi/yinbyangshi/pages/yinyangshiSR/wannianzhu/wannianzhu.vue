@@ -1,0 +1,123 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/wannianzhu0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">万年竹</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>那个人类的小孩闯进竹林的时候，我正吹奏到一半。</text><text>她好奇地、悄悄地走近我，以为这样我就不会发现，但她却忍不住说了声吹得真好呀。</text><text>她不知道打扰别人的演奏是一件很失礼的事情吗？</text><text>所以说我就是不喜欢人类的小孩子，又失礼又任性，真麻烦。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>她之后常常过来，我最开始都只是保持竹子的形态，看着她沮丧地哭闹着，在地上打滚，把我的竹林搅得一团乱。</text><text>麻烦的小孩，真拿她没办法~~所以后来我都化成人形见她，给她吹一支曲子，这样她就安安分分的了。</text><text>过了几年，她到了人类成年的年纪。</text><text>有次她一边听着笛子，一边抚着自己大大的肚子说这里的竹子先生笛子吹得很好哦。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>又过了很久，有别的妖怪告诉说，她就要死了，为什么要来告诉我？</text><text>这跟我有什么关系？</text><text>不过她应该会想见我吧，听说人类都是这样，死之前，都会想要再见一次之前见过的人。</text><text>我还是去见她了，她的头发花白，皮肤也褶皱着，瘦弱的样子倒是和她小时候很像。</text><text>她似乎是昏迷了，也不知道能不能听到我的笛声。</text><text>算了，还是吹一支曲子吧。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/wannianzhu1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/wannianzhu2.png" mode="aspectFit"></image>
+		 				<text>基本技能：笛中剑</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>使用笛中剑攻击敌方目标，造成攻击100%伤害，有30%的概率邀战。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/wannianzhu3.png" mode="aspectFit"></image>
+		 			    <text>竹叶守护</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>回合结束时，自身获得竹叶守护，持续1回合。</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/wannianzhu4.png" mode="aspectFit"></image>
+		 				<text>竹语</text> 
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>使友方全体获得竹叶守护，并提升攻击，提升等同万年竹攻击10%。维持1回合。</text>
+						<text>Lv.2竹叶守护触发概率增至50%</text>
+						<text>Lv.3提升攻击效果，增至12%</text> 
+						<text>Lv.4竹叶守护触发概率增至60%</text>
+					    <text>Lv.5提升攻击效果，增至15%</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

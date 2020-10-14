@@ -1,0 +1,112 @@
+<template>
+	<view class="content">
+		<view class="title"><text>罗波那歼殛战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>光之战士从蛇心那里得到了骨颌族再次召唤出了蛮神的消息。尚武之神罗波那重新降临到人世之间。</text></view>
+			<view class="text-title"><text>如若坐视不理，武神很可能会抵达魔大陆寻找沉睡中的三斗神，并获得更加强大的力量。光之战士听从了蛇心的建议，出发前去迎战登峰造极的武神！</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/luobona110.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：武神斗技场</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加5%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：15</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：60级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于175</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>登峰造极的武神罗波那</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师60级</text></view>
+				<view class="text-text-text"><text>蛇心</text></view>
+				<view class="text-text-text"><text>石之家X:6.1,Y:5.2</text></view>
+				<view class="text-text-text"><text>前置任务：苍穹之禁城 上古之神</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2. 罗波那</text></view>
+				<view class="text-text-title"><text>概括：时代的眼泪</text></view>
+				<view class="text-text-text"><text>曾几何时武神也是一个又疼又容易翻车的极神，然而随着玩家的装等和技能威力越来越高，现在已经成了即使在同步等级的情况下也很丢人的boss（甚至极神比真神还简单一点）</text></view><view class="text-text-text"><text>boss有一个斗志条，斗志条每次到达100时boss会清空斗志条并给自己一层伤害提高，并进入下一阶段。</text></view>
+				<view class="text-text-title"><text>P1</text></view>
+				<view class="text-text-text"><text>开场请将boss拉背对人群，boss会在数次平a之后开始顺劈，然后会读条“xx防御”。根据读条的不同会给自己附加三个方向的护盾，在对应方向攻击boss会受到反弹伤害并被附加减速状态。如果正面有护盾请T原地挂机，不要尝试去扭动方向攻击boss的侧面。斗志条到达100时boss会清空斗志条并发动“光焰化身”，对自己攻击形态，并开始读条“光焰【序】”。攻击形态下boss受到伤害增加，请在此期间全力输出。读条结束后会释放大范围钢铁aoe，击退所有在范围内的玩家，并附加一层易伤。提前远离boss可以躲避。接下来boss会上天，场地出现四条直线aoe，并点名四个人大范围aoe。请注意躲避的同时不要重叠。然后boss开始读条“光焰【破】”，请玩家躲在身后，读条结束后击退前向270度范围内的玩家并附加一层易伤。接着boss会释放火神四连冲，注意躲避即可。此时斗志条会到达100，boss会为自己附加土之加护状态，并连续释放两次“xx防御”。</text></view>
+				<view class="text-text-title"><text>P2</text></view><view class="text-text-text"><text>boss会不断召唤梦幻蝶和月光蝶，蝴蝶在攻击两次之后会开始读条“月剑招来”，读条结束后会变为一把月剑留在原地（不可破坏）。每一把月剑都会提高接下来的转场技能伤害，所以请及时击杀蝴蝶。（不要因为蝴蝶好看下不去手！这都是武神的刀变的假蝴蝶！）斗志条到达100时进入P3。</text></view>
+				<view class="text-text-title"><text>P3</text></view>
+				<view class="text-text-text"><text>boss读条“神通力”，将所有人拘束并击飞。boss会拔出所有插在地上的月剑，每一把会对全队造成一次aoe伤害并附加一层易伤，并在使用完月剑之后再次对所有人造成aoe伤害并解开拘束。神通力会破坏一部分场地边缘，请注意不要被boss的击退技能击退下去，也不要后跳下去。接下来boss会先为自己附加一个护盾，并释放以自己为中心的距离衰减aoe。随后boss会选中一个人点名总伤害为43000的分摊，注意集合。boss会选中一个人标记状态，并在随后对目标施放四次直线aoe“穿甲散弹”青魔法师请注意该技能。请被点名的玩家将标记传给T，奶妈注意T的血量。随后boss会点名一个人释放直线aoe“斗气弹”，该aoe会击碎护栏，请被点名玩家引导aoe打在无护栏处。斗志条满了时boss读条“光焰【急】”，依次点名四位玩家，然后boss依次向四名玩家冲锋，并在冲锋结束后释放十字aoe同时点名另外四名玩家释放圆形aoe。</text></view>
+				<view class="text-text-text"><text>（接下来同步也看不到我不想写了）</text></view><view class="text-text-text"><text>boss身上有五层伤害提高时，下一次斗志条满时boss会上天并释放神通力然后无限释放全屏aoe明月之笑，直到所有人团灭为止。在这之前击杀掉boss吧~</text></view>
+				 
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/luobona114.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/luobona115.png" mode="aspectFit"></image></view>
+				 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

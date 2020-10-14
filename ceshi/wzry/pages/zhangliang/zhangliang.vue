@@ -1,0 +1,142 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/zhangliang.png"  mode="aspectFit"></image>
+			<text class="name">张良</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍：</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhangliang0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>言灵·咒令</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：张良对任一敌人造成的相邻两次普攻或技能伤害的时间间隔若小于1.5秒，这两次伤害的间隔时间被视为“连续攻击状态”，该状态每积累满1.2秒，会使该敌人额外承受140（+50%法术加成）点真实伤害，该伤害随英雄等级每级成长10点。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhangliang1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>言灵·壁垒</text>
+						<text>冷却值：11/10.6/10.2/9.8/9.4/9</text>
+						<text>消耗：80</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>张良以言灵之术召唤4道并列的法术壁垒，敌人触碰壁垒将受到400/450/500/550/600/650（+75%法术加成）点法术伤害、0.75秒晕眩和之后0.5秒50%减速，并撞碎这块壁垒。重复触碰壁垒的敌人承受的伤害衰减50%，不再承受晕眩效果，但会承受1.25秒50%减速效果。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhangliang2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>言灵·命数</text>
+						<text>冷却值：2</text>
+						<text>消耗：80</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>张良以言灵之术召唤侵蚀法阵，法阵每0.5秒对踏入其中的敌人之一造成120/144/168/192/216/240（+17%法术加成）点法术伤害，同时最多存在2个法阵(法阵对小兵野怪额外造成50%伤害)。法阵每12秒存储一次（受到减CD属性影响），最多存储3次，每个法阵持续5.5秒。张良在法阵中提升60点移动速度。法阵可提供视野。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhangliang3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>言灵·操纵</text>
+						<text>冷却值：40/35/30</text>
+						<text>消耗：130</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>张良以言灵之术抓住一名敌方英雄，持续2.2秒，期间每0.5秒造成120/150/180（+15%法术加成）点法术伤害，并持续压制对方。技能完整释放后，还会在目标身下生成一个法术区域，对踏进其中的敌人造成240/300/360（+30%法术加成）点法术伤害和0.75秒晕眩。</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升言灵·命数副升言灵·壁垒</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/净化</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jh.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>铭文推荐：梦魇+献祭+轮回</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/zhangliangmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：法功和法术穿透可以强化张良前期作战能力，法术吸血可以增强续航能力，张良的被动依赖对敌人持续的控制和伤害来触发，更短的冷却时间对此很有帮助</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/zhangliangcz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：张良手握游戏中有非常强势的压制类控制技能，但仅靠闪现开团效率较低，疾步之靴能让张良快速的逼近对手，打出控制</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt"><text>推荐二：</text></view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/zhangliangcz2.png" mode="aspectFit"></image></view> 
+				<view class="tips"> 
+					<text>Tips：张良被突袭时，放置1,2技能后配合辉月主动效果，往往能做到反杀</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

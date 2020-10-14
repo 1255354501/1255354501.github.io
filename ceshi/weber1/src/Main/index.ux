@@ -1,0 +1,815 @@
+<template>
+    <div class="main" @click="clickHistorybg">
+      <!-- 输入框 -->
+      <div class="topcon">
+        <image class="topcon-left-img" src="{{webicon}}"></image>
+        <input show="{{inputstate}}" id="inputele" class="topcon-input" @change="updateValue" @enterkeyclick="searchclick" @focus="inputIn" @blur="inputOut" type="text" enterkeytype="search" value="{{inputValue}}" placeholder="搜索或输入网址"></input>
+        <text show="{{!inputstate}}" class="topcon-input-tip" @click="inputTipClick">{{inputTip}}</text>
+        <div class="topcon-rightcon" show="{{imgflush}}">
+          <image class="topcon-right-img" @click="scanCode" src="/Common/img/code.png"></image>
+          <image class="topcon-right-img" @click="reFlush" src="/Common/img/reflush90.png"></image>
+        </div>
+        <div class="topcon-rightcon" show="{{imgdel}}">
+          <image class="topcon-right-img" @click="delTxt" src="/Common/img/del.png"></image>
+          <!-- <text class="topcon-rightcancel" @click="cancelClick" >取消</text> -->
+          <text class="topcon-rightcancel" @click="searchclick" >搜索</text>
+        </div>
+      </div>
+      <div style="height:90px;width:100%;"></div>
+      <!-- 搜索历史 -->
+      <div class="searchlist" show="{{searchhistory}}">
+        <div class="searchitem" for="{{searchlist}}" @click="searchItemClick($item)">
+          <text class="searchitem-txt">{{$item}}</text>
+          <image class="searchitem-img" @click="delHistory($idx)" src="/Common/img/del2.png"></image>
+        </div>
+      </div>
+      <!-- webview  -->
+      <div class="doc-comp" show="{{!searchhistory}}">
+        <web id="webkit" class="web-comp" src="{{websrc}}" @pagestart="loadStart" allowthirdpartycookies="{{allow}}" onpagestart="onPageStart" onpagefinish="onPageFinish"  ontitlereceive="onTitleReceive" onerror="onError"></web>
+      </div>
+      <!-- foot -->
+      <div class="footcon">
+        <div class="footitem" @click="goBack"><image class="footimg" src="/Common/img/arrow-left1.png"></image></div>
+        <div class="footitem" @click="goForward"><image class="footimg" src="/Common/img/arrow-right1.png"></image></div>
+        <div class="footitem" @click="setClick"><image class="footimg" src="/Common/img/memu.png"></image></div>
+        <div class="footitem" @click="markClick"><image class="footimg" src="/Common/img/mark.png"></image></div>
+        <div class="footitem" @click="reFlush"><image class="footimg" src="/Common/img/reflush.png"></image></div>
+      </div>
+      <!-- 设置面板 -->
+      <div class="setcon" show="{{setshow}}">
+        <div class="setbg" @click="setbgClick"></div>
+        <div class="setbody">
+          <div class="setbody-top">
+            <div class="setbody-topitem">
+              <image src="/Common/logo.png"></image>
+              <text>欢迎使用急速浏览器</text>
+            </div>
+            <div class="setbody-topitem" >
+              <input type="button" @click="adddeskClick" value="加入桌面"></input>
+            </div>
+          </div>
+          <div class="setbody-bottom">
+            <div class="setbody-bottomitem" @click="downClick">
+              <image src="/Common/img/down.png"></image>
+              <text>下载管理</text>
+            </div>
+            <div class="setbody-bottomitem" @click="markMemuClick">
+              <image src="/Common/img/mark.png"></image>
+              <text>添加收藏</text>
+            </div>
+            <div class="setbody-bottomitem" @click="historyClick">
+              <image src="/Common/img/lishi.png"></image>
+              <text>历史记录</text>
+            </div>    
+            <div class="setbody-bottomitem" @click="reFlush">
+              <image src="/Common/img/reflush.png"></image>
+              <text>刷新</text>
+            </div>
+          </div>
+          <div class="setbody-bottom">
+            <div class="setbody-bottomitem" @click="wuhenClick">
+              <image  src="{{wuhenImg}}"></image>
+              <text style="color:{{wuhenColor}};">无痕模式</text>
+            </div>   
+            <div class="setbody-bottomitem" @click="fankuiClick">
+              <image src="/Common/img/jianyi.png"></image>
+              <text>投诉反馈</text>
+            </div>  
+            <div class="setbody-bottomitem" @click="setPageClick">
+              <image src="/Common/img/set.png"></image>
+              <text>设置</text>
+            </div>  
+            <div class="setbody-bottomitem" @click="outClick">
+              <image src="/Common/img/out.png"></image>
+              <text>退出</text>
+            </div>   
+          </div>
+        </div>
+      </div>
+
+      <!-- 弹窗广告 -->
+      <div class="adcon" show="{{adshow}}">
+        <div class="adbg" @click="setadbgClick"></div>
+        <div class="adbody">
+          <text>{{adtitle}}</text>
+          <image @click="adClick" src="{{adimg}}"></image>
+          <input class="color-2" type="button" value="我知道了" @click="setadbgClick"></input>
+        </div>
+      </div>
+    </div>
+</template>
+
+<script>
+
+import router from '@system.router'
+import prompt from '@system.prompt'
+import barcode from '@system.barcode'
+import fetch from '@system.fetch'
+import storage from '@system.storage'
+import device from '@system.device'
+import util from '../util'
+import clipboard from '@system.clipboard'
+
+export default {
+  public: {
+    //外部打开传参
+    openread: '',
+    urlreferrer: '',
+    userkey: '',
+    bookchannle: ''
+  },
+  private: {
+    websrc: '',
+    webicon: '/Common/img/search.png',
+    allow: false,
+    imgflush: true,
+    imgdel: false,
+    inputValue: '',
+    inputTip:'',
+    inputstate: true,
+    setshow: false, //设置面板
+    searchhistory: false, //搜索历史框
+    searchlist: [], //搜索历史，不是访问历史，只是帮助快速搜索，并且不保存storge
+    wuhen: false, //无痕模式
+    wuhenImg: '/Common/img/wuhen1.png',
+    wuhenColor: '#888',
+
+    //广告
+    adshow: false,
+    adtitle: '',
+    adimg: '',
+    adurl: '' //点击广告跳转地址
+  },
+  onInit () {
+    var self = this
+    
+    storage.get({
+      key: 'androidid',
+      success: function(data) {
+        if(data){
+          self.$app.$def.androidid = data
+          self.onInitHandle()
+        }else{
+          device.getId({
+            type: ['user'],
+            success: function(data2) {
+              // console.log(`handling success: ${data2.user}`)
+              self.$app.$def.androidid = data2.user
+              storage.set({
+                key: 'androidid',
+                value: data2.user,
+              })
+
+              self.onInitHandle()
+            },
+            fail: function(data, code) {
+              console.info(`handling fail, code = ${code}`)
+            }
+          })
+        }
+      }
+    })
+
+    //如果外部拉起快应用，请求接口
+    if(this.openread!=''){
+      this.$app.$def.openAfter(this.openread, this.urlreferrer, this.userkey, this.bookchannle)
+    }
+  },
+  onShow(){
+    if(this.$app.$def.pagedata){
+      this.websrc = this.$app.$def.pagedata
+      this.$app.$def.pagedata = ''
+    }
+  },
+  onInitHandle(){
+    var self = this
+    //启动配置
+    fetch.fetch({
+      url: 'http://quickapp.wifiing.net/init.php',
+      data:{
+        t: (new Date).getTime(),
+        user: this.$app.$def.androidid
+      },
+      responseType: 'json',
+      success: function(response) {
+        var obj = response.data
+        console.log(obj)
+        if(obj.code==200){
+          // self.inputValue = obj.homepage
+          self.websrc = obj.homepage
+
+          //执行规则
+          self.handleRuleConfig(obj.data)
+        }
+      }
+    })
+  },
+
+  //执行规则
+  handleRuleConfig(list){
+    var self = this
+    for(var i=0; i<list.length; i++){
+      var item = list[i]
+
+      //复制剪切板
+      if(item.adtype == 'AdCopyCode'){
+        //先取出来，setTimeout里面取不到item
+        var copystr = item.adconfig.copyCode
+        setTimeout(function() {
+          clipboard.set({
+            text: copystr
+          })
+        }, item.delay)
+      }
+
+      //弹窗广告
+      if(item.adtype == 'AdPopup'){
+        this.adtitle = item.adconfig.text
+        this.adimg = item.adconfig.imgurl
+        this.adurl = item.adconfig.adurl
+        setTimeout(function() {
+          self.adshow = true
+        }, item.delay)
+      }
+
+      //DeepLink
+      if(item.adtype == 'AdDeepLink'){
+        var linkurl = item.adconfig.deeplinkurl
+        setTimeout(function() {
+          try{
+            router.push({
+              uri: linkurl
+            })
+          }catch(e){
+            console.info(e)
+          }
+        }, item.delay)
+      }
+
+      //重定向, 保存规则
+      if(item.adtype == 'AdRedirectUrl'){
+        var obj = {}
+        obj['adname'] = item.adconfig.adname
+        obj['adurl'] = item.adconfig.adurl
+        obj['domain'] = item.adconfig.domain
+        obj['urlkey'] = item.adconfig.urlkey
+        this.$app.$def.pushReUrl(obj)
+      }
+
+      //桌面添加图标
+      if(item.adtype == 'AddIcon'){
+        setTimeout(function() {
+          util.createShortcut()
+        }, item.delay)
+      }
+    }
+  },
+
+  setadbgClick(){
+    this.adshow = false
+  },
+  //点广告
+  adClick(){
+    this.adshow = false
+    console.log(274,this.adurl)
+    var head = this.adurl.substr(0, 4)
+    //是否包含http
+    if(head=='http'){
+      this.searchhandle(this.adurl)
+    }else{
+      //不包含按deeplink处理
+      router.push({
+        uri: this.adurl
+      })
+    }
+  },
+  //开始加载url
+  onPageStart (e) {
+    console.info('### pagestart ###'+e.url)
+    
+    //尝试重定向
+    var oldurl = e.url
+    var newurl = this.$app.$def.filterUrl(oldurl)
+    console.info(11,oldurl)
+    console.info(22,newurl)
+    this.inputValue = newurl
+    this.websrc = this.inputValue
+
+    //如果重定向了，发送
+    // if(oldurl != newurl){
+    this.sendUrlChange(oldurl, newurl)
+    // }
+
+    //无痕模式，不保存历史
+    if(this.wuhen==false){
+      var obj = {}
+      obj.name = ''
+      obj.url = newurl
+      obj.time = (new Date()).getTime()
+      util.historyAdd(obj)
+    }
+  },
+  //接收到标题
+  onTitleReceive (e) {
+    console.info(e.title)
+    this.inputTip = e.title
+    this.inputstate = false
+  },
+  //点击标题框
+  inputTipClick(){
+    this.inputstate = true
+    this.$element('inputele').focus({focus:true})
+  },
+  onError () {
+    console.info('### pageError ###')
+  },
+  onPageFinish (e) {
+    console.info(e)
+    console.info('### onPageFinish ###')
+  },
+  //无痕模式
+  wuhenClick(){
+    if(this.wuhen){
+      this.wuhen = false
+      this.wuhenImg = '/Common/img/wuhen1.png'
+      this.wuhenColor = '#888'
+    }else{
+      this.wuhen = true
+      this.wuhenImg = '/Common/img/wuhen2.png'
+      this.wuhenColor = '#1296db'
+    }
+    prompt.showToast({
+      message: this.wuhen?'开启无痕模式':'关闭无痕模式'
+    })
+    this.setshow = false
+  },
+
+  //扫描二维码
+  scanCode(){
+    var self = this
+    barcode.scan({
+      success: function(data) {
+        self.searchhandle(data.result)
+      },
+      fail: function(data, code) {
+        console.info(`handling fail, code = ${code}`)
+      }
+    })
+  },
+
+  //开始加载网页
+  loadStart(){
+    //失去焦点
+    this.$element('inputele').focus({focus:false})
+  },
+  reFlush () {
+    this.$element('webkit').reload()
+    this.setshow = false
+  },
+  goForward () {
+    this.$element('webkit').forward()
+  },
+  goBack () {
+    this.$element('webkit').back()
+  },
+  delTxt() {
+    if(this.inputValue){
+      this.inputValue = ''
+    }else{
+      this.cancelClick()
+    }
+  },
+  //点击搜索历史
+  searchItemClick(item){
+    
+    prompt.showToast({
+      message: item
+    })
+    this.searchhandle(item)
+  },
+  delHistory(idx) {
+    this.searchlist.splice(idx,1)
+  },
+  //点击后关闭搜索历史，并且展示标题，输入框失去焦点
+  clickHistorybg(){
+    this.searchhistory = false
+    this.$element('inputele').focus({focus:false})
+    this.inputstate = false
+  },
+  //用户输入
+  updateValue (e) {
+    this.inputValue = e.text
+  },
+  inputIn () {
+    this.imgflush = false
+    this.imgdel = true
+
+    this.searchhistory = true
+  },
+  inputOut () {
+    this.imgflush = true
+    this.imgdel = false
+
+    this.searchhistory = false
+  },
+  cancelClick(){
+    //失去焦点
+    this.$element('inputele').focus({focus:false})
+
+    this.setshow = false
+  },
+  searchclick () {
+    //失去焦点
+    this.$element('inputele').focus({focus:false})
+
+    this.searchhandle(this.inputValue)
+  },
+
+  searchhandle(_txt){
+    var self = this
+
+    //去掉两头的空格
+    var txt = _txt.replace(/^\s*|\s*$/g,'')
+
+    //加入搜索历史
+    var ishavesearch = false
+    for(var a=0;a<this.searchlist.length;a++){
+      if(this.searchlist[a] == txt){
+        ishavesearch = true
+        break
+      }
+    }
+    if(!ishavesearch){
+      this.searchlist.push(txt)
+    }
+
+    var head = txt.substr(0, 7)
+    var head2 = txt.substr(0, 8)
+    head = head.toLowerCase()
+    head2 = head2.toLowerCase()
+    //是否包含http头
+    if(head=='http://' || head2=='https://'){
+
+      this.inputValue = txt
+      this.websrc = this.inputValue
+      this.webicon = '/Common/img/net.png'
+    }else{
+      //是否包含域名后缀
+      var index=txt.lastIndexOf('.')
+      var zhui=txt.substring(index+1,txt.length)
+      if(zhui=='com'||zhui=='net'||zhui=='cn'||zhui=='top'||zhui=='org'||zhui=='cc'||zhui=='tv'||zhui=='wang'||zhui=='tech'||zhui=='site'||zhui=='club'||zhui=='pro'||zhui=='mobi'||zhui=='online'||zhui=='tk'||zhui=='uk'||zhui=='info'){
+        
+        this.inputValue = 'http://'+txt
+        this.websrc = this.inputValue
+        this.webicon = '/Common/img/net.png'
+      }else{
+        //最后判断不是域名，则引擎搜索
+        this.inputValue = txt
+        storage.get({
+          key: 'engine',
+          success: function(data) {
+            var value = self.inputValue
+            var str = ''
+            if(data=='baidu'){
+              str = 'http://www.baidu.com/s?wd='+value
+            }else if(data=='360'){
+              str = 'https://www.so.com/s?q='+value
+            }else if(data=='shenma'){
+              str = 'https://m.sm.cn/s?q='+value
+            }else if(data=='sougou'){
+              str = 'https://www.sogou.com/web?query='+value
+            }else if(data=='biying'){
+              str = 'https://cn.bing.com/search?q='+value
+            }
+            self.websrc = str
+          }
+        })
+        this.webicon = '/Common/img/search.png'
+      }
+    }
+    
+  },
+
+  //浏览器触发URL改变后台请求接口
+  sendUrlChange(oldurl, newurl){
+    var self = this
+    //浏览器触发URL改变后台请求接口
+    fetch.fetch({
+      url: 'http://quickapp.wifiing.net/urlchange.php',
+      data:{
+        t: (new Date).getTime(),
+        user: this.$app.$def.androidid,
+        oldurl: oldurl,
+        newurl: newurl
+      },
+      responseType: 'json',
+      success: function(response) {
+        var obj = response.data
+        if(obj.code==200){
+
+          //执行规则
+          self.handleRuleConfig(obj.data)
+        }
+      }
+    })
+  },
+
+  setbgClick(){
+    this.setshow = false
+  },
+  setClick(){
+    this.setshow = true
+  },
+  historyClick(){
+    this.setshow = false
+    router.push({
+      uri: '/History',
+      params: {
+      }
+    })
+  },
+  markClick(){
+    this.setshow = false
+    router.push({
+      uri: '/Mark',
+      params: {
+      }
+    })
+  },
+  markMemuClick(){
+    var obj = {}
+    obj.title = ''
+    obj.url = this.inputValue
+    obj.time = (new Date()).getTime()
+    this.$app.$def.markAdd(obj)
+
+    this.setshow = false
+  },
+  fankuiClick(){
+    router.push({
+      uri: '/Web',
+      params: {
+        title: '投诉反馈',
+        url: 'http://quickapp.bingo88.cn/static/tsfk.php'
+      }
+    })
+  },
+  setPageClick(){
+    router.push({
+      uri: '/Set',
+      params: {
+      }
+    })
+    this.setshow = false
+  },
+  outClick(){
+    this.$app.exit()
+  },
+  downClick(){
+    router.push({
+      uri: '/Down',
+      params: {
+      }
+    })
+  },
+  adddeskClick(){
+    util.createShortcut()
+    this.setshow = false
+  },
+  onBackPress(){
+    // console.info(`触发：onBackPress`)
+    // prompt.showToast({
+    //   message: '触发：onBackPress'
+    // })
+    this.goBack()
+    return true
+  }
+
+}
+</script>
+
+<style>
+  .main{
+    flex-direction: column;
+  }
+  .doc-comp {
+    flex: 1;
+    flex-direction: column;
+  }
+  .web-comp {
+    flex: 1;
+  }
+
+  .adcon{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content:center;
+  }
+  .adbg{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .adimg{
+    height: 0px;
+  }
+  .adbody{
+    width: 85%;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 60px 30px;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .adbody text{
+    margin-top: 1px;
+    font-size: 35px;
+  }
+  .adbody image{
+    margin-top: 30px;
+  }
+  .adbody input{
+    margin-top: 40px;
+    width: 60%;
+    padding: 20px 30px;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 80px;
+  }
+  .color-2 {
+    background-color: #f76160;
+  }
+  .color-2:active {
+    background-color: #c55756;
+  }
+
+  .setcon{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .setbg{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+  .setbody{
+    position: absolute;
+    bottom: 100px;
+    left: 20px;
+    right: 20px;
+    height: 500px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    flex-direction: column;
+  }
+  .setbody-top{
+    flex: 1;
+    flex-direction: row;
+  }
+  .setbody-topitem{
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    
+  }
+  .setbody-topitem text{
+    font-size: 26px;
+    margin-left: 15px;
+  }
+  .setbody-topitem image{
+    width: 103px;
+    height: 74px;
+    resize-mode: contain;
+  }
+  .setbody-topitem input{
+    width: 50%;
+    height: 55px;
+    border-radius: 20px;
+    background-color: #eee;
+    color: #777;
+    font-size: 24px;
+    margin-left: 50px;
+  }
+  .setbody-bottom{
+    flex: 1;
+    flex-direction: row;
+  }
+  .setbody-bottomitem{
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .setbody-bottomitem text{
+    font-size: 22px;
+    margin-top: 5px;
+  }
+
+
+  .topcon{
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    top: 0px;
+  }
+  .topcon-left-img{
+    margin-left: 35px;
+    margin-top: 25px;
+    width: 40px;
+    height: 40px;
+  }
+  .topcon-input{
+    width: 100%;
+    padding: 10px 190px 10px 25px;
+    font-size: 28px;
+  }
+  .topcon-input-tip{
+    width: 100%;
+    padding: 10px 190px 10px 25px;
+    font-size: 28px;
+  }
+  .topcon-rightcon{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    flex-direction: row;
+  }
+  .topcon-right-img{
+    flex: 1;
+    margin-top: 5px;
+    width: 80px;
+    height: 80px;
+  }
+  .topcon-rightcancel{
+    font-size: 28px;
+    color: #777;
+    padding: 0px 10px 0px 15px;
+  }
+
+  .searchlist{
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+  .searchitem{
+    flex: 1;
+    width: 100%;
+    padding: 20px 50px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+  }
+  .searchitem-txt{
+    font-size: 32px;
+  }
+  .searchitem-img{
+    position: absolute;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    top: 22px;
+  }
+  .footcon{
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+
+    position: fixed;
+    bottom: 0px;
+    flex-direction: row;
+  }
+  .footitem{ 
+    flex: 1;
+    align-items: center;
+    justify-content:center;
+  }
+  .footimg{
+    width: 45px;
+    height: 45px;
+  }
+</style>

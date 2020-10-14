@@ -1,0 +1,127 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/yaohu0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">妖狐</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>七月二十日</text><text>虽然我不能摘下自己的面具，但我知道，她就是我一直在寻找的命中注定之人！</text><text>待字闺中的少女，就像含苞待放的花儿，让人不禁要期待绽放后的美。</text><text>她眼角带泪，娇羞地欲拒还迎，那副模样真美啊。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>七月二十一日</text><text>果然命运是无法违背的，小生又遇到了我的命中注定之人。</text><text>她千娇百媚地为小生倒酒，并用深情的目光与小生对视。</text><text>她用最美最狂放的姿态取走了小生的面具。</text><text>啊啊，这简直就是命运的时刻，我嗅着酒与血液的芬芳，再一次，放纵自己沉沦于爱的深渊之中。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>七月二十二日</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/yaohu1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/yaohu2.png" mode="aspectFit"></image>
+		 				<text>基本技能：风刃</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>舞扇卷出风刃攻击敌方目标，造成攻击80%伤害。</text>
+		 				<text>Lv.2伤害增加至85%</text>
+		 				<text>Lv.3伤害增加至90%</text>
+		 				<text>Lv.4伤害增加至95%</text>
+		 				<text>Lv.5伤害增加至100%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/yaohu3.png" mode="aspectFit"></image>
+		 			    <text>聚气</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>造成伤害时，获得1层聚气，上限10层；若目标生命值高于50%，则对其追加一次相同的攻击（每次攻击最多触发1次追加攻击）。</text>
+		 				<text>Lv.2每层聚气提升攻击效果，增至3%</text>
+		 				<text>Lv.3每层聚气提升攻击效果，增至4%</text>
+		 				<text>Lv.4每层聚气提升攻击效果，增至5%</text>
+		 				<text>Lv.5每层聚气提升攻击效果，增至6%</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/yaohu4.png" mode="aspectFit"></image>
+		 				<text>狂风刃卷</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>挥舞纸扇进行风刃攻击敌方目标2次，每次造成攻击66%伤害。有50%的概率对同一目标重复施放此技能。</text> 
+		 				<text>Lv.2伤害增加至69%</text>
+						<text>Lv.3伤害增加至72%</text>
+						<text>Lv.4伤害增加至75%</text>
+						<text>Lv.5伤害增加至78%</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		 <script>
+		  	export default {
+		  		data() {
+		  			return {
+		  				title: 'Hello',
+		  				ggg:false
+		  			}
+		  		},
+		  		onLoad:function(){
+		 			let self=this
+		  			uni.getStorage({
+		  			    key: 'ggg',
+		  			    success: function (res) { 
+		  					self.ggg=res.data; 
+		  					if(res.data=="true"||res.data==true){
+		  						const bannerAd = tt.createRewardedVideoAd({
+		  						  adUnitId: "qkih7580bi5ik6gpjs"
+		  						});
+		  						  bannerAd.show().then(() => {
+		  						      console.log("广告显示成功");
+		  						    }).catch((err) => {
+		  								bannerAd.load().then(() => {
+		  								    console.log("手动加载成功");
+		  								    return bannerAd.show();
+		  								  });
+		  						      console.log("广告组件出现问题", err);
+		  						    });
+		  						bannerAd.onClose((res) => {
+		  						  if (!res.isEnded) {
+		  						    uni.navigateBack({
+		  						        delta: 1
+		  						    });
+		  						  }
+		  						});
+		  					}
+		  			    }
+		  			}); 
+		  		},
+		  		methods: {
+		              openvideo:function(url){ 
+		  				uni.navigateTo({
+		  				    url: url+`?ggg=${this.ggg}`
+		  				});
+		  			}
+		  		}
+		  	}
+		  </script>
+		 	 
+		 <style>
+		 	@import url("/static/yysr.css");
+		 </style>

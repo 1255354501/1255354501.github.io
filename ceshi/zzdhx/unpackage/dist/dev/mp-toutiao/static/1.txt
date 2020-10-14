@@ -1,0 +1,65 @@
+<view class="text-area" @click="openvideo('../chongsheng/zhenyuan1/zhenyuan1')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 0巴哈姆特大迷宫 真源之章1</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/zhenyuan2/zhenyuan2')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 1巴哈姆特大迷宫 真源之章2</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/zhenyuan3/zhenyuan3')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 2巴哈姆特大迷宫 真源之章3</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/zhenyuan4/zhenyuan4')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 3巴哈姆特大迷宫 真源之章4</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xiehou5/xiehou5')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 邂逅之章1</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xiehou6/xiehou6')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 邂逅之章2</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xiehou7/xiehou7')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 邂逅之章3</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xiehou8/xiehou8')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 邂逅之章4</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xiehou9/xiehou9')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 邂逅之章5</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/ruqin10/ruqin10')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 入侵之章1</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/ruqin11/ruqin11')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 入侵之章2</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/ruqin12/ruqin12')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 入侵之章3</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/ruqin13/ruqin13')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 巴哈姆特大迷宫 入侵之章4</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/gudai14/gudai14')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 晶塔 古代人迷宫</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xier15/xier15')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 晶塔 希尔科斯塔</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/taan16/taan16')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 晶塔 暗之世界</text></view>
+		    </view>
+		</view> 

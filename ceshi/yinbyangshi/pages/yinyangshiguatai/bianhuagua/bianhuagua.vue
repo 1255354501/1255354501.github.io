@@ -1,0 +1,117 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/bianhuagua0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">彼岸花呱</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>我只想做好自己。既然玉藻前大人赐予了我这么完美的外表，那我就要一丝不苟的对待。</text><text>别的呱总是抱怨我每天都迟到，可是要涂抹出完美的口脂形状，必须要细致的花费半个时辰才行。</text><text>阎魔呱总是看着我欲言又止，其实，我猜得到她想说什么。</text><text>那个总是从木轮车上摔下来的阎魔呱，一定是想要问我如何才能优雅美丽吧。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>妆台上乱糟糟的，那件刚熏好香的衣服也不见了，是阎魔呱刚才来借走了吧，不会错的。其实，她真的没必要这样啊，好好收拾起自己的焦虑，来和我做个朋友不好吗？</text><text>那件衣服那么长，阎魔呱今晚肯定穿不惯，一定还会从木轮车上摔下来的。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>今晚阎魔呱穿着那件衣服的样子，在摔下木轮车之前，确实是挺优雅的。</text><text>为了避免她尴尬，我还是不当面把药膏交给她吧。</text><text>看着她那副手足无措的样子，真是有点可怜啊，不过，我一定不会嘲笑她的。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/bianhuagua1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>该式神无法觉醒</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/bianhuagua2.png" mode="aspectFit"></image>
+		 				<text>基本技能：呱·死亡之花</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>用殷红的花瓣攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/bianhuagua3.png" mode="aspectFit"></image>
+		 			    <text>呱·血之花海</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>使自己获得无法驱散的护盾，能吸收2%已损失生命的伤害，持续1回合。</text>
+		 				<text>Lv.2护盾吸收量增至已损失生命的4%</text>
+		 				<text>Lv.3护盾吸收量增至已损失生命的6%</text>
+		 				<text>Lv.4护盾吸收量增至已损失生命的8%</text>
+		 				<text>Lv.5护盾吸收量增至已损失生命的10%</text>
+		 			</view> 
+		 		</view>
+		 		 
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

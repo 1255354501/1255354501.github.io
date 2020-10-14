@@ -1,0 +1,101 @@
+<template>
+	<view class="content">
+		<view class="title"><text>死化奇美拉讨伐战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>很多研究人员都对“死化奇美拉”抱有极大的兴趣。这种奇妙的生物有着狮子、山羊及飞龙三种生物的头，而且看起来每个头都能够进行独立行为。另外研究者们争论最多的问题，还是死化奇美拉体内为何能够产生“矾土晶粒”这一珍贵的素材。</text></view><view class="text-title"><text>有人说这种晶粒的产生是一种意外，也有人说在死化奇美拉的体内存在矿石转变成晶粒的必然条件。不过到了传说中的武器工匠盖罗尔特那里则只留下了一句话：你有足够的力量去打倒死化奇美拉把矾土晶粒拿给我么？</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qimeila130.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：圣人泪</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加10%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：10</text></view>
+				<view class="text-text-text"><text>新手奖励：50</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：50级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于52</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>复苏的上古武器（吉光）</text></view>
+				<view class="text-text-text"><text>忍者50级</text></view>
+				<view class="text-text-text"><text>盖罗尔特</text></view>
+				<view class="text-text-text"><text>黑衣森林北部林区X:30.3,Y:20.2</text></view>
+				<view class="text-text-text"><text>前置任务：师与徒</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.死化奇美拉</text></view>
+				<view class="text-text-text"><text>寒冰咆哮远离BOSS，雷电咆哮靠近BOSS（或跑到足够远，不推荐），寒冰/雷电吐息为正面扇形AOE，注意回避，寒冰眼为点名一人释放圆形寒冰陷阱，不要踩进去，雷电眼为追踪型球状AOE，请远离引导。</text></view> 
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/qimeila134.png" mode="aspectFit"></image></view>
+			 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

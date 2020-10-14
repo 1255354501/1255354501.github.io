@@ -1,0 +1,116 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/yanmogua0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">阎魔呱</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>呱，这已经是第一千次从木轮车上摔下来了吧。</text><text>好难过啊，我根本掌握不好平衡啊，不管怎么努力想要在车上稳住身子，总会坚持不了多久，就啪叽一声摔下来。</text><text>对一只呱而言，还有什么比在众呱眼前一次次摔跤更丢脸的呢。</text><text>每次出门前精心收拾的妆容和衣饰，都会因为摔跤而变得灰扑扑的。</text><text>真是羡慕彼岸花呱啊，永远一丝不苟的妆饰，优雅地坐在车上，连口脂涂抹的式样都那么一丝不苟。</text><text>可是，她总是那么高冷，我这样笨手笨脚的呱，从来找不到和她攀谈的</text><text>机会，不然，就可以向她探讨如何保持优雅的奥秘了。</text><text>好想变成彼岸花呱啊，像她那么美那么优雅~~</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>如果我穿上彼岸花呱的衣服，再涂上她的脂粉，会不会也能拥有一点点她的美丽的魔力呢？</text><text>只要一点点就好~~</text><text>唔，彼岸花呱真是美丽又精致，连衣服上都熏了如此好闻的熏香呢。</text><text>唔，我只借用这一晚上、一晚上就好，明天我就偷偷还回来，一定不会有人发现的！</text><text>糟了，胧车快开了，我得抓紧把这身好衣服换上。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>啪叽。</text><text>这是我第一千零一次从木轮车上摔下来的声音，好疼啊，这次连脸都磕破了。</text><text>就算穿上优雅的衣饰，我也还是这么笨手笨脚呢，什么美丽的魔力，果然都是我的幻想。衣服上都是灰土，这件事一定会被彼岸花呱告发到玉藻前大人那里的~~</text><text>趁彼岸花呱没有注意到，赶紧把衣服还回到她房间才是正事！</text><text>咦？这是什么？伤损药膏？这、这难道是彼岸花呱给我准备的吗？原来她都知道~~</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/yanmogua1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>该式神无法觉醒</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/yanmogua2.png" mode="aspectFit"></image>
+		 				<text>基本技能：呱·鬼面</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>召唤鬼面攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/yanmogua3.png" mode="aspectFit"></image>
+		 			    <text>呱·怨魂重压</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>唤出亡灵攻击敌方目标，造成攻击105%伤害。</text>
+		 				<text>Lv.2伤害增加至111%</text>
+		 				<text>Lv.3伤害增加至116%</text>
+		 				<text>Lv.4伤害增加至122%</text>
+		 				<text>Lv.5伤害增加至127%</text>
+		 			</view> 
+		 		</view> 
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

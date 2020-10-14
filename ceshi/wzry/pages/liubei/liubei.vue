@@ -1,0 +1,144 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/liubei.png"  mode="aspectFit"></image>
+			<text class="name">刘备</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liubei0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>强化霰弹</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：刘备的火铳是霰弹枪，目标会受到50%总攻击力+40%×额外弹丸数的总伤害；每颗弹丸命中敌方英雄，会增加1层战斗本能，战斗本能会给刘备增加3~11点物理穿透，持续6秒，最多叠加12层，增加幅度随英雄等级成长；每次射击只有中间的2颗弹丸能够暴击并触发装备效果；建筑不受额外弹丸影响</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liubei1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>双重射击</text>
+						<text>冷却值：8/7.6/7.2/6.8/6.4/6</text>
+						<text>消耗：60</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>刘备增加40%移动速度，持续1.5秒，并在下一次普通攻击变更为两次连射，连射时每颗弹丸会造成150/170/190/210/230/250（+25%物理加成）点物理伤害</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liubei2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>身先士卒</text>
+						<text>冷却值：10/9.4/8.8/8.2/7.6/7</text>
+						<text>消耗：80</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>刘备向指定方向冲撞，对撞击到的敌人造成180/200/220/240/260/280（+70%物理加成）点物理伤害并停止冲撞；同时撞击到的敌人会被击退；若撞击到敌方英雄将减少2秒身先士卒的冷却时间</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/liubei3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>以德服人</text>
+						<text>冷却值：60/55/50</text>
+						<text>消耗：130</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>刘备立即解除自身的控制效果，并获得可抵免1000/1500/2000点伤害的护盾，持续6秒；开启技能后获得3秒免疫控制效果，同时将对敌方英雄造成伤害的60%转化为护盾值，对小兵和野怪造成伤害的20%转化为护盾值，护盾上限为初始值的150%；释放技能还会获得50/100/150点物理攻击力加成，持续6秒</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升双重射击副升身先士</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：疾跑/狂暴</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jp.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/kb.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>异变+鹰眼+夺萃</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/liubeimw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：刘备是近战战士，距离敌人越近攻击伤害越高，高额的穿透和物攻可以帮刘备飞速清理野区，移速可以让刘备配合红BUFF黏住敌方英雄，在初期爆发超高的情况下，攻速效果明显，近战时多A一下可以造成更多伤害。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/liubeicz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：刘备射程较近，暗影战斧能够提供一定的基础血量让其靠近敌人后，不至于被立即打入较为危险的血线，宗师之力能够让刘备的爆发力更上一层楼</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/liubeicz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：闪电匕首提供了额外移动速度加成，让刘备靠近敌人时更加快速，破军带来的斩杀效果让其面对后排时，能够打出毁灭性的伤害</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

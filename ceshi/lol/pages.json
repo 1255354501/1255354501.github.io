@@ -1,0 +1,97 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "英雄的联盟"
+			}
+		},{
+		    "path" : "pages/yxxiangqing/yxxiangqing",
+		    "style" : { }
+		},{
+		    "path" : "pages/fuwen/fuwen",
+		    "style" : {
+				"navigationBarTitleText": "符文"
+			}
+		},{
+		    "path" : "pages/yingxiong/yingxiong",
+		    "style" : {
+				"navigationBarTitleText": "英雄大全"
+			}
+		},{
+            "path" : "pages/web/web",
+            "style" : {
+				"navigationBarTitleText": "web"
+			}
+        },{
+		    "path" : "pages/zhuangbei/zhuangbei",
+		    "style" : {
+				"navigationBarTitleText": "装备"
+				}
+		},{
+		    "path" : "pages/jineng/jineng",
+		    "style" : {
+				"navigationBarTitleText": "召唤师技能"
+			}
+		} 
+        ,{
+            "path" : "pages/video/video",
+            "style" : {}
+        },{
+		    "path" : "pages/yingxiong/anni",
+		    "style" : {
+				"navigationBarTitleText": "黑暗之女"
+			}
+		},
+		{
+		    "path" : "pages/yingxiong/galio",
+		    "style" : {
+				"navigationBarTitleText": "正义巨像"
+			}
+		},{
+		    "path" : "pages/yingxiong/kapai",
+		    "style" : {
+				"navigationBarTitleText": "卡牌大师"
+			}
+		},{
+		    "path" : "pages/yingxiong/yaoji",
+		    "style" : {
+				"navigationBarTitleText": "诡术妖姬"
+			}
+		},{
+		    "path" : "pages/yingxiong/xinghong",
+		    "style" : {
+				"navigationBarTitleText": "猩红收割者"
+			}
+		},{
+		    "path" : "pages/yingxiong/kongju",
+		    "style" : {
+				"navigationBarTitleText": "远古恐惧"
+			}
+		},{
+		    "path" : "pages/yingxiong/zhongxing",
+		    "style" : {
+				"navigationBarTitleText": "众星之子"
+			}
+		},{
+		    "path" : "pages/yingxiong/moganlan",
+		    "style" : {
+				"navigationBarTitleText": "堕落天使"
+			}
+		},{
+		    "path" : "pages/yingxiong/fuwen",
+		    "style" : {
+				"navigationBarTitleText": "符文法师"
+			}
+		}
+        
+        
+        
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "英雄的联盟",
+		"navigationBarBackgroundColor": "#0000e8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

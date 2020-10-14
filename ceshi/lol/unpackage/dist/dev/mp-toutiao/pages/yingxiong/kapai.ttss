@@ -1,0 +1,83 @@
+
+.content{
+		padding: 0;
+		margin: 0;
+		padding-bottom: 60rpx;
+}
+.image image{
+	   width: 375px;
+	   height: 380rpx;
+}
+.bjgs{ 
+	   padding: 20rpx;
+}
+.bjgs .title{
+	   color: #338c7a;
+	   font-size: 48rpx;
+}
+.bjgs .text{
+	   text-indent: 80rpx;
+	   margin-top: 10rpx;
+	   color: #666666;
+}
+.jinengjieshao{
+	   padding: 20rpx;
+}
+.jinengjieshao .jn{
+	   display: -webkit-box;
+	   display: -webkit-flex;
+	   display: flex;
+	   -webkit-box-orient: vertical;
+	   -webkit-box-direction: normal;
+	   -webkit-flex-direction: column;
+	           flex-direction: column;
+}
+.jinengjieshao .jn .pic{
+	   display: -webkit-box;
+	   display: -webkit-flex;
+	   display: flex;
+	   -webkit-box-orient: horizontal;
+	   -webkit-box-direction: normal;
+	   -webkit-flex-direction: row;
+	           flex-direction: row;
+	   -webkit-box-align: center;
+	   -webkit-align-items: center;
+	           align-items: center;
+	   padding-left: 20rpx;
+}
+.jinengjieshao .jn .pic image{
+	   width: 128rpx;
+	   height: 128rpx;
+}
+.jinengjieshao .jn .pic text{
+	   margin-left:10rpx ;
+	   color: #333;
+}
+.jinengjieshao .jn .text{
+	   padding-left: 20rpx;
+	   margin-top: 20rpx;
+	   color: #333;
+}
+.shiyongjieshao{
+	   padding: 10rpx;
+}
+.shiyongjieshao .bt{ 
+	   color: #338c7a;
+	   font-size: 48rpx;
+	   padding-left: 10rpx;
+}
+.shiyongjieshao .zj .title{
+	   font-size: 28rpx;
+	   font-weight: 700;
+	   color: #338c7a;
+	   padding-bottom: 16rpx;
+	   text-indent: 40rpx;
+	   margin-top: 10rpx;
+}
+.shiyongjieshao .zj .text{
+	   font-size: 28rpx;
+	   font-weight: 700; 
+	   padding-bottom: 16rpx; 
+	   text-indent: 40rpx;
+}
+

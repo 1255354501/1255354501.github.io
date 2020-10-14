@@ -1,0 +1,142 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/yase.png"  mode="aspectFit"></image>
+			<text class="name">亚瑟</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍： </text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/yase0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>圣光守护</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：亚瑟获得圣光守护，每2秒回复2%的最大生命值</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/yase1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>誓约之盾</text>
+						<text>冷却值：10/9/8/7/6/5</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>亚瑟增加30%移动速度，持续3秒，下一次普通攻击变更为跳斩，跳斩会造成180/205/230/255/280/305（+100%物理加成）点物理伤害并将目标沉默1秒，同时跳斩命中的敌方英雄会被标记，持续5秒，亚瑟的普通攻击和技能会额外造成目标最大生命值1%的法术伤害；标记附近的友军会增加10%的移动速度</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/yase2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>回旋打击</text>
+						<text>冷却值：12/11.4/10.8/10.2/9.6/9</text>
+						<text>消耗：0</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>亚瑟召唤圣盾围绕自身旋转，对路径上的敌人会造成145/163/181/199/217/235（+80%物理加成）点物理伤害，圣盾最多持续5秒</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/yase3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>圣剑裁决</text>
+						<text>冷却值：42/35/28</text>
+						<text>消耗：0</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>亚瑟举起圣剑跃向敌方英雄，造成敌方英雄最大生命12/16/20%法术伤害并将其击飞0.5秒；同时召唤圣印覆盖落点范围，持续5秒，圣印会对范围内敌人造成每秒85/105/125点法术伤害</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议： 主升誓约之盾副升回旋打击</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/终结</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zs.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>铭文推荐：宿命+虚空+调和</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/yasemw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：红色宿命增加血量，物理护甲以提高前期抗压能力。绿色虚空增加血量，降低技能CD使亚瑟的技能更加频繁。蓝色调和增加血量，增加移速，可以使亚瑟更加灵活。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/yasecz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：全防御出装，能够成为团队的前排，为队友争取到输出空间，红莲斗篷能帮助亚瑟快速清线，霸者重装让其恢复能力大幅上升</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt"><text>推荐二：</text></view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/yasecz2.png" mode="aspectFit"></image></view> 
+				<view class="tips"> 
+					<text>Tips：装备提供了大量冷却缩减，让亚瑟能一直维持一个超高的机动性，让其能够频繁的释放技能制造混乱和伤害</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

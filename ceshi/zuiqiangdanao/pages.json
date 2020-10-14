@@ -1,0 +1,183 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "魔兽世界怀旧版"
+			}
+		}
+	    ,{
+            "path" : "pages/1-10/1-10",
+            "style" : {
+				"navigationBarTitleText": "P5必做的4个任务 直接就送版本毕业装备"
+			}
+        }
+        ,{
+            "path" : "pages/11-20/11-20",
+            "style" : {
+				"navigationBarTitleText": "P5阶段防战bis装备一览 T2.5可以替换T2"
+			}
+        }
+        ,{
+            "path" : "pages/21-30/21-30",
+            "style" : {
+				"navigationBarTitleText": "P5这些装备不要急着买 克苏恩之眼也是要声望的"
+			}
+        }
+        ,{
+            "path" : "pages/31-40/31-40",
+            "style" : {
+				"navigationBarTitleText": "安其拉1号boss预言者斯克拉姆攻略 注意心控和转阶段"
+			}
+        }
+        ,{
+            "path" : "pages/41-50/41-50",
+            "style" : {
+				"navigationBarTitleText": "安其拉2号boss吉祥三宝攻略 亚尔基公主优先杀"
+			}
+        }
+        ,{
+            "path" : "pages/51-60/51-60",
+            "style" : {
+				"navigationBarTitleText": "安其拉3号boss战争守卫沙尔图拉攻略 吃控的BOSS"
+			}
+        }
+        ,{
+            "path" : "pages/61-70/61-70",
+            "style" : {
+				"navigationBarTitleText": "安其拉4号boss顽强的范克瑞斯攻略 躲开正面A小怪" 
+				}
+        }
+        ,{
+            "path" : "pages/8/8",
+            "style" : {
+				"navigationBarTitleText": "安其拉5号boss哈霍兰公主攻略 近战集体准备自然抗"  
+			}
+        }
+        ,{
+            "path" : "pages/9/9",
+            "style" : {
+				"navigationBarTitleText": "安其拉6号boss维希度斯攻略 熟悉机制一把过" 
+			}
+        }
+        ,{
+            "path" : "pages/10/10",
+            "style" : {
+				"navigationBarTitleText": "安其拉7号boss双子皇帝攻略 术士坦克成MVP"
+			}
+        }
+        ,{
+            "path" : "pages/11/11",
+            "style" : {
+				"navigationBarTitleText": "安其拉8号boss奥罗攻略 全组远程大大削弱难度"
+				}
+        }
+        ,{
+            "path" : "pages/12/12",
+            "style" : {
+				"navigationBarTitleText": "安其拉9号boss克苏恩攻略 曾经的难点"
+				}
+        }
+        ,{
+            "path" : "pages/13/13",
+            "style" : {
+				"navigationBarTitleText": "安其拉废墟1号BOSS库林纳克斯攻略 躲好流沙陷阱"
+				}
+        }
+        ,{
+            "path" : "pages/14/14",
+            "style" : {
+				"navigationBarTitleText": "安其拉废墟2号BOSS拉贾克斯将军攻略 靠墙站避免击飞"
+				}
+        }
+        ,{
+            "path" : "pages/15/15",
+            "style" : {
+				"navigationBarTitleText": "安其拉废墟3号BOSS莫阿姆攻略 术士猎人全力抽蓝"
+				}
+        }
+        ,{
+            "path" : "pages/16/16",
+            "style" : {
+				"navigationBarTitleText": "安其拉废墟4号BOSS吞噬者布鲁攻略 碎蛋时机是关键"
+				}
+        }
+        ,{
+            "path" : "pages/17/17",
+            "style" : {
+				"navigationBarTitleText": "安其拉废墟5号BOSS狩猎者阿亚弥斯攻略 加好中献祭的血"
+				}
+        }
+        ,{
+            "path" : "pages/18/18",
+            "style" : {
+				"navigationBarTitleText": "火法点燃详解 被削并非被砍"
+				}
+        }
+        ,{
+            "path" : "pages/19/19",
+            "style" : {"navigationBarTitleText": "法师P5毕业胸对比 波动与T2.5应该选T2.5"
+			}
+        }
+        ,{
+            "path" : "pages/20/20", 
+            "style" : {
+				"navigationBarTitleText": "安其拉神殿各职业T2.5兑换材料一览 兑换流程详解"
+			}
+        }
+        ,{
+            "path" : "pages/21/21", 
+            "style" : {
+				"navigationBarTitleText": "安其拉开荒要点 双子灭团的3大难点与解决方案"
+			}
+        }
+        ,{
+            "path" : "pages/22/22",
+            "style" : {
+				"navigationBarTitleText": "血牙8件 VS T2.5 盗贼安其拉神殿提升指南"
+				}
+        }
+        ,{
+            "path" : "pages/23/23",
+            "style" : {
+				"navigationBarTitleText": "希利苏斯战地任务快速完成方法 大地之击半天入手"
+				}
+        }
+        ,{
+            "path" : "pages/24/24",
+            "style" : {
+				"navigationBarTitleText": "死钉不再是特殊掉落 掉率直接翻了几倍"
+				}
+        }
+        ,{
+            "path" : "pages/25/25",
+            "style" : {
+				"navigationBarTitleText": "开门还缺宁神花？最效率钓鱼宁神花刷法分享"
+				}
+        }
+        ,{
+            "path" : "pages/26/26",
+            "style" : {
+				"navigationBarTitleText": "开荒维希度斯的新利器 黑下毒囊让Boss成白送"
+				}
+        }
+        ,{
+            "path" : "pages/27/27",
+            "style" : {
+				"navigationBarTitleText": "BOSS技能提示字符串"
+				}
+        }
+        ,{
+            "path" : "pages/28/28",
+            "style" : {
+				"navigationBarTitleText": "怀旧服双子皇帝术士T全攻略 术士T天赋配装一览"
+				}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "魔兽大世界",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

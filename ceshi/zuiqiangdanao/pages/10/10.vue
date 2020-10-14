@@ -1,0 +1,71 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>安其拉7号boss双子皇帝攻略 术士坦克成MVP</text></view>
+			<view class="contwent">
+				<view class="content"><text>安其拉副本即将开放，安其拉作为上古之神的老巢，内部存在众多的boss，同时也有大量极品装备等着玩家来拿，相信各位玩家都非常感兴趣。现在就给大家整理下安其拉副本2号bos亚尔基公主、维姆和克利领主攻略，希望可以帮助到各位玩家。</text></view> 
+				<view class="title"><text>技能介绍</text></view>
+				<view class="content"><text>双子皇帝维克尼拉斯、维克洛尔，剑皇魔免,，魔皇物免。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/aaq70.png" mode="aspectFit"/></view>
+				
+				<view class="content"><text>魔皇会不断奥暴，并且击飞效果周边玩家，同时会使用暴风雪、单体暗影箭，身边小虫会爆炸。剑皇会重压打击，并减少当前目标的100点防御；上勾拳具有击飞效果；身边的虫变大，并提升攻击力。魔皇受物理攻击和剑皇遭受魔法攻击后，会触发奥爆和重压打击。此外，一旦两个boss靠近，会不断地恢复血量。</text></view>
+				 <view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/aaq71.png" mode="aspectFit"/></view>
+				
+				<view class="title"><text>战术</text></view>
+				<view class="content"><text>打这个boss的时候，玩家一定注意自己的输出伤害类型，比如猎人最好只打瞄准和自动射击，钉刺一定不能放。</text></view>
+				<view class="content"><text>魔皇需要一名法系职业抗住，这名玩家不仅要暗抗高，同时血量也要高，所以推荐点出灵魂链的术士抗。战士玩家还要注意换坦克，避免被重压打击直接打死。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/aaq72.png" mode="aspectFit"/></view>
+				 
+				<view class="content"><text>一旦boss传送，战士和术士一定要注意拉好怪，其他职业停手，避免场面混乱，boss大量回血。</text></view>
+				 
+				<view class="content"><text>以上就是为各位玩家整理的相关攻略，希望可以帮助到各位玩家。</text></view>
+				 
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

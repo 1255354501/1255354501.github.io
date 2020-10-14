@@ -1,0 +1,77 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "这游戏太难了"
+			}
+		},
+		{
+		    "path" : "pages/1-5/1-5",
+		    "style" : {
+				"navigationBarTitleText": "这游戏太难了1~5"
+			}
+		}
+        
+        ,{
+            "path" : "pages/6-10/6-10",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了6~10"
+			}
+        }
+        ,{
+            "path" : "pages/11-15/11-15",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了11~15"
+			}
+        }
+        ,{
+            "path" : "pages/16-20/16-20",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了16~20"
+			}
+        }
+        ,{
+            "path" : "pages/21-25/21-25",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了21~25"
+			}
+        }
+        ,{
+            "path" : "pages/26-30/26-30",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了26~30"
+			}
+        }
+        ,{
+            "path" : "pages/31-35/31-35",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了31~35"
+			}
+        }
+        ,{
+            "path" : "pages/36-40/36-40",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了36~40"
+			}
+        }
+        ,{
+            "path" : "pages/41-45/41-45",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了41~45"
+			}
+        }
+        ,{
+            "path" : "pages/46-50/46-50",
+            "style" : {
+				"navigationBarTitleText": "这游戏太难了46~50"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "这游戏太难了",
+		"navigationBarBackgroundColor": "#e1ac66",
+		"backgroundColor": "#FFFFFF"
+	}
+}

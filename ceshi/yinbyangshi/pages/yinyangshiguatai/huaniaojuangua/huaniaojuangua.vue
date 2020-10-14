@@ -1,0 +1,116 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/huaniaojuangua0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">花鸟卷呱</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>呱，不管怎么照镜子，里面的那个呱都还是又矮又胖，要是我能有花鸟卷大人那样完美的容貌就好了呢，我每天都朝着她的画像祈愿，希望我能变得和她一样美丽~~不过，可能是大人没有听到我的祈愿吧~~</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>听彼岸花呱说，京都有一家专卖口脂的小店，那里的唐红花口脂供不应求，呱！一定是这种口脂可以让人变漂亮，所以大家才会拼命想要得到它，一定是这样没错的呱！</text><text>趁着京都的盛大祭典，我拼命挤进了那家小店，啊，来买口脂的少女们都好美丽啊，一定是用了唐红花口脂的缘故，我果然猜得没错。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>呱，好不容易攒够了三个月的零花钱，可以去祭典上买让我变美丽的口脂了呱，实在是太开心了。</text><text>咦？为什么妖刀姬呱在路边哭？又被什么自己幻想出来的妖怪吓到了吧，真是胆小啊。呱，原来是因为试胆大会的事吗~~？一下子损失了那么多钱，心里很不好受吧。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/huaniaojuangua1.png" mode="aspectFit"></image></view>
+						 <view class="jx"><text>该式神无法觉醒</text></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/huaniaojuangua2.png" mode="aspectFit"></image>
+		 				<text>基本技能：呱·归鸟</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>使用画卷攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiguatai/huaniaojuangua3.png" mode="aspectFit"></image>
+		 			    <text>呱·花鸟相闻</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>为友方全体治疗生命上限2%的生命。</text>
+		 				<text>Lv.2治疗增至2.5%</text>
+		 				<text>Lv.3治疗增至3.0%</text>
+		 				<text>Lv.4治疗增至3.5%</text>
+		 				<text>Lv.5治疗增至4.0%</text>
+		 			</view> 
+		 		</view> 
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

@@ -1,0 +1,144 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/donghuang.png"  mode="aspectFit"></image>
+			<text class="name">东皇太一</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/donghuang0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>暗冕之噬</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：东皇太一使用祭典创造出来的黑暗能量体极不稳定，敌人被黑暗能量体触碰到都会造成100（+敌方3%最大生命值）（50%法术加成）点法术伤害；每当黑暗能量体对敌方英雄造成伤害时，东皇太一将会回复100（自身最大生命3%）（+40%法术加成）点生命值，对敌人非英雄目标造成伤害时，东皇太一将会回复自身1%最大生命值</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/donghuang1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>日蚀祭典</text>
+						<text>冷却值：5</text>
+						<text>消耗：60</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>东皇太一释放力量，对周围造成300/360/420/480/540/600（+40%法术加成）点法术伤害并创造出黑暗能量体在身边环绕，同时最多存在3个；释放能量时，若对范围内敌人造成伤害，则会减少50%日蚀祭典的冷却时间；黑暗能量体的数量会影响曜龙烛兆的威力</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/donghuang2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>曜龙烛兆</text>
+						<text>冷却值：6</text>
+						<text>消耗：75</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>东皇太一每拥有1个黑暗能量体，就可召唤1条曜龙对指定方向进行范围冲击，每次冲击将造成500/600/700/800/900/1000（+60%法术加成）点法术伤害；第一次和第二次冲击范围内的敌人减少50%和90%移动速度，持续1秒；第三次冲击范围内的敌人将被眩晕1秒；释放时，自身将增加30%移动速度，持续1秒，并且每增加1个黑暗能量体将额外增加10%移动速度</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/donghuang3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>堕神契约</text>
+						<text>冷却值：50/45/40</text>
+						<text>消耗：100</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>东皇太一压制敌方英雄，同时在彼此间创造一个契约链接，持续2.5秒；当契约的双方的一方受到伤害时，另一方会受到同等的伤害；在强大的堕神契约下双方无法进行任何操作，也无法净化；堕神契约强大的能量溢出，东皇太一将直接获得三个黑暗能量体</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议：主升日蚀祭典副升曜龙烛兆</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/终结</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/zs.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>宿命+虚空+调和</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/donghuangmw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：东皇太一的玩法是游走和大招以血还血，这套铭文可以在初期为东皇太一增加移速、生命值、恢复能力，可以提升初期游走和gank能力，中后期至少可以大到一个核心。</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/donghuangcz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：东皇太一需要保持自身最大生命值的优势，才能在释放大招时，保证自身的安全</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt">
+					<text>推荐二：</text> 
+				</view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/donghuangcz2.png" mode="aspectFit"></image></view> 
+				<view class="tips">
+					<text>Tips：疾步之靴能够为东皇太一没有闪现时发动大招创造机会，极寒风暴能够有效的减少东皇太一的技能真空期</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

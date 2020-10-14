@@ -1,0 +1,16 @@
+
+.content{
+		display: block;
+		padding-left: 40rpx;
+		padding-top: 40rpx;
+}
+.pic{
+		display: block;
+		text-align: center;
+		margin-top: 20rpx;
+		margin-bottom: 20rpx;
+}
+.pic .img{
+	   width: 200rpx;
+}
+

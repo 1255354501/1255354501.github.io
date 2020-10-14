@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ak/ak",
+    "pages/shouqiang/shouqiang",
+    "pages/renwu/renwu",
+    "pages/m4a1/m4a1",
+    "pages/wz/wz",
+    "pages/jz/jz",
+    "pages/jj/jj",
+    "pages/qita/qita"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "穿越的火线",
+    "navigationBarBackgroundColor": "#23376f",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

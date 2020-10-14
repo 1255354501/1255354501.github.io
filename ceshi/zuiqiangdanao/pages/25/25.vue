@@ -1,0 +1,64 @@
+<template>
+	<view>
+		<view class="content"> 
+		    <view class="title"><text>开门还缺宁神花？最效率钓鱼宁神花刷法分享</text></view>
+			<view class="contwent">
+				<view class="content"><text>目前，由于魔兽世界怀旧服的开门物资奇缺，不少服务器奸商横行，把宁神花这种低级草药炒到了2金一朵的地步。这里就为各位急缺捐献物资的朋友们，提供一个百试百灵的挂机钓宁神花的方法，只需从燃烧平原下方进入艾尔文森林就行，1小时可以钓到100朵。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/nsh0.png" mode="aspectFit"/></view> 
+				<view class="content"><text>话不多说，让我们骑马来到燃烧平原西南方，进入一个有许多黑色幼龙的峡谷，入口就在上图的红圈标记处。之后往前直走，来到一个土坡上，并对准右侧的平台跳跃——注意一定要骑马跳跃，跳到平台上就可以自己摸索着往前走了。最终目标是艾尔文森林西北部的瀑布小屋，也就是联盟玩家从暴风城往铁炉堡飞行时的必经景点。玩家背包里最好带上一些类似降落伞和缓落药剂的东西，防止跳下去时不慎摔死。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/nsh1.png" mode="aspectFit"/></view> 
+				<view class="content"><text>这个地方虽然每个魔兽玩家都很熟悉，但正常情况下，无论从北郡修道院还是暴风城都无法进入，只能从燃烧平原爬山而至。另外爬山的路线并不固定，设计师故意为玩家提供了很多方法来到燃烧平原和艾尔文森林的交界处，还在这个瀑布小屋处设置了一些彩蛋，我们要用到的钓宁神花方法，正是当年的彩蛋之一。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/nsh2.png" mode="aspectFit"/></view> 
+				<view class="content"><text>如图所示，池塘里有一处钓鱼点，但是这个钓鱼点不能钓到任何鱼，只能钓出宁神花，非常的有意思。原本只是设计师拿来当彩蛋，奖励喜欢探索地图和爬山的玩家，没想到如今安其拉开门正好利用上了。像一些服务器物资被奸商抬价或者急缺宁神花，就可以来这个地方钓花，1小时能钓出100朵。</text></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/nsh3.png" mode="aspectFit"/></view>
+				<view class="pic"><image class="img" src="http://s1.catelyn.info/zjxcx/msdsj/nsh4.png" mode="aspectFit"/></view> 
+				<view class="content"><text>其实在这个隐秘的地图钓花，效率未必比在新手地图采集来得快，但就是胜在稳定无脑，可以挂机。同时只要知道了方法，从燃烧平原绕过来只要2分钟，不费时也不费力。有些朋友说现在采集不了太多，因为这个点一个服务器只有一个，虽然有两个位面，但是也难免人多。但这个方法毕竟能提升服务器的总产量，要是你们服务器还没开门，这里又正好没人，不妨试一试哦。</text></view> 
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "3kimsacdlcj462q612"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+ @import url("/static/mssj.css");
+</style>

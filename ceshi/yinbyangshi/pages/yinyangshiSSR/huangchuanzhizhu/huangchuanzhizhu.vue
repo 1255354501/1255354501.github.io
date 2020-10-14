@@ -1,0 +1,125 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/huangchuanzhizhu0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">荒川之主</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>其中主宰，名为：荒川之主。</text><text>坊间传说，荒川之主暴烈，性躁。故此荒川虽闹水凶猛，水中妖物亦不敢轻易作乱。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>然则，荒川之主行事从来只凭喜好，未将此等供奉放入眼内，只将便利，予以施行水利之人。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/huangchuanzhizhu1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/huangchuanzhizhu2.png" mode="aspectFit"></image>
+		 				<text>基本技能：游鱼</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>以黑色妖力将水凝成鱼形攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/huangchuanzhizhu3.png" mode="aspectFit"></image>
+		 			    <text>逐流</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>暴击时额外造成20%伤害，使自身被附加逐流，持续1回合。</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/huangchuanzhizhu4.png" mode="aspectFit"></image>
+		 				<text>吞噬</text>
+		 				
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>以黑色妖力凝成鱼群攻击敌方目标2次，首次造成攻击53%伤害并有100%基础概率附加孤立，持续2回合。第二次造成攻击211%伤害。首次攻击将驱散目标随机1～2个增益状态，每个成功驱散会使第二次攻击伤害提升5%。</text>
+						<text>Lv.2第二次伤害增加至226%</text>
+						<text>Lv.3第二次伤害增加至241%</text> 
+						<text>Lv.4第二次伤害增加至256%</text>
+					    <text>Lv.5第二次伤害增加至270%</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

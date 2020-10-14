@@ -1,0 +1,124 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/erkounv0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">二口女</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>僧人：小姑娘，可否稍待片刻，听老衲一言？</text><text>二口女：老爷爷，怎么啦？</text><text>老僧人：平时，是谁在照顾你，陪伴你？</text><text>二口女：我一直，都是一个人的呀。周围的人~~总是过一段日子就会消失~~大家都不会陪我太久呢~~</text><text>老僧人：果然，是因为它，给你和你身边的人带来了不幸啊！</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>老僧人：哈哈哈哈，说是虫子也没错呢！</text><text>二口女：哇啊~~那~~那老爷爷能帮我把虫子赶走吗~~！</text><text>老僧人：恐怕是要来不及了。</text><text>二口女：啊？那~~那怎么办?</text><text>老僧人：它跟你~~已经合为一体了。不要害怕，虽然我没有办法把它彻底赶走，但我可以让它安分下来。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>老僧人：﹁你担心它？你不是很怕虫子的吗？</text><text>二口女：跟我合为一体的话，它是不是就会一直陪着我，跟我做朋友了？如果我的朋友感到痛的话，我会难过~~</text><text>老僧人：呵呵呵呵呵呵，真是个好孩子。别担心，它不伤害你，自然不会痛。</text><text>老僧人：小姑娘，你要是能够一直保持这种善良，也就不枉老衲这一趟了。等你醒过来，碰到来找我的人，麻烦你告诉他，剩下的路他要自己走完。</text><text>二口女：老爷爷~~？</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/erkounv1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/erkounv2.png" mode="aspectFit"></image>
+		 				<text>基本技能：意外袭击</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>低头问好时，头上的妖灵乘机攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/erkounv3.png" mode="aspectFit"></image>
+		 			    <text>恐惧</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>在友方行动时，有40%概率使自身获得1层妖气弹，上限6层。先机：获得4层妖气弹。</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/erkounv4.png" mode="aspectFit"></image>
+		 				<text>歉意</text>
+		 				
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>消耗所有妖气弹，攻击2次，每次对随机敌方目标造成攻击51%伤害，每消耗1层妖气弹可增加1次攻击次数。</text>
+						<text>Lv.2伤害增加至54%</text>
+						<text>Lv.3伤害增加至57%</text> 
+						<text>Lv.4伤害增加至60%</text>
+					    <text>Lv.5伤害增加至63%</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 <script>
+		  	export default {
+		  		data() {
+		  			return {
+		  				title: 'Hello',
+		  				ggg:false
+		  			}
+		  		},
+		  		onLoad:function(){
+		 			let self=this
+		  			uni.getStorage({
+		  			    key: 'ggg',
+		  			    success: function (res) { 
+		  					self.ggg=res.data; 
+		  					if(res.data=="true"||res.data==true){
+		  						const bannerAd = tt.createRewardedVideoAd({
+		  						  adUnitId: "qkih7580bi5ik6gpjs"
+		  						});
+		  						  bannerAd.show().then(() => {
+		  						      console.log("广告显示成功");
+		  						    }).catch((err) => {
+		  								bannerAd.load().then(() => {
+		  								    console.log("手动加载成功");
+		  								    return bannerAd.show();
+		  								  });
+		  						      console.log("广告组件出现问题", err);
+		  						    });
+		  						bannerAd.onClose((res) => {
+		  						  if (!res.isEnded) {
+		  						    uni.navigateBack({
+		  						        delta: 1
+		  						    });
+		  						  }
+		  						});
+		  					}
+		  			    }
+		  			}); 
+		  		},
+		  		methods: {
+		              openvideo:function(url){ 
+		  				uni.navigateTo({
+		  				    url: url+`?ggg=${this.ggg}`
+		  				});
+		  			}
+		  		}
+		  	}
+		  </script>
+		 	 
+		 <style>
+		 	@import url("/static/yysr.css");
+		 </style>

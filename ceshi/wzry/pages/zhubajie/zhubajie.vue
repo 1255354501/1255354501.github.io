@@ -1,0 +1,142 @@
+<template>
+	<view class="content">
+		<view class="title">
+			<image class="pic" src="http://s1.catelyn.info/zjxcx/wzry/zhubajie.png"  mode="aspectFit"></image>
+			<text class="name">猪八戒</text>
+		</view>
+		<view class="content-text">
+			<text class="title">技能介绍：</text>
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhubajie0.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>毫发无伤</text>
+						<text>冷却值：0</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>被动：猪八戒损失的生命会以残血形态暂存，暂存期间猪八戒对英雄\非英雄造成伤害50%\25%(计算忽略敌方免伤)的等值残血会转化为真实血量。残血产生7秒后开始以每秒3%最大生命值的速度自动消减。九齿钉耙乃神兵，普攻附带40（+0.5%最大生命加成）点物理伤害。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhubajie1.png" mode="aspectFit"></image> 
+					<view class="text1">
+						<text>肉弹蹦床</text>
+						<text>冷却值：8</text>
+						<text>消耗：0</text>
+					</view>
+				</view>
+				<view class="text">
+					<text>猪八戒奋力跳起，落地时对砸到的敌人造成150/165/180/195/210/225（+8%最大生命加成）点物理伤害。之后弹性极佳的身体会再次高高弹起，并在落地时造成相同伤害，以及0.5秒晕眩效果。当同时攻击多个敌方英雄时，每增加一位敌方英雄衰减15%的伤害，最低衰减至初始伤害的70%。再次落地时由于惯性极大，猪八戒会快速翻滚一段距离。跳跃期间猪八戒处于霸体状态。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhubajie2.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>倒打一耙</text>
+						<text>冷却值：11/10.4/9.8/9.2/8.6/8</text>
+						<text>消耗：0</text>
+					</view> 
+				</view>
+				<view class="text">
+					<text>猪八戒将钉耙变长直击前方敌人，造成150/180/210/240/270/300（+50%物理加成）点物理伤害和1.5秒60%减速效果。钉耙若嵌入地形，猪八戒会借力冲撞至嵌入处，并将路径上敌人击退至该处。猪八戒撞击地形时，造成150/165/180/195/210/225（+6%最大生命加成）点物理伤害和0.5秒晕眩。被动：使用倒打一耙后，3秒内的下次普攻会用钉耙把敌人拉回来。</text>
+				</view>
+			</view> 
+			<view class="content-jn">
+				<view class="jineng">
+					<image src="http://s1.catelyn.info/zjxcx/wzry/zhubajie3.png" mode="aspectFit"></image>
+					<view class="text1">
+						<text>圈养时刻</text>
+						<text>冷却值：36/32/28</text>
+						<text>消耗：0</text>
+					</view>  
+				</view>
+				<view class="text">
+					<text>猪八戒筑起一堵高墙，英雄无法移动穿越；墙最多存在4秒。筑起瞬间对身前敌人造成250/325/400（+90%物理加成）点物理伤害。施法时猪八戒霸体。</text>
+				</view>
+			</view> 
+		</view>
+		<view class="jianyi">
+			<view class="yxjn">
+				<text>技能加点建议： 主升肉弹蹦床副升圈养时刻</text>
+			</view>
+			<view class="zhxjn">
+				<text>召唤师技能推荐：闪现/净化</text>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/sx.png" mode="aspectFit"></image>
+				<image src="http://s1.catelyn.info/zjxcx/wzry/zhsjn/jh.png" mode="aspectFit"></image>
+			</view>
+			<view class="mw">
+				<view class="mwtitle"><text>铭文推荐：异变+虚空+调和</text></view>
+				<view class="mwpic"><image  src="http://s1.catelyn.info/zjxcx/wzry/zhubajiemw.png" mode="aspectFit"></image></view>
+				<view class="mwtips"><text>Tips：冷却缩减和最大生命值能能让猪八戒更加从容的进出战场，而适量的物理穿透能带来高额的物理伤害增益</text></view>
+			</view>
+		</view>
+		<view class="chuzhuang">
+			<text class="title">推荐出装：</text>
+			<view class="cz">
+				<view class="czbt"><text>推荐一：</text></view>
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/zhubajiecz1.png" mode="aspectFit"></image></view> 
+				<view class="cztips">
+					<text>Tips：猪八戒擅长缠斗，全坦克装备的猪八戒可以让与敌人的战斗时间拉的足够长，进而利用自身恢复优势击败对手</text>
+				</view>
+			</view>
+			<view class="cz">
+				<view class="czbt"><text>推荐二：</text></view> 
+				<view class="czpic"><image src="http://s1.catelyn.info/zjxcx/wzry/zhubajiecz2.png" mode="aspectFit"></image></view> 
+				<view class="tips"> 
+					<text>Tips：当队友足够肉时，猪八戒可以分担一部分输出的责任，暗影战斧和极寒风暴让猪八戒在团战中足够灵活，闪电匕首也能保证足够的输出让敌人无法忽视猪八戒的钉耙</text>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"||option.ggg==true){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "1ppposb2nct13fe588"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+			// console.log(61,this.gg)
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+
+<style>
+
+</style>

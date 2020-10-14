@@ -1,0 +1,121 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yysr/yunv0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">雨女</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>今天我也像往常那样，在这座桥上等候夫君回来。</text><text>自从不在了之后，我也忘记了到底经过了多长时间。</text><text>桥下的河川水流变得越发湍急，不知从何时开始，人们就无法接近这里了。</text><text>最近一直在下雨导致乌云蔽日。</text><text>但是没关系，不管其他人变得多沮丧，我也会一直在这里等你回来。</text><text>为了把我从不详的病症中解救出来，为了幸福的生活，你划船驶出大海。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>在海岸边漂浮着像是船只残骸的木块，人们都说你已经死了，可是我怎么也无法相信。</text><text>因为我看到了，你在狂乱的暴雨中，抓住木屑挣扎着回到岸上。</text><text>我想抓住你的手，跳入巨浪之中。</text><text>然后我的记忆就在那里中断了。</text><text>回过神来，我就已经在这里了。在这座最后送别你的桥上一直等待你回来。</text><text>你答应过我一定会回来的，我相信你。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>在那之后，不知道过了多少年月~~我连那些记忆也逐渐想不起来了就只是一直待在这座桥上。</text><text>有的妖怪闻到了我的气味，向我靠近，于是我就吸收了它们的力量。</text><text>如果可以借此治愈好我的疾病的话，就能再次看到你的温柔笑脸了~~</text><text>唉呀~~似乎又来了一只被妖气吸引而来的妖怪了呢。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yysr/yunv1.png" mode="aspectFit"></image></view>
+		 			</view>
+		 			 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yysr/yunv2.png" mode="aspectFit"></image>
+		 				<text>基本技能：泪珠</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>将蕴涵妖力的泪珠存在伞中，并在必要时射出泪弹攻击敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yysr/yunv3.png" mode="aspectFit"></image>
+		 			    <text>天之泪</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>对敌方全体各驱散1个增益状态，并有50%基础概率为其附加泪之绊，持续2回合。对友方全体带有的每个减益状态或控制效果有67%概率驱散，每位友方最多驱散4个。</text>
+		 				<text>Lv.2泪之绊减速基础概率增至100%</text>
+		 				<text>Lv.3驱散敌方增益状态数量增至2个</text>
+		 				<text>Lv.4泪之绊减速效果增至20点觉醒技能：</text>
+		 				<text>净化之雨</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yysr/yunv4.png" mode="aspectFit"></image>
+		 				<text>回合开始时，驱散自身所有减益状态和控制效果。</text>
+		 			</view>  
+		 		</view>
+		 	</view>
+		 </template>
+		 
+	<script>
+	 	export default {
+	 		data() {
+	 			return {
+	 				title: 'Hello',
+	 				ggg:false
+	 			}
+	 		},
+	 		onLoad:function(){
+				let self=this
+	 			uni.getStorage({
+	 			    key: 'ggg',
+	 			    success: function (res) { 
+	 					self.ggg=res.data; 
+	 					if(res.data=="true"||res.data==true){
+	 						const bannerAd = tt.createRewardedVideoAd({
+	 						  adUnitId: "qkih7580bi5ik6gpjs"
+	 						});
+	 						  bannerAd.show().then(() => {
+	 						      console.log("广告显示成功");
+	 						    }).catch((err) => {
+	 								bannerAd.load().then(() => {
+	 								    console.log("手动加载成功");
+	 								    return bannerAd.show();
+	 								  });
+	 						      console.log("广告组件出现问题", err);
+	 						    });
+	 						bannerAd.onClose((res) => {
+	 						  if (!res.isEnded) {
+	 						    uni.navigateBack({
+	 						        delta: 1
+	 						    });
+	 						  }
+	 						});
+	 					}
+	 			    }
+	 			}); 
+	 		},
+	 		methods: {
+	             openvideo:function(url){ 
+	 				uni.navigateTo({
+	 				    url: url+`?ggg=${this.ggg}`
+	 				});
+	 			}
+	 		}
+	 	}
+	 </script>
+		 
+	<style>
+		@import url("/static/yysr.css");
+	</style>

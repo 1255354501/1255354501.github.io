@@ -1,0 +1,125 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/yuanjieshen0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">缘结神</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>我是依靠人类姻缘而诞生的神明，最初的我还有点小窃喜，毕竟姻缘是如此美好的东西，而且人类都离不开姻缘，这样过不了多久，我就能成为一位名震四方的强大神明了！</text><text>可我没有想到，人类如此容易变心，曾经的海誓山盟，好不容易结成的姻缘，都能随意毁去。</text><text>姻缘终结，我得到的力量也会随之散去。</text><text>虽然身为缘结神，但现在的我一点都不相信命中注定的姻缘了，一生之诺，人类可是做不到的。</text><text>百年之前，人界还没有种种夺目的诱惑，那时一封书信、一次牵手都连接着一段段姻缘。</text><text>彼时的我也还身着华贵的服饰，拥有着富丽堂皇的神社。</text><text>物质的繁华让一颗颗纯净的初心变色，人界的色彩愈加灼目，我却慢慢地褪色。</text><text>最终我的神社只剩下一个盒子般大小，光鲜的锦衣也无法再维持了。</text><text>但我才不会放弃，我带着神社去各地旅行，帮助途中的人们缔结姻缘。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>严冬时我途经京都的远郊，斗笠上坠着厚厚的积雪。远处一位年迈的婆婆倒在雪地中，我冲上前时，她被另一位拾荒的老者救起，我看到了他们之间浅浅的姻缘线。</text><text>婆婆有重症在身，记忆时有时无，行为举止也异于常人。</text><text>爷爷月明拾荒，日出照顾她。</text><text>婆婆渐渐好转，甚至学会了写字，那是他给与的名字——幸子。</text><text>也许他们年轻时没有握住彼此的缘分，但风烛残年之际相遇，亦是一种幸运。我精心地保护着他们的姻缘线，但是爷爷的子女却不愿接受这位来历不明的老人。</text><text>你连自己都照顾不好，身体三天两头出问题，还想再给我们添一个累赘吗？</text><text>都这个岁数了还想再找个伴侣，说出去太丢我们的脸了！</text><text>被亲人当做累赘的两位老者，于刺骨的雪地中相遇，在孤独的生活中逐渐惺惺相惜，心中甚至萌发了初恋般的悸动。</text><text>这根脆弱的姻缘线在慢慢变浅，为何、为何缘分要被世俗所束缚！</text><text>什么都不懂的婆婆，却仿佛知晓了爷爷的困境。</text><text>皑皑白雪，残破草屋，她籍籍无名而来，又带着名字与回忆独自离去，只留下了一封字迹支离的信。</text><text>幸子在这个年纪遇见你很幸运，与我相遇的你感到幸福吗？</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>我曾赤诚地对待每一段姻缘，也曾因丧失信仰之力埋怨过、丢脸过、自暴自弃过。</text><text>那段时间，我强行将有注定姻缘的人连结在一起，却往往起了反作用。</text><text>会失去的不止有缘分，还有自己的初心。</text><text>知晓婆婆离开后，爷爷便踉跄着追了出去，泪水淹没了他昏花的眼。</text><text>我暗下决定，一定要帮助他们结缘。</text><text>即使已满头白发、步履蹒跚，也有握住缘分的资格。</text><text>我又一次用神力强行将姻缘线连结在一起，但心境却与以往不同了。</text><text>彼时的我只想要通过缔结姻缘恢复神力，而此刻的我，希望他们能幸福。</text><text>那些海誓山盟再次回荡在我耳中。</text><text>我想念你，却在心底说不出口。</text><text>想跟你永远在一起，就算未来日子会很苦，只要有你在，就足够了。</text><text>拜托啦缘结神！我真的好喜欢他，好喜欢他！请保佑他能注意到我吧。</text><text>我配不上她，但为了她，我愿意变成更好的自己。</text><text>山林间所有的姻缘线受神力的召唤瞬间明亮，铃音在夜空响彻。</text><text>婆婆抬起头，看见了那张在心底思念至深的面孔。</text><text>以红线为桥、红线为路，没有人来打扰，他们终于在这如梦似幻的景色中握紧了缘分。</text><text>虽然不能像其他神明般给他们带来富丽堂皇的生活，但我会努力守护好这份姻缘，这就是我存在的意义。</text><text>这一刻，我又开始相信缘分了。等待也许很辛苦，但绝不会被辜负。缘分也许会迟到，但永远不会缺席。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/yuanjieshen1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/yuanjieshen2.png" mode="aspectFit"></image>
+		 				<text>基本技能：月下花</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>这就是神愤之缘！用月下花敲向......召出结缘之印毁天灭地般地砸向敌人，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5额外增加自身20%行动条</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/yuanjieshen3.png" mode="aspectFit"></image>
+		 			    <text>绯色花月</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>唯一效果。其他友方回合开始前，赐予其4种随机缘结之一，若其获得的缘结与上一个行动的其他友方相同，则结缘成功，立刻获得1点鬼火，同时缘结神获得1层缘。若不相同，则结缘失败，缘结神获得1层生气了。</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSSR/yuanjieshen4.png" mode="aspectFit"></image>
+		 				<text>神赐良缘</text>
+		 				
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>祝福1个友方目标，使其获得庇护，同时鼓舞友方全体，提升40%的伤害并治疗友方全体生命上限9%的生命值，维持1回合。</text>
+						<text>Lv.2若拥有至少1层缘，鼓舞时溢出治疗量的50%转化为护盾，持续1回合</text>
+						<text>Lv.3若拥有至少3层缘，鼓舞时额外使友方全体提升30点速度，维持1回合</text> 
+						<text>Lv.4若拥有7层缘，祝福其他友方时额外使其获得再续前缘，并使自身获得庇护</text>
+					    <text>Lv.5先机：获得庇护</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

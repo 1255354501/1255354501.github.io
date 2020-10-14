@@ -1,0 +1,158 @@
+<template>
+	<view class="content">
+		<view class="title"><text>伊甸零式希望乐园觉醒之章3</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>琳调查伊甸内部后发现了奇怪的水晶。看上去只是漂亮而又普通的结晶体，可是从表面窥视水晶的内部据说能看到不可思议的景象。在琳的催促下，暗之战士拿起了水晶……水晶中便映射出了暗之战士为了取回大地的属性之力所经历过的战斗景象。不过映射出的景象又与实际战斗时的经历有所不同。看来这个水晶能让人看到另外一种可能性。如今暗之战士将要再次体验围绕着伊甸所展开的最初的攻防战。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing60.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：涅柔斯海渊</text></view>
+		    	<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：224</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：15</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：80级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于440</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：否</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>琳的旅程</text></view>
+				<view class="text-text-text"><text>战斗精英和魔法导师（除设限特职）80级</text></view>
+				<view class="text-text-text"><text>琳</text></view>
+				<view class="text-text-text"><text>空无大地X:6.0,Y:6.5</text></view>
+				<view class="text-text-text"><text>前置任务：愤怒、再来</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text><strong>2.利维亚桑</strong></text></view>
+				
+				<view class="text-text-title"><text>P1 </text></view>
+				<view class="text-text-text"><text>怒潮咆哮：</text></view>
+				<view class="text-text-text"><text>全屏aoe。</text></view>
+				<view class="text-text-text"><text>裂流：</text></view>
+				<view class="text-text-text"><text>死刑，对一仇目标施放连续两次大伤害直线aoe，附加4秒魔法伤害加重效果。</text></view>
+				<view class="text-text-text"><text>巨浪：</text></view>
+				<view class="text-text-text"><text>3点或者9点方向制造短距离击退的水柱。</text></view>
+				<view class="text-text-text"><text>海底地震（两边）：</text></view>
+				<view class="text-text-text"><text>破坏两侧的平台，同时“巨浪”生效。</text></view>
+				<view class="text-text-text"><text>临时洋流：</text></view>
+				<view class="text-text-text"><text>BOSS在一侧发动斜线秒杀技能。</text></view>
+				<view class="text-text-text"><text>激烈波动：</text></view><view class="text-text-text"><text>点名我方全体放置固定的圆形aoe，同时会点名我方全体施放跟随目标的圆形aoe。</text></view>
+				<view class="text-text-text"><text>临时洋流：</text></view>
+				<view class="text-text-text"><text>BOSS在一侧发动斜线秒杀技能。</text></view>
+				<view class="text-text-text"><text>漩涡：</text></view>
+				<view class="text-text-text"><text>随机方向陆续出现共两个蓝色传送门，BOSS会从蓝色传送门冲出，并造成直线aoe伤害。地面会出现小水圈，数秒后会变成大水圈，对范围内的玩家造成持续伤害。</text></view>
+				<view class="text-text-text"><text>怒潮咆哮：</text></view>
+				<view class="text-text-text"><text>全屏aoe。</text></view>
+				<view class="text-text-text"><text>大海啸：对玩家附加多种Debuff。</text></view>
+				<view class="text-text-text"><text>断绝预兆：倒计时结束时对面前的其他玩家造成半场距离的击退效果，且会解除对方的Debuff“强风预兆”。随机赋予八人中的一人。</text></view>
+				<view class="text-text-text"><text>强风预兆：倒计时结束时生成以持有者为圆心的圆形aoe伤害，会被Debuff“断绝预兆”解除。除了被赋予“断绝预兆”的玩家都会被赋予。</text></view>
+				<view class="text-text-text"><text>涡动预兆：倒计时结束时生成以持有者为圆心的圆环形aoe，不会被解除。固定赋予坦克（T）和输出（Dps）。</text></view>
+				<view class="text-text-text"><text>溺没预兆：倒计时结束时产生需要由四人分摊的伤害。固定赋予两名治疗。</text></view>
+				<view class="text-text-text"><text>海底地震（中间）：</text></view>
+				<view class="text-text-text"><text>当Debuff“断绝预兆”生效后开始读条，破坏中间的平台。</text></view>
+				<view class="text-text-text"><text>临时洋流：</text></view>
+				<view class="text-text-text"><text>Debuff“涡动预兆”和“溺没预兆”生效同时，BOSS在一侧发动斜线秒杀技能。</text></view>
+				<view class="text-text-text"><text>怒潮咆哮：</text></view>
+				<view class="text-text-text"><text>全屏aoe。</text></view>
+				<view class="text-text-text"><text>裂流：</text></view>
+				<view class="text-text-text"><text>死刑，对一仇目标施放连续两次大伤害直线aoe，附加4秒魔法伤害加重效果。</text></view>
+				<view class="text-text-text"><text>临时洋流：</text></view>
+				<view class="text-text-text"><text>BOSS在一侧发动斜线秒杀技能，与上一个“临时洋流”方向相反。</text></view>
+				<view class="text-text-text"><text>怒潮咆哮：全屏aoe。 </text></view>
+				<view class="text-text-title"><text>P2</text></view>
+				 <view class="text-text-text"><text>水之觉醒：</text></view><view class="text-text-text"><text>强化BOSS的技能。</text></view><view class="text-text-text"><text>怒潮咆哮：</text></view>
+				 <view class="text-text-text"><text>全屏aoe。</text></view><view class="text-text-text"><text>巨浪：</text></view><view class="text-text-text"><text>3点或者9点方向制造短距离击退的水柱。</text></view><view class="text-text-text"><text>海底地震（两边）：</text></view><view class="text-text-text"><text>破坏两侧的平台，同时“巨浪”生效。</text></view><view class="text-text-text"><text>临时洋流（强化版-连续两次）：</text></view>
+				 <view class="text-text-text"><text>BOSS随机一侧发动斜线秒杀技能后迅速在另一侧重复施放。</text></view><view class="text-text-text"><text>激烈波动（强化版）</text></view><view class="text-text-text"><text>：点名我方全体放置固定的圆形aoe（与P1相同），同时会点名我方全体施放跟随目标的圆形aoe，（不同处）造成伤害的同时在地面形成持续扣血的水圈。</text></view><view class="text-text-text"><text>临时洋流（强化版-连续两次）：</text></view><view class="text-text-text"><text>BOSS随机一侧发动斜线秒杀技能后迅速在另一侧重复施放。</text></view>
+				 <view class="text-text-text"><text>漩涡（强化版-三次俯冲）：</text></view><view class="text-text-text"><text>随机方向陆续出现共三个蓝色传送门，BOSS会从蓝色传送门冲出，并造成直线aoe伤害。地面会出现小水圈，数秒后会变成大水圈，对范围内的玩家造成持续伤害。</text></view>
+				 <view class="text-text-text"><text>怒潮咆哮：</text></view><view class="text-text-text"><text>全屏aoe。</text></view><view class="text-text-text"><text>裂流：</text></view><view class="text-text-text"><text>死刑，对一仇目标施放连续两次大伤害直线aoe，附加4秒魔法伤害加重效果。</text></view><view class="text-text-text"><text>暴风雨：</text></view>
+				 <view class="text-text-text"><text>连续点名我方全体脚下放置固定的圆形aoe，且第三次时点名一名坦克（T）为圆心造成范围衰减aoe，最后点名一人施放直线分摊技能。</text></view>
+				 <view class="text-text-text"><text>临时洋流（强化版-连续两次）：</text></view>
+				 <view class="text-text-text"><text>BOSS随机一侧发动斜线秒杀技能后迅速在另一侧重复施放（在暴风雨的中途施放）。</text></view>
+				 <view class="text-text-text"><text>怒潮咆哮：全屏aoe。</text></view>
+				 <view class="text-text-title"><text>P3 </text></view>
+				<view class="text-text-text"><text>怒潮咆哮：</text></view><view class="text-text-text"><text>全屏aoe。</text></view><view class="text-text-text"><text>猛烈波动（强化版）</text></view><view class="text-text-text"><text>：点名我方全体放置固定的圆形aoe（与P1相同），同时会点名我方全体施放跟随目标的圆形aoe，（不同处）造成伤害的同时在地面形成持续扣血的水圈。</text></view><view class="text-text-text"><text>海底地震（两边）：</text></view>
+				<view class="text-text-text"><text>破坏两侧的平台。</text></view><view class="text-text-text"><text>大海啸（强化版）：</text></view><view class="text-text-text"><text>扩散预兆（图标形状：扇形）：倒计时结束时对距离最远的玩家喷射一次扇形aoe。（只有坦克能吃得下）</text></view><view class="text-text-text"><text>强压预兆（图标形状：四个箭头指向四边）：倒计时结束时以持有者为中心造成半场击退。（点名任意一个输出）</text></view><view class="text-text-text"><text>暴风预兆（图标形状：大圆形）：倒计时结束时造成以持有者为圆心的大范围aoe。（点名任意一个坦克）</text></view>
+				<view class="text-text-text"><text>断绝预兆（图标形状：长方形）：倒计时结束时对面前的其他玩家造成半场距离的击退效果，且会解除对方的Debuff“强风预兆”。随机赋予八人中的一人。</text></view><view class="text-text-text"><text>强风预兆（图标形状：小圆形）：倒计时结束时生成以持有者为圆心的圆形aoe伤害，会被Debuff“断绝预兆”解除。除了被赋予“断绝预兆”的玩家都会被赋予。</text></view>
+				<view class="text-text-text"><text>溺没预兆（图标形状：四个箭头指向中间）：倒计时结束时产生需要由四人分摊的伤害。固定赋予两名治疗。</text></view>
+				<view class="text-text-text"><text>临时洋流（强化版-连续两次）：</text></view>
+				<view class="text-text-text"><text>BOSS随机一侧发动斜线秒杀技能后迅速在另一侧重复施放。</text></view>
+				<view class="text-text-text"><text>怒潮咆哮：全屏aoe。 </text></view>
+				<view class="text-text-title"><text>P4</text></view>
+				<view class="text-text-text"><text>怒潮咆哮：全屏aoe。 </text></view>
+				
+				<view class="text-text-text"><text>沉溺的波动：</text></view><view class="text-text-text"><text>BOSS强化自身。</text></view><view class="text-text-text"><text>怒潮咆哮（连续三次）：</text></view><view class="text-text-text"><text>全屏aoe。</text></view><view class="text-text-text"><text>混沌的涡动：强制团灭。（读条时间和且动画时间较长，且动画结束后才会灭团） </text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing64.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing65.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing66.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

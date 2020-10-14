@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "数字华容道攻略"
+			}
+		}
+	    ,{
+            "path" : "pages/1/1",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略1"
+			}
+        }
+        ,{
+            "path" : "pages/2/2",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略2"
+			}
+        }
+        ,{
+            "path" : "pages/3/3",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略3"
+			}
+        }
+        ,{
+            "path" : "pages/4/4",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略4"
+			}
+        }
+        ,{
+            "path" : "pages/5/5",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略5"
+			}
+        }
+        ,{
+            "path" : "pages/6/6",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略6"
+			}
+        }
+        ,{
+            "path" : "pages/7/7",
+            "style" : {
+				"navigationBarTitleText": "数字华容道攻略7"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "数字华容道攻略",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

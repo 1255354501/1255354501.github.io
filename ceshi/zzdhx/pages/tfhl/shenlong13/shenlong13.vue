@@ -1,0 +1,104 @@
+<template>
+	<view class="content">
+		<view class="title"><text>神龙歼灭战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>被诡异的拘束具封印的神龙在阿拉米格王宫屋顶的空中庭园等待着冒险者的到来。芝诺斯为了尽情享受战斗，抛弃了一切获得了超越蛮神的力量，和神龙合为了一体。</text></view><view class="text-title"><text>讨伐被战斗的狂喜冲昏头脑的芝诺斯，为阿拉米格取回真正的自由！</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/shenlong130.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：阿拉米格王立飞空艇着陆场</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加10%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：12</text></view>
+				<view class="text-text-text"><text>新手奖励：75</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：70级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于280</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>红莲之狂潮</text></view>
+				<view class="text-text-text"><text>战斗精英和魔法导师（除设限特职）70级</text></view>
+				<view class="text-text-text"><text>皮平</text></view>
+				<view class="text-text-text"><text>基拉巴尼亚湖区X:32.7,Y:22.9</text></view>
+				<view class="text-text-text"><text>前置任务：阿拉米格正门攻防</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.神龙</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/shenlong134.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>神龙普攻会同时打两个T，治疗注意。战斗一段时间后神龙的以太计量表会填充满，随机使用技能地狱的火焰或者制裁之雷。换场地后，计量表满了之后随机技能在上面两个的基础上，又会添加钻石星尘，大地之怒，大气爆发三个技能。</text></view>
+				<view class="text-text-text"><text>大海啸</text></view><view class="text-text-text"><text>场地随机一个方向出现水柱，注意观察，迅速靠近水柱，离得太远会被海浪冲下平台死亡。大海啸伤害不低，奶妈注意回复。海啸之后，会出现几个水圈，踩上去减少所受火属性伤害，增加所受雷属性伤害。</text></view><view class="text-text-text"><text>超新星</text></view><view class="text-text-text"><text>神龙点名一个人，所有人集合，分摊伤害。</text></view><view class="text-text-text"><text>死亡轮回</text></view><view class="text-text-text"><text>神龙攻击MT和离MT最近的一个目标，除了ST其他人不要靠近MT，两个T迅速靠拢分摊伤害，单吃要开减伤。</text></view><view class="text-text-text"><text>连环穿刺</text></view>
+				<view class="text-text-text"><text>BOSS释放若干条状AOE，有范围提示，走位躲避。</text></view><view class="text-text-text"><text>暴风雪</text></view><view class="text-text-text"><text>全屏AOE，不可回避，奶妈注意回复。</text></view><view class="text-text-text"><text>闪电</text></view><view class="text-text-text"><text>读条技能，点名5位队友，紫色标记，释放小范围闪电AOE，分散走位，不要踩到水圈里。</text></view><view class="text-text-text"><text>大地吹息</text></view><view class="text-text-text"><text>点名两人，头上给红色标记，释放扇形大范围火焰攻击，被点名的人先集合诱导BOSS放技能的方向，再走位回避。</text></view><view class="text-text-text"><text>地狱的火焰</text></view><view class="text-text-text"><text>读条技能，全屏AOE，站在水圈里降低受到的火焰伤害。</text></view><view class="text-text-text"><text>制裁之雷</text></view><view class="text-text-text"><text>读条技能，全屏AOE，站在空地吃技能，不要站在水圈里。</text></view><view class="text-text-text"><text>陨石冲击</text></view><view class="text-text-text"><text>空中降下若干龙蛋，观察范围，离得越远伤害越低，远离落点减少伤害，龙蛋会孵化小龙，T注意拉仇恨。一共有三轮。小龙尽量打快点。之后是QTE，把计量表点满就行了。</text></view><view class="text-text-text"><text>螺旋冲锋</text></view><view class="text-text-text"><text>QTE完之后被送到新场地，到达后BOSS会立即释放超大范围冲锋，开疾跑跑到两边。</text></view><view class="text-text-text"><text>龙尾猛击</text></view><view class="text-text-text"><text>用尾巴随机攻击场地一部分，远离范围提示，尾巴落到平台后攻击尾巴。多次龙尾攻击后场地会被破坏。</text></view><view class="text-text-text"><text>燃烧之锁</text></view><view class="text-text-text"><text>BOSS随机点名两人连线，被点名人先集合，等连线出来后互相向反方向跑，扯断连线</text></view><view class="text-text-text"><text>钻石星辰</text></view><view class="text-text-text"><text>希瓦的技能，全屏大招地面结冰数秒，此时不要移动以免滑下平台。</text></view><view class="text-text-text"><text>大地之怒</text></view><view class="text-text-text"><text>泰坦的技能，全屏大招，注意回复。</text></view><view class="text-text-text"><text>大气爆发</text></view><view class="text-text-text"><text>风神的技能，场地中间出现龙卷风，全屏大招，多段伤害并附加三段击退效果，最后一次攻击击退距离较远，一直向龙卷风靠近就行了，避免被吹下平台</text></view><view class="text-text-text"><text>有一些技能没有写，都有明显的范围提示，走位就能回避。</text></view>v
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/shenlong135.png" mode="aspectFit"></image></view>
+			 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

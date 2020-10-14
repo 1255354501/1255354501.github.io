@@ -1,0 +1,64 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "穿越的火线"
+			}
+		} 
+        ,{
+            "path" : "pages/ak/ak",
+            "style" : {
+				"navigationBarTitleText": "穿越火线AK47系列"
+			}
+        }
+        ,{
+            "path" : "pages/shouqiang/shouqiang",
+            "style" : {
+				"navigationBarTitleText": "穿越火线手枪系列"
+				}
+        }
+        ,{
+            "path" : "pages/renwu/renwu",
+            "style" : {
+				"navigationBarTitleText": "穿越火线人物系列"
+				}
+        }
+        ,{
+            "path" : "pages/m4a1/m4a1",
+            "style" : {
+				"navigationBarTitleText": "穿越火线M4A1系列"
+				}
+        }
+        ,{
+            "path" : "pages/wz/wz",
+            "style" : {
+				"navigationBarTitleText": "穿越火线爱王者系列"
+				}
+        }
+        ,{
+            "path" : "pages/jz/jz",
+            "style" : {
+				"navigationBarTitleText": "穿越火线近战系列"
+				}
+        }
+        ,{
+            "path" : "pages/jj/jj",
+            "style" : {
+				"navigationBarTitleText": "穿越火线狙击枪系列"
+				}
+        }
+        ,{
+            "path" : "pages/qita/qita",
+            "style" : {
+				"navigationBarTitleText": "其他武器系列"
+				}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "穿越的火线",
+		"navigationBarBackgroundColor": "#23376f",
+		"backgroundColor": "#FFFFFF"
+	}
+}

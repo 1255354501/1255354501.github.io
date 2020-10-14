@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/yxxiangqing/yxxiangqing",
+    "pages/fuwen/fuwen",
+    "pages/yingxiong/yingxiong",
+    "pages/web/web",
+    "pages/zhuangbei/zhuangbei",
+    "pages/jineng/jineng",
+    "pages/video/video",
+    "pages/yingxiong/anni",
+    "pages/yingxiong/galio",
+    "pages/yingxiong/kapai",
+    "pages/yingxiong/yaoji",
+    "pages/yingxiong/xinghong",
+    "pages/yingxiong/kongju",
+    "pages/yingxiong/zhongxing",
+    "pages/yingxiong/moganlan",
+    "pages/yingxiong/fuwen"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "英雄的联盟",
+    "navigationBarBackgroundColor": "#0000e8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

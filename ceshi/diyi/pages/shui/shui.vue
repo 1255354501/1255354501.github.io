@@ -1,0 +1,147 @@
+<template>
+	<view>
+		<view class="title">
+			<view>
+			    <image style="width: 200rpx;height: 200rpx;" src="http://s1.catelyn.info/zjxcx/img/chuanzhi/chuanzhi.png" mode="aspectFill" />
+			</view>
+			<view class="titleCentent">
+				<text>接下来最重要的就是获取水资源，获取方法如图所示。</text>
+			</view>
+		</view>
+		<view class="content">
+			<view class="contentTitle">
+				<text>接下来最重要的就是获取水资源，获取方法如图所示。</text>
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui.png" ></image>
+			</view>
+			<view class="contentTitle">
+				<text>绳子是非常重要的物资，也在前期最缺。</text>
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui1.png" ></image>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui2.png" ></image>
+				<text>切换至煮水台一栏（滚轮后按数字键），鼠标左键以放置。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui3.png" ></image>
+				<text>获取杯子。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui4.png" ></image>
+				<text>用空杯子对着海水按下E键，以获得海水。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui5.png" ></image>
+				<text>对着煮水台按下E键，以进行烹饪。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui6.png" ></image>
+				<text>很多玩家进行到这一步时已经口渴的红了，并且有主角咳嗽的音效。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui7.png" ></image>
+				<text>水煮好了，按下E键以获取饮用水。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui8.png" ></image>
+				<text>得到饮用水后，按鼠标左键以进行饮用。</text>
+			</view>
+			<view class="contentTitle">
+				<image  class="image" src="http://s1.catelyn.info/zjxcx/img/shui/shui8.png" ></image>
+				<text>饮用后的空杯子还可以用，继续重复刚刚的动作以获取更多的水。</text>
+				<text>喝水并不是获取口渴度的唯一方法，还可以吃食物来同时获得饱食度与少量口渴度（椰子可以获得更多口渴度）。</text>
+			</view>
+		</view>
+	</view>
+	
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "421ksirgd0e44807gk"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+  .title{
+	display: flex;
+	width: 100%;
+	padding-left:20rpx;
+	padding-top: 30rpx;
+	border-bottom: 1rpx solid #000000;
+  }
+  .title .titleCentent{
+	 width: 65%;
+	 word-break: break-all;
+	 text-overflow: ellipsis;
+	 overflow: hidden;
+	 display: -webkit-box;
+	 -webkit-line-clamp: 2;
+	 -webkit-box-orient: vertical;
+	 padding-left: 20rpx;
+  }
+  .content{
+	  margin-top: 10rpx;
+	  padding-left: 20rpx;
+	  padding-right: 20rpx;
+  }
+  .image{
+	  width: 100%;
+	  margin-top: 10rpx;
+  }
+  .content view{
+	  margin-bottom: 20rpx;
+  }
+  .content .list{
+	  display: block;
+	  flex-wrap: nowrap;
+  }
+  .content .list text{
+	  display: block;
+	  margin-bottom: 10rpx;
+  }
+  .wendao view{
+	  margin-top: 10rpx;
+	  /* display: block; */
+  }
+  .wendao view text{
+	 display: block;
+	 margin-top: 10rpx;
+  }
+  .wendao .da{
+	  text-indent: 40rpx;
+  }
+</style>

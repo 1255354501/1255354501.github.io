@@ -1,0 +1,49 @@
+<view class="text-area" @click="openvideo('../chongsheng/diyouduo1/diyouduo1')">
+			<view class="fizeContent"> 
+				<view class="title"><text> $底有多旺夫？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xinyouduo2/xinyouduo2')">
+			<view class="fizeContent"> 
+				<view class="title"><text> $心有多累了？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/youduonan3/youduonan3')">
+			<view class="fizeContent"> 
+				<view class="title"><text> $有多难驾驭？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/diyouduo4/diyouduo4')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 到底有多旺夫？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/qingzhongyou5/qingzhongyou5')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 在爱情中有多狠？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/“quexin6/“quexin6')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 有多“缺心眼”？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/youduoqing7/youduoqing7')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 有多情绪化？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/youduonan8/youduonan8')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 有多难驾驭？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/xinyouduo9/xinyouduo9')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 的心有多累了？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/nianlingyou10/nianlingyou10')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 的心理年龄有多大？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/changyouduo11/changyouduo11')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 的心肠有多冷硬？</text></view>
+		    </view>
+		</view> <view class="text-area" @click="openvideo('../chongsheng/gaobaiduo12/gaobaiduo12')">
+			<view class="fizeContent"> 
+				<view class="title"><text> 还会被告白多少次？</text></view>
+		    </view>
+		</view> 

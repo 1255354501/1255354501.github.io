@@ -1,0 +1,710 @@
+<template>
+	<view class="content">
+		<!-- <view class="sousuo">
+		 	<input type="text" value="" />
+		 </view> -->
+		  
+		<view class='navpic'>
+		   <view class='list'>
+		     <swiper class="pic"   autoplay=true circular=true> 
+		        <swiper-item v-for="(item, index) in imgUrls"  :key='index'> 
+		          <image :src="item" mode=""	></image>
+		        </swiper-item> 
+		     </swiper>
+		   </view>
+		 </view> 
+		 <view class="ul">
+			<scroll-view class="scroll" scroll-x="true">
+			   
+			   <view class="li"  @click="navclick(1)">
+				   <text>情感</text>
+				   <text class="border" v-show="navlist[1]"></text>
+			   </view>
+			   
+			   <view class="li"  @click="navclick(2)">
+				   <text>心理</text>
+				   <text class="border" v-show="navlist[2]"></text>
+			   </view>
+			   
+			   <view class="li"  @click="navclick(3)">
+				   <text>性格</text>
+				   <text class="border" v-show="navlist[3]"></text>
+			   </view> 
+			   
+			   <view class="li" @click="navclick(4)">
+			   		<text>脱单</text>
+			   		<text class="border" v-show="navlist[4]"></text>
+			   </view>
+			   
+			   <view class="li" @click="navclick(0)">
+			   		<text>游戏</text>
+			   		<text class="border" v-show="navlist[0]"></text>
+			   </view>
+			</scroll-view>
+			
+		 </view>
+		 <view class="list" v-show="navlist[0]">
+			<view class="cont" @click="listclick('../wzry/wzry')">
+				<view class="txt">
+					<text class="txt-title">《王者荣耀》中你最适合哪个英雄?</text>
+					<text class="txt-content">《王者荣耀》作为经久不衰的热门5V5的手机游戏，得到了很多玩家的喜爱。其中的英雄特点不一、各有所长，想知道你最适合其中的哪个英雄吗?快来测测吧! ~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/《王者荣耀》中你最适合什么英雄.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../gxfc/gxfc')">
+				<view class="txt">
+					<text class="txt-title">测测你的内外个性反差有多大？</text>
+					<text class="txt-content">每个人在外面对外界的时候，都会穿上一层保护衣，你外在表楼的样子难道真的是你自己吗？来测一下就知道了！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/测测你的内外个性反差有多大？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../cjgl/cjgl')">
+				<view class="txt">
+					<text class="txt-title">你的吃鸡概率有多高?</text>
+					<text class="txt-content">在吃鸡中有刚枪王，有老YB,但不论哪种打法都是为了吃鸡，想知道你的打法吃鸡概率有多高吗?快来测测吧!</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的吃鸡概率有多高？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<!-- <view class="cont" @click="listclick('../cggl/cggl')">
+				<view class="txt">
+					<text class="txt-title">你的出轨指数有多高?</text>
+					<text class="txt-content">从一而终，在当下充满诱惑的世界里，先的非常不容易。那么没在外语和诱惑面前的你会有啥态度？你有信心“坐怀不乱”吗？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的出轨指数有多高？.png" mode="aspectFit"></image>
+				</view>
+			</view> -->
+			<view class="cont" @click="listclick('../zyzs/zyzs')">
+				<view class="txt">
+					<text class="txt-title">你的专一指数有多高?</text>
+					<text class="txt-content">在这个讲究搞笑告诉的时代，感情生活也变得越来越精彩，专一，成为了当代年轻人感情中一种非常珍贵的品质了。那么，面对爱情的你，专一指数有多高？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的专一指数有多高.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../yysds/yysds')">
+				<view class="txt">
+					<text class="txt-title">你会是《阴阳师》中的谁?</text>
+					<text class="txt-content">《阴阳师》作为经久不衰的日式和风游戏，其美轮美奂的画风和精致细腻的角色都深受大家的喜爱，想知道你会是《阴阳师》中的谁吗?快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你会是《阴阳师》中的谁？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../wzsf/wzsf')">
+				<view class="txt">
+					<text class="txt-title">王者荣耀中你的最佳上分英雄会是谁？</text>
+					<text class="txt-content">英雄的选择在王者荣耀的对局中十分重要，一个顺手的英雄不仅能让你打出成吨伤害，更能让你顺风高歌猛进、逆风五杀翻盘，那么你的最佳上分英雄会是谁？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/王者荣耀中你的最佳上分英雄会是谁？.png" mode="aspectFit"></image>
+				</view>
+			</view> 
+						
+		 </view>
+		 
+		 <view class="list" v-show="navlist[1]">
+			<view class="cont" @click="listclick('../quce2/nidaodiyouduowangfu？/nidaodiyouduowangfu？')">
+				<view class="txt">
+					<text class="txt-title">你到底有多旺夫？</text>
+					<text class="txt-content">从古倒进就有旺夫这一说法，旺夫通常不仅仅只是让丈夫事业旺盛，对整个家庭也有兴旺作用。你想知道自己是不是旺夫命吗？快开测一下吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你到底有多旺夫？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/nizaiaiqingzhongyouduohen？/nizaiaiqingzhongyouduohen？')">
+				<view class="txt">
+					<text class="txt-title">你在爱情中有多狠?</text>
+					<text class="txt-content">人在情场飘，哪有不挨刀?你在爱情中到底有多狠?是不羁的浪人，还是情场的狼人?快来测测吧!~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你在爱情中有多狠？.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/niyouduoqingxuhua？/niyouduoqingxuhua？')">
+				<view class="txt">
+					<text class="txt-title">你有多情绪化?</text>
+					<text class="txt-content">你的日常情绪是稳定还是抽风?你的心是随风而动的帆帷还是八风不动的磐石?想知道你的情绪化指数有多高吗?快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多情绪化？.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/nidexinchangyouduolengying？/nidexinchangyouduolengying？')">
+				<view class="txt">
+					<text class="txt-title">你的心肠有多冷硬?</text>
+					<text class="txt-content">心肠泠硬都不是一朝一夕形成的，期间必然经历了许多，那么，现在的你，心肠变得有多冷硬了?快来测测吧!</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的心肠有多冷硬？.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/nihuanhuibeigaobaiduoshaoci？/nihuanhuibeigaobaiduoshaoci？')">
+				<view class="txt">
+					<text class="txt-title">你还会被告白多少次</text>
+					<text class="txt-content">每个人或多或少在成长道路上都会被ta人表报，想知道你未来还会被表白多少次吗？快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你还会被告白多少次？.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/niyouduonanjiayu？/niyouduonanjiayu？')">
+				<view class="txt">
+					<text class="txt-title">你有多难驾驭？</text>
+					<text class="txt-content">你足够剽悍吗?你的三观有多刚?你在别人眼中有多难搞定?快来测测你有多难驾驭吧!~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多难驾驭？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/niyouduo“quexinyan”？/niyouduo“quexinyan”？')">
+				<view class="txt">
+					<text class="txt-title">你有多“缺心眼”？</text>
+					<text class="txt-content">我们生活中一定也存在这么一群人，他们很直率，很单纯，甚至会给人一种“缺心眼”的感觉，和他们相处有时很轻松有时又很麻烦。那么，你的缺心眼指数有多高呢？测一下就知道！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多“缺心眼”？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/nidexinyouduoleiliao？/nidexinyouduoleiliao？')">
+				<view class="txt">
+					<text class="txt-title">你的心有多累了？</text>
+					<text class="txt-content">每天被生活这双无形大手盘来盘去，甚至要被盘秃噜皮，那么你的心有多累了，一测便知~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的心有多累了？.jpg" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce2/nidexinlinianlingyouduoda？/nidexinlinianlingyouduoda？')">
+				<view class="txt">
+					<text class="txt-title">你的心理年龄有多大？</text>
+					<text class="txt-content">你的内心年龄是否和你的真实年龄有所差距，你是“小大人”还是“老小孩”，来测一测你的心理年龄就知道了！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的心理年龄有多大？.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			 
+			
+		 </view>
+		 <view class="list" v-show="navlist[2]">
+		 	<view class="cont" @click="listclick('../quce3/nihuishiyigeduoshaofenlianren/nihuishiyigeduoshaofenlianren')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你会是一个多少分恋人？</text>
+		 			<text class="txt-content">都说恋爱中的人会变成傻子，其实这也要因人而异。有人一谈恋爱就智商为负，有人却无师自通修炼成恋爱高手。如果莱乃这件事也能打分，那么恋爱后的你会是一个合格恋人吗？快来测一下吧~</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你会是一个多少分恋人？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nineixinyouduoweiqu/nineixinyouduoweiqu')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你内心有多委屈？</text>
+		 			<text class="txt-content">在这个匆忙又孤独的时代，我们的生活在巨大的城市机器里，难免会受到很多委屈。积聚在内心的哭楚到底有多少？只有你自己知道，通过这个测试，看看你的内心到底有多委屈吧。</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你内心有多委屈？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nishiqingganzhangaihuanzhema/nishiqingganzhangaihuanzhema')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你是情感障碍患者吗？</text>
+		 			<text class="txt-content">当代人越长大越封闭，越成熟越不知所措，在生活中常常暴露出情感障碍倾向，那么你的情感障碍指数会有多高？来测测吧。</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你是情感障碍患者吗？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nidelianaiduanweiyouduogao/nidelianaiduanweiyouduogao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的恋爱段位有多高？</text>
+		 			<text class="txt-content">谈恋爱不仅要用心更要有思想，有的人天生会撩，有的人却在爱情里迷失了自我，那么你谈恋爱的单位有多高呢？是大师还是小白？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的恋爱段位有多高？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <!-- <view class="cont" @click="listclick('../quce3/nideanheizhishuyouduogao/nideanheizhishuyouduogao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的暗黑指数有多高？</text>
+		 			<text class="txt-content">人心难测，大多数人的内心都有光明的一面和黑暗的一面，而在自身利益受损时，暗黑的一面更容易爆发出来，那你的暗黑指数有多高呢？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的暗黑指数有多高？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view> -->
+		 		 <view class="cont" @click="listclick('../quce3/niderenshengxuyaoaiqingma/niderenshengxuyaoaiqingma')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的人生需要爱情吗？</text>
+		 			<text class="txt-content">生活中我们常常如人饮水冷暖自知，爱情也一样，有些人无爱不欢，有些人却可爱可无。抛开世俗成见诚实自问：你的人生真的需要爱情吗？快来测测吧。</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的人生需要爱情吗？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nihuidanshendaoshimoshihou/nihuidanshendaoshimoshihou')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你会单身到什么时候？</text>
+		 			<text class="txt-content">别人的甜甜爱情时不时就会让我们变成柠檬精，我们在说这酸了慕了的同时，也会总想着自己什么时候才能脱单。想知道你会单身到什么时候吗？快来测测看吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你会单身到什么时候？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nidetaohuaweihechichibulai/nidetaohuaweihechichibulai')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的桃花为何迟迟不来？</text>
+		 			<text class="txt-content">很多人的桃花运一直不好，甚至没有桃花，其实这不一定是命理的问题，也有可能是自身经历导致的~~~~~想知道你的桃花运为何迟迟不来吗？快来测一测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的桃花为何迟迟不来？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nizaiaiqingzhongyouduosong/nizaiaiqingzhongyouduosong')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你在爱情中有多怂？</text>
+		 			<text class="txt-content">人在江湖撩骚，哪能不挨情刀。只不过有些人刀光剑影乐在其中，有些却怂在角落管网。面对爱情，你有多怂呢？快来测测你的怂爱指数吧~</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你在爱情中有多怂？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nidezuijiaaiqingjulishiduoyuan/nidezuijiaaiqingjulishiduoyuan')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的最佳爱情距离是多远？</text>
+		 			<text class="txt-content">“最佳交往距离”不仅存在于日常人际关系中，也存在与爱情关系中，想知道你的最佳恋爱关系是多远吗？快来测测吧~</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的最佳爱情距离是多远？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/niyouduorangrenxinteng/niyouduorangrenxinteng')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你有多让人心疼？</text>
+		 			<text class="txt-content">再强悍的人也有柔弱的让人心疼的一面，想知道你有多让人心疼？赶紧测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多让人心疼？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/zhebeiziyujianzhenaidejishuaiyouduoda/zhebeiziyujianzhenaidejishuaiyouduoda')">
+		 		 <view class="txt">
+		 			<text class="txt-title">这辈子遇见真爱的几率有多大？</text>
+		 			<text class="txt-content">有的人一眼万年，瞬间得到此生挚爱，也有人兜兜转转迷失方向，那么你这辈子能遇见自己的真爱么？几率有多大？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/这辈子遇见真爱的几率有多大？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nizhebeizihuiyouaiqingma/nizhebeizihuiyouaiqingma')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你这辈子会有爱情吗？</text>
+		 			<text class="txt-content">有的人年纪轻轻就已经游遍花丛，谈了不少场恋爱了；而有些人活了十几二十年，却连一场恋爱都没有谈过。那么你这辈子还会有爱情吗？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你这辈子会有爱情吗？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce3/nizhebeizinengzhaodaozhenzhengdelinghunbanlvma/nizhebeizinengzhaodaozhenzhengdelinghunbanlvma')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你这辈子能找到真正的灵魂伴侣吗？</text>
+		 			<text class="txt-content">人生出生便是孤独的，我们终其一生都渴望寻找到灵魂的另一半，真正的灵魂伴侣会有数不尽的默契，灵魂交汇时会互放出光亮，你这辈子有可能找到真正的灵魂伴侣，吗？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你这辈子能找到真正的灵魂伴侣吗？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>		 
+		 </view>
+		 <view class="list" v-show="navlist[3]">
+		 	<view class="cont" @click="listclick('../quce4/nidaodiyouduo“xiong”/nidaodiyouduo“xiong”')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你到底有多“凶”？</text>
+		 			<text class="txt-content">有些人在生起气来的样子，虽然真的很尽力地在凶了，却软萌可爱奶气十足，并不具有威慑力。那么你是不是那种奶凶的人呢？你到底有多凶呢？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你到底有多“凶”？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/niduizijiyouduohen/niduizijiyouduohen')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你对自己有多狠？</text>
+		 			<text class="txt-content">千篇一律的人生，总有人能过得精彩非凡，这就要看个人对自己狠心的程度了，毕竟事物的发展前途是光明的，道路却是曲折的，先苦然后才甜，那么你能对自己有多狠？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你对自己有多狠？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/niweirenyouduojueqiang/niweirenyouduojueqiang')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你为人有多倔强？</text>
+		 			<text class="txt-content">“当我和世界不一样，那就让我们不一样”，倔强地为自己发声，别成为他人嘴里说的人，成为自己。那么你为人有多倔强？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你为人有多倔强？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/niyouduosong/niyouduosong')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你又多怂？</text>
+		 			<text class="txt-content">有人认为:活着，可以哭，但不能怂;但也有人认为，偶尔的不坚强没什么可怕的，可以哭，也可以怂。那你知道自己是怂还是刚吗?快来测测吧!或许，会颠覆你的认知哦!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多怂？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nidexijingzhishuyouduoshao/nidexijingzhishuyouduoshao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的戏精指数有多少？</text>
+		 			<text class="txt-content">戏精，常用来形容在生活中爱演戏的人，为了活出不一样的自我，拼命给自己加戏。那</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的戏精指数有多少？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nidelinghunyouduoran/nidelinghunyouduoran')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的灵魂有多燃？</text>
+		 			<text class="txt-content">有人“十年饮冰，难凉热血”有人“丧到深处必自燃”，那么你的灵魂有多燃?快来测测吧!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的灵魂有多燃？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nishenshangde“baqi”zhishuyouduoshao/nishenshangde“baqi”zhishuyouduoshao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你身上的“霸气”指数有多少？</text>
+		 			<text class="txt-content">一个人内在的气场有多强，身上的气势又是怎样的，完全是取决于这个人的文化修养与外在的言行举止。你是一个霸气的人吗?你身上的“霸气”指数有多少?测一下就知道!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你身上的“霸气”指数有多少？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/niyouduohuipan/niyouduohuipan')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你有多会盘？</text>
+		 			<text class="txt-content">盘，可表喜爱可怒怼，旨在把-切内心想摸的东西搂在怀里摸他个地老天荒锃光瓦亮圆润饱满。那么你有多会盘?快来测测吧!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多会盘？.gif" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nidefoxizhishuyouduogao/nidefoxizhishuyouduogao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的佛系指数有多高？</text>
+		 			<text class="txt-content">“佛系青年”这个热刺席卷网络，指的是在快节奏的都市生活中，追求平和、淡然的生活方式的青少年人。所谓“佛系”，不过是一种极简的人生态度而已。快来测测你是不是传说中的佛系青年，佛系指数有多高呢？</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的佛系指数有多高？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nideneixinyouduo”sang“/nideneixinyouduo”sang“')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的内心有多“丧”？</text>
+		 			<text class="txt-content">生活重压之下，每个人或多或少都会有“丧气满满”的时刻，想知道你的丧气指数到底有多高吗？快来测测吧~</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的内心有多”丧“？.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/niyouduocuiruo/niyouduocuiruo')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你有多脆弱？</text>
+		 			<text class="txt-content">有些人即便过得再艰难，依旧在外人面前咬紧牙关不示弱，只有独处时才会显露出脆弱的一面，让人看了满满的心疼!你有多脆弱呢?快来测测吧!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你有多脆弱？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nideningmengjingzhishuyouduogao/nideningmengjingzhishuyouduogao')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的柠檬精指数有多高？</text>
+		 			<text class="txt-content">柠檬成精，不过是对别人所拥有的美好的一点小羡慕，与感叹自己的一种小心酸，那么你的柠檬精指数有多高?快来测测吧!</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的柠檬精指数有多高？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/guzilideniyouduojianqiang/guzilideniyouduojianqiang')">
+		 		 <view class="txt">
+		 			<text class="txt-title">骨子里的你有多坚强？</text>
+		 			<text class="txt-content">没有人比你更了解你自己，那些成长路上的伤痛与不安，最终一定能得到消解和抚慰，你若不勇敢，谁替你坚强？骨子里的你有多坚强？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/骨子里的你有多坚强？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nizhebeizihuiqianjiduanqingzhai/nizhebeizihuiqianjiduanqingzhai')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你这辈子会欠几段情债？</text>
+		 			<text class="txt-content">心动仿佛一种玄学，总有人不知不觉就能搅乱别人的心，却撩而不自知，白白欠下一段段情债。想知道你有没有欠情债的潜力，又能欠下多少段情债呢？快来测测吧~</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你这辈子会欠几段情债.png" mode="aspectFit"></image>
+		 		</view>
+		 	</view>
+		 		 <view class="cont" @click="listclick('../quce4/nidelianpiyouduohou/nidelianpiyouduohou')">
+		 		 <view class="txt">
+		 			<text class="txt-title">你的脸皮有多厚？</text>
+		 			<text class="txt-content">“脸皮厚，吃个够，脸皮薄，吃不着”，那么你的脸皮有多厚呢？快来测测吧！</text>
+		 		</view>
+		 		<view class="txt-pic">
+		 			<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的脸皮有多厚？.jpg" mode="aspectFit"></image>
+		 		</view>
+		 	</view>	 
+		 </view>
+		<view class="list" v-show="navlist[4]">
+			<view class="cont" @click="listclick('../quce5/bierenyanzhongnichangshimoyang/bierenyanzhongnichangshimoyang')">
+				 <view class="txt">
+					<text class="txt-title">别人眼中你长什么样</text>
+					<text class="txt-content">每个人自己眼中的自己和别人眼中的自己都是不一样的，想知道在别人眼中你会是什么样子吗？快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/别人眼中你长什么样.png" mode="aspectFit"></image>
+				</view>
+			</view>
+			<view class="cont" @click="listclick('../quce5/nishinianhouhuiyueruduoshao/nishinianhouhuiyueruduoshao')">
+				 <view class="txt">
+					<text class="txt-title">你十年后会月入多少</text>
+					<text class="txt-content">很少有人会对钱不在意，很少有人会对赚大钱不感兴趣。你期盼着十年后的自己变成富有大佬吗？想知道十年后你会月入多少？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你十年后会月入多少.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nishiyigexiaozuojingma/nishiyigexiaozuojingma')">
+				 <view class="txt">
+					<text class="txt-title">你是一个小作精吗</text>
+					<text class="txt-content">“小作精”现在已经用来形容一些欢脱的小可爱，她们机灵古怪，招人喜爱。想知道你是一个小作精吗？快来测测看吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你是一个小作精吗.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nishinageshenxiandezhuanshi/nishinageshenxiandezhuanshi')">
+				 <view class="txt">
+					<text class="txt-title">你是哪个神仙的转世</text>
+					<text class="txt-content">轮回转世是种奇妙的说法，这一世成为人的我们，上一世说不准都是神仙的转世，那么你会是哪个神仙的转世呢？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你是哪个神仙的转世.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nizuixiang《hongloumeng》lideshui/nizuixiang《hongloumeng》lideshui')">
+				 <view class="txt">
+					<text class="txt-title">你最像《红楼梦》里的谁</text>
+					<text class="txt-content">《红楼梦》是曹雪芹笔下的一部传世佳作，书中的人物个个都有着鲜明的个性和生动的形象，想知道你最像《红楼梦》里的谁吗？不妨现在就来测测看吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你最像《红楼梦》里的谁.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nizuixiangdanmeijuzhongdeshui/nizuixiangdanmeijuzhongdeshui')">
+				 <view class="txt">
+					<text class="txt-title">你最像耽美剧中的谁</text>
+					<text class="txt-content">近几年，耽美剧迅速崛起，涌现了不少令人印象深刻的经典角色，想知道你最像耽美剧中的谁吗？不妨现在就来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你最像耽美剧中的谁.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nidewushangjiancedan/nidewushangjiancedan')">
+				 <view class="txt">
+					<text class="txt-title">你的五商检测单</text>
+					<text class="txt-content">五商是指IQ智商、EQ情商、FQ财商、LQ爱商以及MQ德商，每个人的五商都有差异，如果现在给你的五商打分的话，你能得多少分？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的五商检测单.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nidedanshenzongjiebaogao/nidedanshenzongjiebaogao')">
+				 <view class="txt">
+					<text class="txt-title">你的单身总结报告</text>
+					<text class="txt-content">有些人桃花不断，有些人母胎solo，想知道你是哪种单身体质，为什么还单身吗？快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的单身总结报告.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nidegongshouyinxiangjiandingdan/nidegongshouyinxiangjiandingdan')">
+				 <view class="txt">
+					<text class="txt-title">你的攻受印象鉴定单</text>
+					<text class="txt-content">有的人自认天下无敌大强攻，在恋人眼里却是可爱的炸毛受；有的人自认自己是受，在朋友眼里却像个强攻。那么你在自己眼中、恋人眼中和朋友眼中的攻受印象会有多大差别呢？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的攻受印象鉴定单.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nideyuwanggouchengtu/nideyuwanggouchengtu')">
+				 <view class="txt">
+					<text class="txt-title">你的欲望构成图</text>
+					<text class="txt-content">人都有欲望，有的人重感情，爱欲自然深重；有的人重事业，暴富欲重；有的人则清心寡欲甚至无欲无求。你的欲望构成是怎样的呢？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的欲望构成图.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nidelinghunyouduose/nidelinghunyouduose')">
+				 <view class="txt">
+					<text class="txt-title">你的灵魂有多色</text>
+					<text class="txt-content">红色代表热情与力量，蓝色代表沉静与理性，不同的颜色代表着人性格中的不同特点和属性。那么你的灵魂到底有多少种颜色呢？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的灵魂有多色.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nidetianpinrenge/nidetianpinrenge')">
+				 <view class="txt">
+					<text class="txt-title">你的甜品人格</text>
+					<text class="txt-content">一提到甜品，大多数人可能想到的是甜和软，但其实甜品分为好多不同的类别，也有着不同的个性特征，想知道你最像哪个甜品吗？快来测测吧~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的甜品人格.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nideshentilizhuzhuoshimoshenshou/nideshentilizhuzhuoshimoshenshou')">
+				 <view class="txt">
+					<text class="txt-title">你的身体里住着什么神兽</text>
+					<text class="txt-content">神兽是拥有神奇能力的兽类，它们习性各不相同却也都与我们人类密切相关。想知道你的身体里住着什么神兽吗？快来测测看吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的身体里住着什么神兽.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nideyincangrenxingjiance/nideyincangrenxingjiance')">
+				 <view class="txt">
+					<text class="txt-title">你的隐藏人性检测</text>
+					<text class="txt-content">人性是个无比复杂的东西，ta变幻莫测又难以摸清。有的人表面温和有礼，但内心可能大有不同。想获取你的隐藏人性检测吗？快来测测看吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你的隐藏人性检测.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nixianfengliaoma/nixianfengliaoma')">
+				 <view class="txt">
+					<text class="txt-title">你闲疯了吗</text>
+					<text class="txt-content">大多数人都已经度过了很长一段无所事事的时间，有的人觉得自在还能再闲个十天八天，有的人却倍感折磨一秒钟都已经闲不住。想知道你闲疯了吗？快来测测看吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你闲疯了吗.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/nizuixiangwuxiaxiaoshuozhongdeshui/nizuixiangwuxiaxiaoshuozhongdeshui')">
+				 <view class="txt">
+					<text class="txt-title">你最像武侠小说中的谁</text>
+					<text class="txt-content">从小到大，我们看了不少武侠小说和其改编的影视剧，对其中诸多人物至今仍印象深刻，想知道你最像武侠小说中的谁吗？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/你最像武侠小说中的谁.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/wodebingshanxinggetu/wodebingshanxinggetu')">
+				 <view class="txt">
+					<text class="txt-title">我的冰山性格图</text>
+					<text class="txt-content">每个人都是有温度的，有的人如火焰，有的人如寒冰，有的人则是不温不火。那么你的冰山性格有多隐秘呢？快来测测吧！</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/我的冰山性格图.png" mode="aspectFit"></image>
+				</view>
+			</view>
+				 <view class="cont" @click="listclick('../quce5/deyunshelinidezuijiaCPshishui/deyunshelinidezuijiaCPshishui')">
+				 <view class="txt">
+					<text class="txt-title">德云社里你的最佳CP是谁</text>
+					<text class="txt-content">德云社的相声表演家喻户晓，给大家带来了不少欢乐，其中每个角儿的性格特点都各有不同，想知道德云社里你的最佳CP是谁吗？那就快来测测吧！~</text>
+				</view>
+				<view class="txt-pic">
+					<image src="http://s1.catelyn.info/zjxcx/qcc/icon/德云社里你的最佳CP是谁.png" mode="aspectFit"></image>
+				</view>
+			</view>
+		</view>	 
+		</view> 
+		 
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello',
+				ggg:false,
+				imgUrls: [
+				      'http://s1.catelyn.info/zjxcx/qcc/lunbo/1.png',
+				      'http://s1.catelyn.info/zjxcx/qcc/lunbo/2.png',
+				      'http://s1.catelyn.info/zjxcx/qcc/lunbo/3.png'
+				       
+				    ],
+				navlist:[false,true,false,false,false]
+			}
+		},
+		onLoad() {
+			let self=this
+			 uni.request({
+			     url: 'https://s1ssp.wifiing.net/qcc_init.php', 
+			     data: {},
+			     success: (res) => { 
+			        self.ggg=res.data.advertisement   
+			 		uni.setStorage({
+			 		    key: 'ggg',
+			 		    data:self.ggg,
+			 		    success: function () {
+			 		        // console.log('59,success');
+			 		    }
+			 		});
+			 		 
+			     }
+			 });
+		},
+		methods: {
+			listclick(url){ 
+				uni.navigateTo({
+					url:url
+				});
+			},
+			navclick(index){ 
+				let arr=[]
+				for(let i=0;i<this.navlist.length;i++){
+					arr.push(false)
+				}
+				arr[index]=true 
+				this.navlist=arr 
+				console.log(this.navlist)
+			},
+			login(){
+				//#ifdef  MP-TOUTIAO
+				平台特有的组件
+				//#endif
+				let self=this
+				uni.login({
+					provider: 'toutiao',
+					success: function (loginRes) { 
+						uni.getProvider({
+							service: 'oauth',
+							success: function (res) { 
+							 	uni.getUserInfo({
+							 	    rovider: res.provider[0],
+							 	    success: function (userInfo) { 
+							 			//获取头像
+							 			self.avatarUrl=userInfo.userInfo.avatarUrl  
+							 			self.nickName=userInfo.userInfo.nickName 
+							 	    }
+							 	}); 
+							}
+						});
+					}
+				}); 
+			},
+		}
+	}
+</script>
+
+<style> 
+	@import url("/static/index.css"); 
+</style>

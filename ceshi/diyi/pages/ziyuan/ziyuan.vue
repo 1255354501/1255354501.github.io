@@ -1,0 +1,218 @@
+<template>
+	<view>
+		<view class="title">
+			<view>
+			    <!-- <image style="width: 200rpx;height: 200rpx;" src="/static/logo.png" mode="aspectFill" /> -->
+			</view>
+			<view class="titleCentent">
+				<text>《木筏生存》作为一款“漂流”生存游戏，10.5版本新增了许多大型岛屿，对岛屿和所需资源的了解对于生存至关重要。下面请看《木筏生存》10.5版本大型岛屿地图与资源点整理，希望对大家有所帮助。</text>
+			</view>
+		</view>
+		<view class="content">
+			<view class="wendao">
+				<text>1.时间科普：</text>
+				<view>
+					<text class="da">这里用于区分两种不同的生态岛屿与资源类型划分。</text>
+					<text class="da">亚热带常绿阔叶林生态岛屿：植被呈浅绿色，气候温热，游戏里居住在这种生态的生物有羊驼、鸡、山羊、野猪(敌对)、老鹰(敌对)、河豚(水下、敌对)；植物有棕榈树、芒果树、各色花朵、西瓜、菠萝；存在山洞，山洞内有洞穴蘑菇和污泥；水下有银海藻、海草；无机物有黏土、沙子、石头、铁、铜矿石；还有垃圾碎片。</text>
+					<text class="da">温带针叶林生态岛屿：植被呈暗绿色，气候温冷，游戏里居住在这种生态的生物有熊(敌对)；植物有松树、白桦树，会有蜂蜜；无山洞；水下只有垃圾碎片。</text>
+				</view>
+			</view>
+			<view class="wendao">
+				<text>2.水下资源分类：</text>
+				<view>
+					<text class="da">所有地图都是通过站在高处截图拼出来的，不代表我制作的地图完全准确，如有不准确的地方请谅解。</text>
+					<text class="da">我把所有的水下资源区分为三种类型，供大家分辨（但也不是绝对的，同一种资源区也会散布一些小的其他资源，我只是将资源区大概归类，这点请大家谅解，也希望大家不要太多依靠地图攻略，自己多多摸索。）
+					三种资源区分别为：
+
+　　浅海资源区：散布七零八落的碎片、海草、银海藻、黏土、沙子、石头。
+
+　　混合资源区：所有水下资源（顾名思义，什么都有）。
+
+　　深海资源区：碎片、金属矿石（铁、银蓝色）、铜矿石（橙黄色）。
+
+　　※地图中我将以橙色、紫色、白色字体标注。
+</text>
+					<text class="da">以及会给所有岛屿总结海草、银海藻、矿石四种资源的多少，以丰富、中等、少量作为等级划分开，作为资源量的参考。（本来也想把河豚加进去的，但是考虑过发现达不到量级，只好作罢。）</text>
+				</view>
+			</view>
+			<view class="wendao">
+				<text>3.其他注意事项：</text>
+				<view>
+					<text class="da">※熊岛水下资源只有碎片，岛上资源只有树和蜂蜜，不作资源区划分和等级划分。
+</text>
+					<text class="da">※此外，所有的岛屿名字都是我以岛屿地形特点来命名的。</text>
+					<text class="da">※此帖子中所有评价都为我个人的立场。</text>
+				</view>
+			</view>
+			<view class="wendao">
+				<text>亚热带常绿阔叶林生态岛屿篇</text>
+				<view>
+					<text>1.月牙岛</text>
+					<text class="da">岛屿评价：鸟瞰图是一个月牙的形状，山的结构较大，得名月牙岛；山洞有岔路，左路通往水源，右路通到山上（唯一上山路）。所有大岛中矿石资源最贫瘠的岛屿，矿石较少而且分布很分散，但是海草和银海藻却比其他岛屿都丰富，也是唯一一座没有花的岛屿。</text>
+					<text>推荐度：★★★☆☆
+
+　　资源总结：
+
+　　海草：丰富
+
+　　银海藻：丰富
+
+　　金属矿石：少量
+
+　　铜矿石：少量</text>
+				</view>
+				<view>
+					<text>2.石门岛</text>
+					<text class="da">岛屿评价：特点是岛屿上的山一半由石头构成，山把岛屿分为左右两半岛，洞穴原本可以连接两半岛，但由于洞穴塌方现在没有陆地可以通过（事实上可以通过山边走过去），所以山上和山下天地分隔(x)，洞穴门口是一个石头门的形状，水下也有类似石头门遗迹，所以命名石门岛。由于地形左右半岛不互通的原因，水上资源采集较为困难（要绕很久）。</text>
+				<text>※以异常丰富的矿石资源在所有岛屿矿藏中胜出。
+推荐度：★★★★☆
+
+　　资源总结：
+
+　　海草：少量
+
+　　银海藻：中等
+
+　　金属矿石：丰富
+
+　　铜矿石：丰富</text>
+				</view>
+			</view>
+			<view>
+				<text>3.高山岛</text>
+				<text class="da">
+　　岛屿评价：拥有全游戏最高的两座山峰，地形险峻，传说是以前的珠穆朗玛峰（不是x），有一个附属石岛和几根石柱。高山岛在所有岛屿中最为特殊，水下围绕高山周围一圈全部是资源，岛上资源比其他岛屿略微多一些。由于资源围绕高山一整圈(真的是一整圈!)与鲨鱼的存在，水下采集比较麻烦。</text>
+<text>推荐度：★★★☆☆
+
+　　资源总结：
+
+　　海草：中等
+
+　　银海藻：少量
+
+　　金属矿石：中等
+
+　　铜矿石：中等</text>
+<view>
+					<text>4.三角群岛(又称群岛)</text>
+					<text class="da">岛屿评价：由一座主岛连接两座副岛，形成三角形样的群岛，得以命名三角群岛。山形比较矮，容易翻越，资源分散但丰富而且不深，是所有岛中资源最平均的一种岛。非常推荐故地重游，遇到建议上岛采集，会有非常丰富的收获，而且是唯一一座可能不会刷老鹰的岛屿（但可能会刷三头野猪）。</text>
+					<text>推荐度：★★★★★
+
+　　资源总结：
+
+　　海草：少量
+
+　　银海藻：丰富
+
+　　金属矿石：中等
+
+　　铜矿石：中等</text>
+				</view>
+				<view>
+					<view><text>5.环山岛</text></view>
+					<text class="da">岛屿评价：所有寒温带针叶林生态岛屿中最大的岛屿（熊妈妈岛除外），蜿蜒崎岖的山形，得名环山岛。</text>
+					<view><text>蜂蜜：三处</text></view>
+				</view>
+				<view>
+					<view><text>6.石桥岛</text></view>
+					<text class="da">岛屿评价：岛中心有一座天然生成的石桥，连接两座山头，得名石桥岛。</text>
+					<view><text>蜂蜜：两处</text></view>
+				</view>
+				<view>
+					<view><text>7.峦山岛</text></view>
+					<text class="da">岛屿评价：由两座不高的山峰站脚的岛屿，两座山峰接近却不粘连，得名峦山岛。</text>
+					<view><text>蜂蜜：两处</text></view>
+				</view>
+			</view>
+		</view>
+	</view>
+	
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'main',
+				bofang:false
+			}
+		},
+		onLoad:function(option){
+			try{
+				if(option.ggg=="true"){
+					const bannerAd = tt.createRewardedVideoAd({
+					  adUnitId: "421ksirgd0e44807gk"
+					});
+					  bannerAd.show().then(() => {
+					      console.log("广告显示成功");
+					    }).catch((err) => {
+							bannerAd.load().then(() => {
+							    console.log("手动加载成功");
+							    return bannerAd.show();
+							  });
+					      console.log("广告组件出现问题", err);
+					    });
+					
+					bannerAd.onClose((res) => {
+					  if (!res.isEnded) {
+					    uni.navigateBack	({
+					        delta: 9999
+					    });
+					  }
+					});
+				}
+			}catch(e){}
+			
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+  .title{
+	display: flex;
+	width: 100%;
+	padding-left:20rpx;
+	padding-top: 30rpx;
+	border-bottom: 1rpx solid #000000;
+  }
+  .title .titleCentent{
+	 width: 90%;
+	 word-break: break-all;
+	 text-overflow: ellipsis;
+	 overflow: hidden;
+	 display: -webkit-box;
+	 -webkit-line-clamp: 2;
+	 -webkit-box-orient: vertical;
+	 padding-left: 20rpx;
+  }
+  .content{
+	  margin-top: 10rpx;
+	  padding-left: 20rpx;
+	  padding-right: 20rpx;
+  }
+  .content view{
+	  margin-bottom: 20rpx;
+  }
+  .content .list{
+	  display: block;
+	  flex-wrap: nowrap;
+  }
+  .content .list text{
+	  display: block;
+	  margin-bottom: 10rpx;
+  }
+  .wendao view{
+	  margin-top: 10rpx;
+	  /* display: block; */
+  }
+  .wendao view text{
+	 display: block;
+	 margin-top: 10rpx;
+  }
+  .wendao .da{
+	  text-indent: 40rpx;
+  }
+</style>

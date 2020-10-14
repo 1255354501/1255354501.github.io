@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/chuanzhi/chuanzhi",
+    "pages/jibenwanfa/jibenwanfa",
+    "pages/shiwu/shiwu",
+    "pages/shui/shui",
+    "pages/zhongzhi/zhongzhi",
+    "pages/ziyuan/ziyuan",
+    "pages/caipu/caipu",
+    "pages/nandian/nandian",
+    "pages/wuzhi/wuzhi"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "练习",
+    "navigationBarBackgroundColor": "#ff0000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,58 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "家长模拟器"
+			}
+		}
+	    ,{
+            "path" : "pages/1/1",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器1"
+			}
+        }
+        ,{
+            "path" : "pages/2/2",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器2"
+			}
+        }
+        ,{
+            "path" : "pages/3/3",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器3"
+			}
+        }
+        ,{
+            "path" : "pages/4/4",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器4"
+			}
+        }
+        ,{
+            "path" : "pages/5/5",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器5"
+			}
+        }
+        ,{
+            "path" : "pages/6/6",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器6"
+			}
+        }
+        ,{
+            "path" : "pages/7/7",
+            "style" : {
+				"navigationBarTitleText": "家长模拟器7"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#4f5765",
+		"backgroundColor": "#F8F8F8"
+	}
+}

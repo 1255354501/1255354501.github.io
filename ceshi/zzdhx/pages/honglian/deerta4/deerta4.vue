@@ -1,0 +1,103 @@
+<template>
+	<view class="content">
+		<view class="title"><text>欧米茄时空狭缝德尔塔幻境</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>冒险者等人在欧米茄的命令下前往德尔塔幻境，参加以检测为名的战斗。悬浮在卵状物体中的奇妙城堡内，会有怎样的敌人等待着冒险者们呢？</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/deerta40.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：德尔塔幻境1</text></view>
+		    	<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：224</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：10</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：70级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于295</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>虚像的真面目</text></view>
+				<view class="text-text-text"><text>战斗精英魔法导师70级</text></view>
+				<view class="text-text-text"><text>西德</text></view>
+				<view class="text-text-text"><text>时空狭缝X:17.3,Y:19.0</text></view>
+				<view class="text-text-text"><text>前置任务：欧米茄的消息</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.老者</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/deerta44.png" mode="aspectFit"></image></view>
+				<view class="text-text-text"><text>太古龙尾：无读条，对Mt释放的单体大伤害，请注意减伤和回复。</text></view><view class="text-text-text"><text>压迫：读条技能，可见范围的直线Aoe，走位回避。</text></view><view class="text-text-text"><text>冰焰：点名随机1人释放需要分摊的伤害，及时分摊即可。</text></view><view class="text-text-text"><text>落雷：读条技能，点名Mt和离Mt最近的1人释放的单体大伤害，需要St及时靠近Mt，靠近后会和Mt之间有连线作为提示；同时请注意减伤和回复。</text></view><view class="text-text-text"><text>咆哮：读条技能，全屏Aoe，注意回复。</text></view><view class="text-text-text"><text>大漩涡：读条技能，令我方全体Hp强制归1，注意回复。</text></view><view class="text-text-text"><text>冰面：无读条，Boss令场地结冰一段时间，我方移动时会强制滑行一段距离。</text></view><view class="text-text-text"><text>闪电：读条技能，Boss会点名我方全员释放可见范围的圆形Aoe，请尽量分散站位避免伤害重叠。</text></view><view class="text-text-text"><text>火焰球：无读条，Boss在场地内制造若干火焰球，一段时间后火焰球会变大并产生以自身为圆心的圆形Aoe，请我方提前远离火焰球回避；火焰球爆炸后会消失。</text></view><view class="text-text-text"><text>火焰球+风息之翼：Boss在全屏范围内制造大量火焰球，一段时间后火焰球会变大产生以自身为圆心的圆形Aoe，同时Boss会飞到场边读条使用风息之翼，风息之翼是一个全屏击退攻击，Boss必定会配合在全屏范围分布的火焰球一起使用，风息之翼这招也会吹走Boss处附近的火焰球，所以我们只要尽量不断靠近Boss的位置就可以回避掉火焰球的Aoe了。</text></view><view class="text-text-text"><text>经典元素类型1：读条技能，是一个多重技能组合技；Boss会先后制造只分布在内场的火焰球（请注意分布范围！）和冰面，然后Boss会飞到中心处读条下行突风造成全屏击退攻击，内场的火焰球会和我方一起被击退到外场，然后火焰球马上就会爆炸，我方被击退后只要迅速滑冰到内场就可以回避掉火焰球的Aoe了，在火焰球爆炸后Boss会读条闪电点名我方全员释放可见范围的圆形Aoe，请尽量分散站位避免伤害重叠。</text></view><view class="text-text-text"><text>经典元素类型2：读条技能，是一个多重技能组合技；Boss会先后制造分布在全屏范围的火焰球（请注意分布范围！）和冰面，然后Boss会飞到中心处读条下行突风造成全屏击退攻击，当Boss读条下行突风时外场的火焰球会先爆炸，所以我方需要先靠近Boss回避掉外场的火焰球，当Boss发动下行突风后场地中心处就没有火焰球了，而从内场被推到外场的火焰球也即将爆炸，所以我方需要在Boss读条下行突风的时候就前往内场的火焰球之间的缝隙处被击退，这样被击退后就可以回避掉被击退到外场的变大的火焰球的Aoe了，全部的火焰球都爆炸后Boss会读条冰焰点名随机1人释放需要分摊的伤害，及时分摊即可。</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/deerta45.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/deerta46.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/deerta47.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

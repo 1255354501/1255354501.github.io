@@ -1,0 +1,124 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/rihefang0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">日和坊</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>呼啊——！</text><text>今天也是大晴天呢！</text><text>诶，等等、地、地上怎么躺了一个人~~</text><text>日和坊:喂！喂！你没事吧？喂~~</text><text>怎、怎么回事，他都没有反应~~唔？好像有什么黏糊糊的东西~~血！他受伤了，天呐——！好严重的伤。</text><text>总、总之先想办法清理一下伤口、包扎一下好了。</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>虽然想办法处理了伤口~~也拼命把他搬到了家里~~但是这么严重的伤，还是把金鱼爷爷叫过来比较保险吧？</text><text>可是也不能把他一个人丢在这里啊！</text><text>日和坊:对了！晴天娃娃，能拜托你帮我把金鱼爷爷请到家里来吗？</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>金鱼爷爷什么时候才会来呢~~不过说起来，这个人穿着忍者似的衣服呢。</text><text>而且还带着面具~~会不会是什么危险的人呀！</text><text>日和坊：呜啊！想到这里，我忍不住吓得跳了起来。</text><text>木灵：唔~~他、他醒了！说、说什么好呢~~我、我好紧张！</text><text>木灵：谢谢你~~他的声音真温柔啊~~我冲过去，握住了他的手。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/rihefang1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/rihefang2.png" mode="aspectFit"></image>
+		 				<text>基本技能：阳炎</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>将日光的能量凝聚洒向敌方目标，造成攻击100%伤害。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至125%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/rihefang3.png" mode="aspectFit"></image>
+		 			    <text>晴雨</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>使用晴天娃娃来帮助友方，可以存储日光能量至晴天娃娃中，存储上限等同日和坊生命上限。友方受到伤害时，存储等同25%伤害的日光能量。敌方回合结束时，消耗存储的日光能量来治疗生命最低的友方目标，最多治疗其30%已损失的生命。</text>
+		 				
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/rihefang4.png" mode="aspectFit"></image>
+		 				<text>滋养</text> 
+		 			</view> 
+		 			<view class="jinengjs">
+						<text>友方阵亡时，若自身被动技能未失效，牺牲晴天娃娃来复活随机1名阵亡的友方式神，为其治疗生命上限100%的生命，并将50%日光能量均分治疗友方全体。晴天娃娃在4回合后重生，多个日和坊在场时，将牺牲所有晴天娃娃。【施放】存储等同自身生命上限25%的日光能量。</text>
+						<text>Lv.2均分治疗增至75%日光能量</text>
+						<text>Lv.3施放时存储的日光能量增至40%</text> 
+						<text>Lv.4均分治疗增至100%日光能量</text>
+					    <text>Lv.5晴天娃娃重生回合数减1</text>  
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

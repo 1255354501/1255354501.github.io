@@ -1,0 +1,61 @@
+{
+            "path" : "pages/chongsheng/diyouduo1/diyouduo1",
+            "style" : {
+				 "navigationBarTitleText": "$底有多旺夫？"
+				 }
+        },{
+            "path" : "pages/chongsheng/xinyouduo2/xinyouduo2",
+            "style" : {
+				 "navigationBarTitleText": "$心有多累了？"
+				 }
+        },{
+            "path" : "pages/chongsheng/youduonan3/youduonan3",
+            "style" : {
+				 "navigationBarTitleText": "$有多难驾驭？"
+				 }
+        },{
+            "path" : "pages/chongsheng/diyouduo4/diyouduo4",
+            "style" : {
+				 "navigationBarTitleText": "到底有多旺夫？"
+				 }
+        },{
+            "path" : "pages/chongsheng/qingzhongyou5/qingzhongyou5",
+            "style" : {
+				 "navigationBarTitleText": "在爱情中有多狠？"
+				 }
+        },{
+            "path" : "pages/chongsheng/“quexin6/“quexin6",
+            "style" : {
+				 "navigationBarTitleText": "有多“缺心眼”？"
+				 }
+        },{
+            "path" : "pages/chongsheng/youduoqing7/youduoqing7",
+            "style" : {
+				 "navigationBarTitleText": "有多情绪化？"
+				 }
+        },{
+            "path" : "pages/chongsheng/youduonan8/youduonan8",
+            "style" : {
+				 "navigationBarTitleText": "有多难驾驭？"
+				 }
+        },{
+            "path" : "pages/chongsheng/xinyouduo9/xinyouduo9",
+            "style" : {
+				 "navigationBarTitleText": "的心有多累了？"
+				 }
+        },{
+            "path" : "pages/chongsheng/nianlingyou10/nianlingyou10",
+            "style" : {
+				 "navigationBarTitleText": "的心理年龄有多大？"
+				 }
+        },{
+            "path" : "pages/chongsheng/changyouduo11/changyouduo11",
+            "style" : {
+				 "navigationBarTitleText": "的心肠有多冷硬？"
+				 }
+        },{
+            "path" : "pages/chongsheng/gaobaiduo12/gaobaiduo12",
+            "style" : {
+				 "navigationBarTitleText": "还会被告白多少次？"
+				 }
+        },

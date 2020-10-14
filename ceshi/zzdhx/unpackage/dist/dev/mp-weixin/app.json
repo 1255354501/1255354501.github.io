@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/1/1"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "最终的幻想游戏攻略",
+    "navigationBarBackgroundColor": "#7bdfff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

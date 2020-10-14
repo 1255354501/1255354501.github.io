@@ -1,0 +1,1 @@
+<view class="content"><view><text></text></view><video id="myVideo" src="{{video1}}" controls="{{true}}" autoplay="true" show-fullscreen-btn="true"></video><view><text></text></view></view>

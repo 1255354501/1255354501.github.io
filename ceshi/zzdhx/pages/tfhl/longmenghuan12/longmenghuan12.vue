@@ -1,0 +1,135 @@
+<template>
+	<view class="content">
+		<view class="title"><text>神龙梦幻歼灭战</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>任何神话传说中都不存在的神落入了通过人之手而诞生的超越者手中，超越者操纵着这个可怜的神祇，向弑神的英雄发起了挑战。如果这只是世人创作出来的神话，那么就算再由世人之手添加几分夸张也不应该算是冒渎。边聆听异国的诗人演奏的庄严旋律，光之战士开始了神龙之战的追忆。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/longmenghuan120.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：结晶化空间</text></view>
+		    	<view class="text-text-text"><text>任务时限：60分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+				
+				<view class="text-text-text"><text>超越之力：每次失败会增加5%（最多5次）</text></view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：20</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：70级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于320</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：是</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>诗在东方</text></view>
+				<view class="text-text-text"><text>所有职业70级</text></view>
+				<view class="text-text-text"><text>异国的诗人</text></view>
+				<view class="text-text-text"><text>黄金港X:11.6,Y:12.6</text></view>
+				<view class="text-text-text"><text>前置任务：红莲之狂潮</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>2.神龙</text></view>
+				<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/longmenghuan124.png" mode="aspectFit"></image></view>
+				<view class="text-text-title"><text>注意事项</text></view>
+				<view class="text-text-text"><text>极神龙是9宫格战斗场地，所以我们要直接面临场地不断缩小的威胁。和普通难度不同，神龙这次会先点名一位角色，然后用尾巴从左侧或右侧敲击该角色在标记消失时所处的方块1次，尾巴会对范围内的两格方块造成损毁，每个方块只能受到两次攻击，第一次受到攻击会出现裂纹，第二次受到攻击会被永久破坏，每当神龙的尾巴在攻击后未能破坏全部的2格平台，尾巴就会在平台上滞留一段时间，此时攻击尾巴会对神龙造成大量伤害，所以我们需要保证每次神龙的尾巴都要成功滞留，也就是说不能让神龙的尾巴一次性破坏掉两格平台。</text></view>
+				<view class="text-text-text"><text>神龙一共会使用三次尾部猛击，因为开场神龙的大地之怒会随机对地面进行损毁，所以如何正确的放置3次尾巴就成了一个难题，一般来说有两个原则：</text></view>
+				<view class="text-text-text"><text>1.每次都要让神龙的尾巴砸在没有裂缝的方格上，保证尾巴可以停留在平台上被我方攻击造成额外伤害。</text></view><view class="text-text-text"><text>2.场地北方和场地中心加起来一共四块的方格无论如何都不能被破坏掉。</text></view><view class="text-text-text"><text>总的来说只要满足了这两个条件，就可以顺利通过P1了。</text></view>
+				<view class="text-text-text"><text>神龙是时间轴Boss，但是在固定回合内会随机出两招中的一招，一会陆续说明。</text></view><view class="text-text-text"><text>神龙的平A在P1会攻击两个T，其中St的仇恨无关紧要，请治疗照顾好T的健康就好。</text></view>
+				<view class="text-text-text"><text>战斗前请分配好ABCD四个点的站位，分别用于P1的扯线方位和最后P3阶段的扯线分摊方位，每个点各站两个人。每组各一个Dps即可。</text></view>
+				<view class="text-text-title"><text>P1</text></view><view class="text-text-text"><text>战斗一开始会发现神龙胸前有一个可选中的目标名为神龙的核心，只要核心存在，那么每次神龙使用大地之怒，大海啸，地狱的火焰，钻石星尘，制裁之雷这类属性大招时就会强制团灭我方，需要在神龙读条完成前打碎核心才行，所以战斗一开始全员集火核心即可。</text></view><view class="text-text-text"><text>大地之怒</text></view>
+				<view class="text-text-text"><text>读条技能。固定开场技能，随机对场地进行损毁，全员在中间的绿色方格上集合就好。</text></view><view class="text-text-text"><text>烈焰锁+大海啸</text></view><view class="text-text-text"><text>全员被两两连线，固定坦克和坦克连线，治疗和治疗连线，近战和远程连线，所以只要一开始分配好站位，直接在场地北侧拉线即可，不难处理，注意扯断线后要立刻寻找大海啸的水柱位置并且进行靠近，不然会被推下平台导致死亡，这里也推荐开启防推技能处理，可以多造成一些伤害。</text></view>
+				<view class="text-text-text"><text>尾部猛击</text></view><view class="text-text-text"><text>第一次点名一个治疗，被点名的治疗请观察场地南侧的平台，找一个没有裂缝的方块站上去，等标记消失离开方块即可。</text></view><view class="text-text-text"><text>冰柱突刺</text></view><view class="text-text-text"><text>读条技能，每次看到神龙读条召唤冰柱就要多加注意了，请全员观察场地后方寻找冰柱，等冰柱出现后找到冰柱间的缝隙走位处理即可。</text></view><view class="text-text-text"><text>此时尾巴会砸上来，请集火尾巴。</text></view><view class="text-text-text"><text>注意接下来神龙会使用一次二选一的分支技能，请大家留意。</text></view><view class="text-text-text"><text>随机二选一技能之一超新星</text></view>
+				<view class="text-text-text"><text>如果神龙的翅膀开始读条超新星的话，请全员在同一个水圈内站位集合，超新星是一个需要全员分摊的伤害，由于伤害很高需要站在水圈内降低伤害，请及时反映。</text></view><view class="text-text-text"><text>随机二选一技能之二闪电</text></view><view class="text-text-text"><text>如果神龙的翅膀开始读条闪电的话，请全员立刻分散站位，同时不要踩到水里加重受到的雷电伤害。</text></view><view class="text-text-text"><text>接下超新星或闪电后，神龙的核心会再次刷新，请迅速击破。</text></view><view class="text-text-text"><text>龙之拳+吹雪</text></view>
+				<view class="text-text-text"><text>龙之拳是中场范围的Aoe，请靠近北侧进行回避，吹雪是全屏攻击，请注意回复。</text></view><view class="text-text-text"><text>第一次死亡轮回</text></view><view class="text-text-text"><text>读条技能，第一次请两个T开减伤远离人群在Boss前方进行分摊，同时会有多段的天光轮回攻击人群，人群请及时走出天光轮回的攻击范围。</text></view><view class="text-text-text"><text>第一次死亡轮回后神龙会随机二选一使用技能，下面逐一介绍。</text></view>
+				<view class="text-text-text"><text>随机二选一技能组合之一制裁之雷+冰柱突刺</text></view><view class="text-text-text"><text>请全员观察场地后方冰柱出现的位置，在缝隙中集合，记得不要站在水圈内，直接吃伤害，伤害较高，战士可以考虑使用摆脱技能，另外制裁之雷有百分之15的麻痹效果，请治疗注意。</text></view><view class="text-text-text"><text>随机二选一技能组合之二地狱的火焰+冰柱突刺</text></view><view class="text-text-text"><text>请全员迅速踩到水圈内，同时在缝隙处回避冰柱突刺，在水圈内会降低火焰伤害，需要及时走位处理。</text></view>
+				<view class="text-text-text"><text>尾部猛击</text></view><view class="text-text-text"><text>第二次点名一个Dps，被点名的Dps请观察场地的平台，如果场地中心的绿色地板没有裂缝就放在中间，如果南侧还有没有裂缝的地板就放在南侧。</text></view><view class="text-text-text"><text>闪电</text></view><view class="text-text-text"><text>读条技能分散处理</text></view>
+				<view class="text-text-text"><text>尾巴砸上来后神龙会读条全屏攻击吹雪，同时核心会刷新，打掉尾巴后请先攻击核心。</text></view><view class="text-text-text"><text>烈焰链</text></view><view class="text-text-text"><text>这次是4个TH互相连线，在北侧场地左右扯线即可。</text></view><view class="text-text-text"><text>大地吹息</text></view><view class="text-text-text"><text>点名1位Dps和1位H释放的大范围扇形Aoe，请Dps前往右边，H前往左边处理，记得离人群远一点不要误伤人群。</text></view>
+				<view class="text-text-text"><text>第二次死亡轮回</text></view><view class="text-text-text"><text>第二次死亡轮回请Mt远离人群开无敌单吃，人群处依旧会出现多段的天光轮回，注意走位回避，St请在这次攻击后挑衅换t。随后神龙会马上使用技能吹雪，请治疗职业职业回复。</text></view><view class="text-text-text"><text>钻石星尘+烈焰链</text></view><view class="text-text-text"><text>神龙读条后场地会结冰，结冰期间请不要随意走动避免失足导致死亡，同时这里会点名两个治疗互相连线，请开战前分配好谁在这里进行滑行扯断连线，扯断连线后立刻滑回人群处即可。</text></view><view class="text-text-text"><text>灵龙</text></view>
+				<view class="text-text-text"><text>神龙召唤四只空血的灵龙不断攻击连线的目标，请治疗职业尽快回复灵龙的HP，灵龙一旦满血就会死亡，请治疗职业尽快击杀。</text></view><view class="text-text-text"><text>尾部猛击</text></view><view class="text-text-text"><text>最后一次尾巴会点名防护职业，请被点名者迅速环顾场地放在正确的位置上，注意要保证尾巴成功滞留在平台上的同时保全场地北侧的方格。</text></view><view class="text-text-text"><text>尾巴出现后，核心也会同时出现，击杀尾巴后请迅速击破核心。</text></view>
+				<view class="text-text-text"><text>冰柱突刺+第三次死亡轮回</text></view><view class="text-text-text"><text>请所有人看好冰柱的缝隙及时回避，St远离人群开无敌单吃死亡轮回，人群处依旧会出现天光轮回，及时走位即可。</text></view><view class="text-text-text"><text>大气爆发+烈焰链</text></view><view class="text-text-text"><text>大气爆发会对人群发动3次击退攻击，第三次距离较远，请全员不断靠拢中间的方格以免被击落平台，第三次击退后dps会被两两连线，请立刻散开扯断连线。</text></view>
+				<view class="text-text-text"><text>大地吐息+吹雪</text></view><view class="text-text-text"><text>大地吐息依旧是左边治疗右边Dps，记得远离中心区域，由于吐息范围较大离得太近很容易误伤人群，吹雪依旧是全屏攻击，请注意回复。</text></view><view class="text-text-text"><text>神龙此时会飞到场地随机一角发动技能螺旋冲锋。</text></view><view class="text-text-text"><text>请迅速旋转视角寻找神龙的位置，然后立刻前往场地另一端回避冲锋。</text></view>
+				<view class="text-text-text"><text>注意此时如果神龙HP低于44%就会强制读条暗黑物质进入QTE环节，如果Dps水平较低的话还要多处理一轮神龙的技能，下面会一一介绍。</text></view><view class="text-text-text"><text>神龙俯冲后会立刻使用技能超新星请全员站在水圈内分摊伤害。</text></view><view class="text-text-text"><text>完成后核心会再次出现，请迅速击破。</text></view>
+				<view class="text-text-text"><text>第四次死亡轮回</text></view><view class="text-text-text"><text>这是最后一次死亡轮回了，请两个T远离人群开减伤分摊处理，一共有四下，请注意回复。人群依旧记得远离天光轮回。</text></view><view class="text-text-text"><text>闪电+大海啸</text></view><view class="text-text-text"><text>神龙先后读条闪电和大海啸，请先分散站位，等闪电攻击完成后立刻前往离水柱最近的方格，避免被推下平台，这里有防推技能也可以开启。</text></view>
+				<view class="text-text-title"><text>P2</text></view><view class="text-text-text"><text>暗黑物质</text></view><view class="text-text-text"><text>神龙读条暗黑物质后会束缚住我方全员，等QTE计量表出现后请全员连打按键挣脱控制，这里需要一定的手速，请尽快挣脱避免死亡。</text></view>
+				<view class="text-text-text"><text>龙拳</text></view><view class="text-text-text"><text>神龙带着我们突破大气层后会把我们甩向战斗场地，随后神龙会马上使用龙拳击飞我方，请所有人靠近离另一块平台最近的一边令神龙将我方击飞到另一块场地上。</text></view><view class="text-text-text"><text>龙蛋小怪阶段</text></view><view class="text-text-text"><text>到达第二块场地后继续前进到正对的边缘准备应对小怪阶段。</text></view><view class="text-text-text"><text>龙蛋落点出现后请站在场地的边缘降低落地伤害，第一波龙蛋会有1只大龙和4只小龙，请Mt拉大龙St拉小龙前往场地中心，由于小龙会使用范围aoe，不建议拉在场地南端，大龙会读条死刑，Mt请安排好减伤，Dps迅速击杀小怪。</text></view>
+				<view class="text-text-text"><text>随后会出现第二波龙蛋，这次的安全位置还是场地南侧，请在这里集合处理。</text></view><view class="text-text-text"><text>第二波龙蛋有两只大龙，Mt和St各拉一只，小龙随便拉住就好，Dps请迅速集火小怪。</text></view><view class="text-text-text"><text>第三波龙蛋会点名5个人释放，请被点名者迅速前往场地边缘散开处理，落点不能重合，等标记消失和人群前往离落点最远的区域即可。</text></view><view class="text-text-text"><text>第三波全是小龙，两个T拉住仇恨迅速击杀就好了。</text></view>
+				<view class="text-text-text"><text>原恒星</text></view><view class="text-text-text"><text>随后神龙会读条大招原恒星，请开启团队减伤技能，注意回复。</text></view><view class="text-text-text"><text>神龙见尾</text></view><view class="text-text-text"><text>此时高昂的BGM配合着全员存活的喜悦，神龙会立刻用尾巴攻击我方身处的场地，请靠近尾部落点的斜角，由于尾巴附带击退效果，站在斜角处比较安全；尾巴打过来后，请所有人迅速爬上神龙的尾巴，移动到对面的平台正式开始最后的战斗。</text></view>
+				<view class="text-text-title"><text>P3</text></view><view class="text-text-text"><text>P3开始后有大量的时间可以进行标点，标点工作可以在此时进行。</text></view><view class="text-text-text"><text>亿万斩击</text></view><view class="text-text-text"><text>读条技能，对Mt单体的超大暴击伤害，请开启减伤和警觉处理，此技能会同时对Mt附加防御力降低的Debuff，请迅速使用挑衅配合退避进行换T。</text></view><view class="text-text-text"><text>烈焰链+原子射线</text></view><view class="text-text-text"><text>所有人被两两连线的同时对4位Dps释放需要两人分摊的射线攻击，请先左右扯线，然后迅速来到之前分配好的ABCD四点和自己的搭档进行分摊，分摊伤害没有很高，正确处理后压力不大。</text></view>
+				<view class="text-text-text"><text>处理后人群回到龙头处集合准备迎接二选一组合技能。</text></view><view class="text-text-text"><text>随机二选一技能组合之一吹雪+闪电</text></view><view class="text-text-text"><text>这里的吹雪会冻住不在移动的目标，请所有人集合不断旋转跳跃避免被冻住，这里的闪电是可以回避的，等闪电读条后全员迅速离开原来的位置就可以规避闪电的攻击了。</text></view>
+				<view class="text-text-text"><text>随机二选一技能组合之二吹雪+超新星</text></view><view class="text-text-text"><text>这里的吹雪会冻住不在移动的目标，请所有人集合站定被吹雪冻住，冰冻后会降低受到的超新星的伤害，随后及时回复即可。</text></view><view class="text-text-text"><text>接下这套组合技能后神龙会使用另一组二选一技能。</text></view><view class="text-text-text"><text>随机二选一技能之一神龙啸</text></view>
+				<view class="text-text-text"><text>读条技能，以神龙为中心的环形Aoe，附加治疗量降低的效果，请全员前往神龙身体下的黑色区域躲避，注意黑色区域不能长时间逗留，超过10秒会直接死亡。</text></view><view class="text-text-text"><text>随机二选一技能之二暗黑吐息</text></view><view class="text-text-text"><text>读条技能，神龙正前方的90度扇形Aoe，由于神龙的模型很大请观察到读条后立刻远离正面回避。</text></view>
+				<view class="text-text-text"><text>然后神龙会再次使用亿万斩击攻击当前mt，请进行减伤防爆和换t的操作。</text></view><view class="text-text-text"><text>技能灵龙</text></view><view class="text-text-text"><text>和第一阶段的一样，治疗迅速击杀4只灵龙即可。</text></view>
+				<view class="text-text-text"><text>随后神龙就会进入循环，按照亿万斩击，连线分摊，随机吹雪超新星，吹雪闪电，随机咆哮，吐息的顺序重复技能。</text></view><view class="text-text-text"><text>最终阶段</text></view>
+				<view class="text-text-text"><text>在神龙hp低于百分之24后会进入最后的阶段。</text></view><view class="text-text-text"><text>神龙本体开始读条大海啸，双翼分别先后读条地狱的火焰和制裁之雷。</text></view><view class="text-text-text"><text>请全员跳上神龙的背部攻击双翼，优先击杀最先读条的翅膀，有3段lb的话在这里可以使用，以降低Dps压力，等击杀完双翼后就跳下神龙开始攻击神龙本体吧，记得不要踩进黑色区域内，最后这里需要全员尽全力攻击神龙，只要在神龙读条完成前击杀神龙就能获得最后的胜利了，请大家尽快击杀吧！</text></view>
+				 
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/longmenghuan124.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/longmenghuan125.png" mode="aspectFit"></image></view>
+				 
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>

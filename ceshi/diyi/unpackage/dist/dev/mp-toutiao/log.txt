@@ -1,0 +1,16 @@
+{
+    "您需要额外关注的转化日志信息": {
+        "0": {
+            "time": "2020-07-14T06:48:34.906Z",
+            "type": "stdOut",
+            "message": "😱    Transform error: Error: ENOENT: no such file or directory, open 'C:\\Users\\13733\\Desktop\\ceshi\\diyi\\unpackage\\dist\\dev\\mp-toutiao\\app.ttss'"
+        }
+    },
+    "其他常规转化日志信息": {
+        "0": {
+            "time": "2020-07-14T06:48:34.833Z",
+            "type": "stdOut",
+            "message": "🛠️    Transform source project..."
+        }
+    }
+}

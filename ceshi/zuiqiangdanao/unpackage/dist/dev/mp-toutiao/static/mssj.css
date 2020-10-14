@@ -1,0 +1,29 @@
+    .content{
+ 		display: block; 
+		padding-bottom: 60rpx;
+ 	}
+ 	.pic{
+ 		display: block;
+ 		text-align: center;
+ 		/* margin-top: 20rpx; */
+ 		margin-bottom: 20rpx;
+ 	}
+ 	.content>.title{
+ 		color: #304f9b;
+ 		margin-bottom: 20rpx; 
+		text-align: center;
+ 	}
+	.contwent{
+		padding-left: 40rpx;
+		padding-right: 40rpx;
+	}
+	.contwent>.title{
+		color: #304f9b;
+		margin-bottom: 20rpx;  
+	}
+ 	.contwent .content{
+		text-indent: 80rpx;
+	}
+    .pic .img{
+ 	   width: 600rpx;
+    } 

@@ -1,0 +1,127 @@
+<template>
+		 	<view class="content">
+		 		<view class="touxiang">
+		 			<view class="touxiangpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/lianyou0.png" mode="aspectFit"></image></view>
+		 			<view class="touxiangname">镰鼬</view>
+		 		</view>
+		 		<view class="text">
+		 			<view class="texttitle"><text>01传记：</text></view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记一：</text></view>
+		 				<view class="czcontent">
+		 					<text>喂喂，那个男人，不就是号称最强的酒吞童子吗？</text><text>要、要跟他打吗？嗯——我是觉得我们几个是不可能打得过啦。</text><text>你怎么看，一太郎哥哥？</text><text>呜呜，兄弟啊，我真是为你感到丢人呀，居然在还没打就说这种泄气话~~</text><text>这样下去，父亲、爷爷、曾爷爷、所有的祖先都会嘲笑我们的啊。</text><text>喂，一太郎哥哥。你能不能别这样，只怪我们也不想想你自己~~</text><text>你这样很让人心烦啊。</text><text>笨蛋！给我听着，二太郎。</text><text>我们三兄弟啊，是抱着成为大人物的理想才离开故乡的啊，所以父亲才会教给我们祖辈流传下来的无敌技能——兄弟合体啊。</text><text>说是兄弟合体，这不就是普通的骑脖子而已嘛！而且一直垫在下面的我才是最辛苦的啊！</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记二：</text></view>
+		 				<view class="czcontent">
+		 					<text>三太郎啊，你就干脆说直白点吧！你一定是觉得我太没用了</text><text>~~啊，我可是知道啊！要是我能更强大一点的话！</text><text>嗯——倒也不是这个意思啦。</text><text>没关系的三太郎，交给我吧。男子汉一太郎，背负了一族荣耀的人，我一定会成为顶天立地的男子汉给你们看。</text><text>既然你那么说的话就和最下面的我调换一下位置啊喂！</text>
+		 				</view>
+		 			</view>
+		 			<view class="textcontent">
+		 			    <view class="cztitle"><text>传记三：</text></view>
+		 				<view class="czcontent">
+		 					<text>无视我！？话说给我调换一下位置啊。</text><text>别这样，别瞎闹腾啊二太郎！</text><text>给我冷静下来，这时候就要想起家训第一条，那个祖祖辈辈教导我们的家训，给我想起来！</text><text>诶？有那种东西吗？</text><text>我也是第一次听说！</text><text>我看错你们了，兄弟们啊！家训第一条，那就是~~</text><text>那就是？面对赢不了的对手就要逃走！！</text><text>结果到头来不就是逃走吗！！</text><text>反正我是在最上面的，无论怎么样我都无所谓。</text>
+		 				</view>
+		 			</view>
+		 		</view>
+		 		<view class="qb">
+		 			<view class="qbtitle"><text>02情报：</text></view>
+		 			<view class="qbcontent">
+		 			    <view class="jx"><text>觉醒前后：</text></view>
+		 				<view class="qbpic"><image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/lianyou1.png" mode="aspectFit"></image></view> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/lianyou2.png" mode="aspectFit"></image>
+		 				<text>基本技能：胖揍</text>
+		 			</view> 
+		 			<view class="jinengjs">
+		 				<text>使用多种武器攻击敌方目标，造成攻击100%伤害，有20%基础概率随机附加以下一种效果，降低30%防御2回合、眩晕1回合、或每回合受到生命上限5%的伤害，持续2回合。</text>
+		 				<text>Lv.2伤害增加至105%</text>
+		 				<text>Lv.3伤害增加至110%</text>
+		 				<text>Lv.4伤害增加至115%</text>
+		 				<text>Lv.5伤害增加至120%</text>
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/lianyou3.png" mode="aspectFit"></image>
+		 			    <text>兄弟之绊</text>
+		 			</view> 
+		 			<view class="jinengjs">
+					    <text>激励队友，使友方全体获得二哥呼哨、三弟呼哨，持续2回合。</text>
+		 				<text>Lv.2二哥呼哨提升攻击效果增至20%</text>
+		 				<text>Lv.3可以使友方全体增加30%行动条</text>
+		 				<text>Lv.4三弟呼哨提升效果抵抗增至20%</text>
+		 				<text>Lv.5二哥呼哨提升攻击效果增至25%</text> 
+		 			</view> 
+		 		</view>
+		 		<view class="jineng">
+		 			<view class="jinengpic">
+		 				<image src="http://s1.catelyn.info/zjxcx/yys/yys/yinyangshiSR/lianyou4.png" mode="aspectFit"></image>
+		 				<text>觉醒技能：人多势众</text>
+		 			</view> 
+		 			<view class="jinengjs"> 
+		 				<text>回合结束时，有10%概率获得新的回合。</text>
+						<text>Lv.2触发概率增至15%</text>
+						<text>Lv.3触发概率增至20%</text>
+						<text>Lv.4触发概率增至25%</text> 
+						<text>Lv.5触发概率增至30%</text> 
+		 			</view>
+		 		</view>
+		 	</view>
+		 </template>
+		 
+		<script>
+		 	export default {
+		 		data() {
+		 			return {
+		 				title: 'Hello',
+		 				ggg:false
+		 			}
+		 		},
+		 		onLoad:function(){
+					let self=this
+		 			uni.getStorage({
+		 			    key: 'ggg',
+		 			    success: function (res) { 
+		 					self.ggg=res.data; 
+		 					if(res.data=="true"||res.data==true){
+		 						const bannerAd = tt.createRewardedVideoAd({
+		 						  adUnitId: "qkih7580bi5ik6gpjs"
+		 						});
+		 						  bannerAd.show().then(() => {
+		 						      console.log("广告显示成功");
+		 						    }).catch((err) => {
+		 								bannerAd.load().then(() => {
+		 								    console.log("手动加载成功");
+		 								    return bannerAd.show();
+		 								  });
+		 						      console.log("广告组件出现问题", err);
+		 						    });
+		 						bannerAd.onClose((res) => {
+		 						  if (!res.isEnded) {
+		 						    uni.navigateBack({
+		 						        delta: 1
+		 						    });
+		 						  }
+		 						});
+		 					}
+		 			    }
+		 			}); 
+		 		},
+		 		methods: {
+		             openvideo:function(url){ 
+		 				uni.navigateTo({
+		 				    url: url+`?ggg=${this.ggg}`
+		 				});
+		 			}
+		 		}
+		 	}
+		 </script>
+			 
+		<style>
+			@import url("/static/yysr.css");
+		</style>

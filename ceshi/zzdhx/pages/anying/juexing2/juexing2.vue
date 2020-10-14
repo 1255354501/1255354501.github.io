@@ -1,0 +1,164 @@
+<template>
+	<view class="content">
+		<view class="title"><text>伊甸零式希望乐园觉醒之章1</text></view>
+		<view class="text-area">
+			<view class="text-title"><text>琳调查伊甸内部后发现了奇怪的水晶。看上去只是漂亮而又普通的结晶体，可是从表面窥视水晶的内部据说能看到不可思议的景象。在琳的催促下，暗之战士拿起了水晶……水晶中便映射出了暗之战士为了取回大地的属性之力所经历过的战斗景象。不过映射出的景象又与实际战斗时的经历有所不同。看来这个水晶能让人看到另外一种可能性。如今暗之战士将要再次体验围绕着伊甸所展开的最初的攻防战。</text></view>
+			<view class="text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing20.png" mode="aspectFit"></image></view>
+		    <view class="text-text">
+				<view class="text-text-title"><text>基本信息:</text></view>
+		    	<view class="text-text-text"><text>任务地点：伊甸内核</text></view>
+		    	<view class="text-text-text"><text>任务时限：90分钟</text></view>
+		    	<view class="text-text-text" style="display: flex;align-items: center;text-indent: 80rpx;">
+					<view class="text-text-text"><text>队伍构成：</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/fashi.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/zhiliao.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>2</text></view>
+					<view class="text-text-text1"><image src="http://s1.catelyn.info/zjxcx/zzdhx/jinzhan.png" mode="aspectFit"></image></view>
+					<view class="text-text-text1"><text>4</text></view>
+				</view>
+		    </view>
+			<view class="text-text">
+				<view class="text-text-title"><text>战利品:</text></view>
+				<view class="text-text-text"><text>神典石：15</text></view>
+				<view class="text-text-text"><text>新手奖励：100</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>限制:</text></view>
+				<view class="text-text-text"><text>等级要求：80级</text></view>
+				<view class="text-text-text"><text>装备品级要求：高于440</text></view>
+				<view class="text-text-text"><text>允许中途加入：是</text></view>
+				<view class="text-text-text"><text>允许解除人数限制：否</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text>1.开启条件</text></view>
+				<view class="text-text-text"><text>琳的旅程</text></view>
+				<view class="text-text-text"><text>战斗精英和魔法导师（除设限特职）80级</text></view>
+				<view class="text-text-text"><text>琳</text></view>
+				<view class="text-text-text"><text>空无大地X:6.0,Y:6.5</text></view>
+				<view class="text-text-text"><text>前置任务：愤怒、再来</text></view>
+			</view>
+			<view class="text-text">
+				<view class="text-text-title"><text><strong>2.至尊伊甸</strong></text></view>
+				
+				<view class="text-text-title"><text>P1 </text></view>
+				<view class="text-text-text"><text>伊甸重力</text></view>
+				<view class="text-text-text"><text>百分比伤害，注意回复。</text></view>
+				<view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>冷漠之恶：点名4DPS，在其脚下生成黑洞。分散并远离boss处理。</text></view>
+				<view class="text-text-text"><text>伊甸核爆</text></view>
+				<view class="text-text-text"><text>月环，靠近处理，范围略大于目标圈。</text></view>
+				<view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>虚荣之恶：点名双T的直线激光，按站位分散，附带魔法易伤，注意回复。</text></view>
+				<view class="text-text-text"><text>乐园之枪</text></view>
+				<view class="text-text-text"><text>二连大伤害死刑，可换T或MT无敌单吃处理。</text></view>
+				<view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>盗窃之恶：点名双奶放置的病毒，可以传递，分别传给T，附加流血dot。</text></view>
+				<view class="text-text-text"><text>净土之光</text></view>
+				<view class="text-text-text"><text>Boss跳至角落，对场中方向释放AOE，移动到其身后躲避。</text></view>
+				<view class="text-text-text"><text>三角攻击</text></view>
+				<view class="text-text-text"><text>点名所有人的圆形AOE，以Boss自身为中心的不可见范围的钢铁和十字AOE。按站位分散处理。</text></view>
+				<view class="text-text-text"><text>空间转换</text></view>
+				<view class="text-text-text"><text>全屏AOE。注意场边出现8个光球。</text></view>
+				<view class="text-text-text"><text>失乐园</text></view>
+				<view class="text-text-text"><text>Boss点名距离自己最远的四个人释放5次圆形AOE，一般由远程和治疗进行引导。</text></view>
+				<view class="text-text-text"><text>注意引导时不要离自己的光球过远，也不要让最后一次AOE影响光球的处理。</text></view>
+				<view class="text-text-text"><text>净土射线</text></view>
+				<view class="text-text-text"><text>引导结束后Boss读条净土射线，8个光球对自己距离最近的人释放一次直线激光，按站位处理。</text></view>
+				<view class="text-text-text"><text>净土之光</text></view>
+				<view class="text-text-text"><text>Boss跳至角落，对场中方向释放AOE，移动到其身后躲避。</text></view>
+				<view class="text-text-text"><text>空间转换</text></view>
+				<view class="text-text-text"><text>全屏AOE。</text></view>
+				<view class="text-text-text"><text>极大爆炸</text></view>
+				<view class="text-text-text"><text>转场AOE。</text></view>
+				<view class="text-text-text"><text>P1结束。</text></view>
+				<view class="text-text-title"><text>P2</text></view>
+				<view class="text-text-text"><text>距离衰减AOE，前往场边集合。</text></view>
+				<view class="text-text-text"><text>随后出现两个小怪伊甸守护者，会使用无读条的顺劈魔力斩击与AOE魔力爆发，注意面向和回复。</text></view>
+				<view class="text-text-text"><text>小怪会读条魔力增幅强化自身，可插言打断。</text></view>
+				<view class="text-text-text"><text>注意小怪阶段有狂暴。</text></view>
+				<view class="text-text-text"><text>之后有约50秒的转场动画，同时有高伤害的转场AOE。P2结束。</text></view>
+				<view class="text-text-title"><text>P3 </text></view>
+				<view class="text-text-text"><text>复乐园</text></view>
+				<view class="text-text-text"><text>Boss强化自身的buff。注意之后的部分技能处理方式与P1不同。</text></view><view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>傲慢之恶：点名双T。按站位分两组分摊，在T前面抵挡伤害并领走物理易伤。</text></view>
+				<view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>怠惰之恶:点名4DPS。按站位分四组分摊。</text></view>
+				<view class="text-text-text"><text>三角攻击</text></view>
+				<view class="text-text-text"><text>Boss读条月环，点名双T的分散，以及其他6人在Boss身后分摊。</text></view>
+				<view class="text-text-text"><text>恶习与美德</text></view>
+				<view class="text-text-text"><text>贪婪之恶：点名双奶。可传递的延时爆炸病毒，附加dot，物理易伤与魔法治疗量降低，可传给任意DPS。</text></view>
+				<view class="text-text-text"><text>乐园之枪</text></view>
+				<view class="text-text-text"><text>同P1。</text></view>
+				<view class="text-text-text"><text>空间转换</text></view>
+				<view class="text-text-text"><text>全屏AOE。</text></view>
+				<view class="text-text-text"><text>净土射线</text></view>
+				<view class="text-text-text"><text>召唤4个立体魔法阵与4个旋转激光的光球。光球会对最近的人使用3条呈45°范围直线aoe。</text></view>
+				<view class="text-text-text"><text>由4个人分别引导激光转向后射向场外。其他人在场中攻击魔法阵。</text></view>
+				<view class="text-text-text"><text>此后Boss身上的复乐园buff消失，P3结束。</text></view>
+				<view class="text-text-title"><text>P4</text></view>
+				<view class="text-text-text"><text>复读阶段，处理方式与P1相同。</text></view>
+				
+				<view class="text-text-title"><text>P5</text></view>
+				<view class="text-text-text"><text>Boss读条复乐园，处理方式与P3相同。</text></view>
+				<view class="text-text-text"><text>Boss会读条两次或三次的恶习与美德，随后开始狂暴读条。</text></view>
+				<view class="text-text-text"><text>狂暴开始时间约为P2转场动画结束后的5分15秒。</text></view>
+				<view class="text-text-title"><text>掉落战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing24.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱1中的战利品:</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing25.png" mode="aspectFit"></image></view>
+				<view class="" style="height: 80rpx"><text>宝箱2中的战利品：</text></view>
+				<view class="text-text-pic"><image src="http://s1.catelyn.info/zjxcx/zzdhx/juexing26.png" mode="aspectFit"></image></view>
+				
+			</view>
+			
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		onLoad:function(){
+			let self=this
+			uni.getStorage({
+			    key: 'ggg',
+			    success: function (res) { 
+					self.ggg=res.data; 
+					if(res.data=="true"||res.data==true){
+						const bannerAd = tt.createRewardedVideoAd({
+						  adUnitId: "3gmo9echhk53v76s7h"
+						});
+						  bannerAd.show().then(() => {
+						      console.log("广告显示成功");
+						    }).catch((err) => {
+								bannerAd.load().then(() => {
+								    console.log("手动加载成功");
+								    return bannerAd.show();
+								  });
+						      console.log("广告组件出现问题", err);
+						    });
+						bannerAd.onClose((res) => {
+						  if (!res.isEnded) {
+						    uni.navigateBack({
+						        delta: 1
+						    });
+						  }
+						});
+					}
+			    }
+			}); 
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style> 
+@import url("/static/anying.css");
+</style>
